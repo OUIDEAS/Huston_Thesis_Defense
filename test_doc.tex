@@ -1,0 +1,141 @@
+\documentclass[numbered,pdftex]{ohio-etd}
+
+\usepackage[square,sort&compress,numbers]{natbib}
+\usepackage[margin=1in]{geometry}
+\usepackage{textcomp} 
+\usepackage{amssymb}  
+\usepackage{bm}       
+\usepackage{booktabs}
+\usepackage{dcolumn}  
+\usepackage{multirow} 
+\usepackage{ragged2e}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage[printonlyused]{acronym}
+
+\justifying
+
+
+% -- Basic formatting
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{times}
+\setlength{\parindent}{8pt}
+\usepackage{indentfirst}% -- Defining colors:
+\usepackage[dvipsnames]{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{light-gray}{gray}{0.95}
+
+\lstset{basicstyle=\linespread{1.1}\ttfamily\footnotesize,
+	backgroundcolor=\color{light-gray},
+	xleftmargin=0.7cm,
+	frame=tlbr, 
+	framesep=0.2cm, 
+	framerule=0pt,
+	commentstyle=\color{codepurple},
+	keywordstyle=\color{NavyBlue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=t,                    
+	keepspaces=false,                 
+	numbers=left,                    
+	numbersep=2pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	xleftmargin=\parindent
+}
+
+
+\begin{document}
+
+{Velodyne rotational speed is required to determine the dt for determining the appropriate data set per 360\degree sweep. Each 360\degree sweep is read consecutively in a loop. }
+
+\begin{lstlisting}[language=Matlab]
+for struct_idx = 1:length(velodyne_packets_struct)
+
+dT_loop                 = dT * struct;
+
+% Extracting Point Clouds
+%       timeDuration_points      = veloReader_points.StartTime + seconds(dT);
+timeDuration_packets    = veloReader_packets.StartTime + seconds(dT_loop);
+
+% Read first point cloud recorded
+%       ptCloudObj_points        = readFrame(veloReader_points, timeDuration_packets);
+ptCloudObj_packets      = readFrame(veloReader_packets, timeDuration_packets);
+
+% Access Location Data
+%     ptCloudLoc_points        = ptCloudObj_points.Location;
+ptCloudLoc_packets      = ptCloudObj_packets.Location;
+
+% Access Intensity Data
+ptCloudInt_packets      = ptCloudObj_packets.Intensity;
+
+...\end{lstlisting}				
+
+{With the appropriate data selected, each of the Velodyne VLP-32C's 32 channels are individually examined for Cartesian point coordinates and intensity values.}
+
+\begin{lstlisting}[language=Matlab]
+% Extracting data
+for j = 1:32
+
+x                       = ptCloudLoc_packets(j,:,1);
+y                       = ptCloudLoc_packets(j,:,2);
+z                       = ptCloudLoc_packets(j,:,3);
+int                     = ptCloudInt_packets(j,:);
+
+x_append                = [x_append x];
+y_append                = [y_append y];
+z_append                = [z_append z];
+int_append              = [int_append int];
+
+end % Extracting data
+
+XYZI_TOT                = [x_append' y_append' z_append'];
+
+end\end{lstlisting}	
+
+	
+	%\chapter{Work Plan}
+	%{
+		%	
+		%	{Here be a worthless gantt chart!}
+		%
+		%}
+	
+	
+	%
+	%%% The \references command marks the point where the bibliography will
+	%%% be inserted.  In the example below, the BibTeX commands are
+	%%% inserted into the macro definition, but one could also manually
+	%%% enter the bibliography entries if desired.
+	%\references{
+		%  %ETD does not define a particular required bibliography style.
+		%  %They DO require entries to end in a period UNLESS they end in a URL
+		%  %or DOI AND that DOIs be set in the same font as everything else.
+		%  %I have modified the alphaurl style file, to conform to these requirements.
+		%  
+		\bibliographystyle{ieeetr}  
+		\bibliography{resources.bib} 
+		%}
+	
+	%%\appendix           % Indicates the transition from chapters to appendices.  
+	% Subsequent 
+	
+	%%\chapter{An Appendix}
+	%%\section{A Section in the Appendix}
+	
+\end{document}

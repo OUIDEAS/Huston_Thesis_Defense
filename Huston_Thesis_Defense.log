@@ -1,0 +1,1955 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  9 MAY 2023 14:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Huston_Thesis_Defense.tex
+(Huston_Thesis_Defense.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (ohio-etd.cls
+Document Class: ohio-etd 2013/07/31 version 1.3 Ohio University Electronic Thes
+is and Dissertation Class
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks16
+\SOUL@lasttoken=\toks17
+\SOUL@cmds=\toks18
+\SOUL@buffer=\toks19
+\SOUL@token=\toks20
+\SOUL@spaceskip=\skip49
+\SOUL@ttwidth=\dimen139
+\SOUL@uldp=\dimen140
+\SOUL@ulht=\dimen141
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen142
+))
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip17
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks22
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks23
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks31
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+\@lineskip=\skip56
+\@fracskip=\skip57
+\@doubleskip=\skip58
+\c@@appcount=\count271
+\@signwidth=\skip59
+\c@listctr=\count272
+\c@listcnt=\count273
+\c@chapter=\count274
+\c@schapter=\count275
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks32
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
+ty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/autobuntu/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/autobuntu/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4018.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4018.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count279
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen152
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
+.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
+.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip60
+) (/home/autobuntu/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count286
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks33
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count290
+\@cmidlb=\count291
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count292
+\@lastruleclass=\count293
+\@thisrulewidth=\dimen175
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box52
+\extrarowheight=\dimen177
+\NC@list=\toks34
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box53
+))
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count294
+\multirow@dima=\skip66
+\bigstrutjot=\dimen178
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip67
+\RaggedLeftLeftskip=\skip68
+\RaggedRightLeftskip=\skip69
+\CenteringRightskip=\skip70
+\RaggedLeftRightskip=\skip71
+\RaggedRightRightskip=\skip72
+\CenteringParfillskip=\skip73
+\RaggedLeftParfillskip=\skip74
+\RaggedRightParfillskip=\skip75
+\JustifyingParfillskip=\skip76
+\CenteringParindent=\skip77
+\RaggedLeftParindent=\skip78
+\RaggedRightParindent=\skip79
+\JustifyingParindent=\skip80
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks35
+\float@box=\box54
+\@float@everytoks=\toks36
+\@floatcapt=\box55
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count296
+\rotFPtop=\skip81
+\rotFPbot=\skip82
+\rot@float@box=\box56
+\rot@mess@toks=\toks37
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen181
+\c@nlinenum=\count297
+\TeXr@lab=\toks38
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count298
+\U@D=\dimen182
+\l@unhyphenated=\language79
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count299
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen183
+\captionmargin=\dimen184
+\caption@leftmargin=\dimen185
+\caption@rightmargin=\dimen186
+\caption@width=\dimen187
+\caption@indent=\dimen188
+\caption@parindent=\dimen189
+\caption@hangindent=\dimen190
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\expandafter \ifx #1\fn
+um@table \else \vskip \abovecaptionskip \fi \sbox \@tempboxa {#1: #2}\ifdim \wd
+ \@tempboxa >\hsize \begingroup \singlespace #1: #2\par \endgroup \else \global
+ \@minipagefalse \begingroup \singlespace \hb@xt@ \hsize {\hfil \box \@tempboxa
+ \hfil }\endgroup \fi \expandafter \ifx #1\fnum@table \vskip \belowcaptionskip 
+\fi  on input line 1176.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+)
+\c@subfigure=\count302
+\c@subtable=\count303
+) (/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count304
+\lst@gtempboxa=\box57
+\lst@token=\toks39
+\lst@length=\count305
+\lst@currlwidth=\dimen191
+\lst@column=\count306
+\lst@pos=\count307
+\lst@lostspace=\dimen192
+\lst@width=\dimen193
+\lst@newlines=\count308
+\lst@lineno=\count309
+\lst@maxwidth=\dimen194
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count310
+\lst@skipnumbers=\count311
+\lst@framebox=\box58
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\integerpart=\count312
+\decimalpart=\count313
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks40
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/matlab-prettifier/matlab-pret
+tifier.sty
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
+source code
+ (/home/autobuntu/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+\netBracketCount@mlpr=\count314
+\blkLvl@mlpr=\count315
+\blkLvlAtClassdef@mlpr=\count316
+\emHeight@mlpr=\skip83
+\jayDepth@mlpr=\skip84
+\sectionRuleOffset@mlpr=\skip85
+\toks@mlpr=\toks41
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count317
+\mult@box=\box59
+\multicol@leftmargin=\dimen195
+\c@unbalance=\count318
+\c@collectmore=\count319
+\doublecol@number=\count320
+\multicoltolerance=\count321
+\multicolpretolerance=\count322
+\full@width=\dimen196
+\page@free=\dimen197
+\premulticols=\dimen198
+\postmulticols=\dimen199
+\multicolsep=\skip86
+\multicolbaselineskip=\skip87
+\partial@page=\box60
+\last@line=\box61
+\maxbalancingoverflow=\dimen256
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count323
+\c@columnbadness=\count324
+\c@finalcolumnbadness=\count325
+\last@try=\dimen257
+\multicolovershoot=\dimen258
+\multicolundershoot=\dimen259
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count326
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip88
+\enit@outerparindent=\dimen260
+\enit@toks=\toks42
+\enit@inbox=\box104
+\enit@count@id=\count327
+\enitdp@description=\count328
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks43
+\footnotemargin=\dimen261
+\@outputbox@depth=\dimen262
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
+.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+32.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
+f
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count329
+\l__pdf_internal_box=\box105
+) (Huston_Thesis_Defense.aux)
+\openout1 = `Huston_Thesis_Defense.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 132.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+132.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 132.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+132.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 132.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+132.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 132.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
+32.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 132.
+Package hyperref Info: Link coloring ON on input line 132.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
+ng.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count330
+)
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
+ (Huston_Thesis_Defense.out) (Huston_Thesis_Defense.out)
+\@outlinefile=\write3
+\openout3 = `Huston_Thesis_Defense.out'.
+
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-29.0pt
+* \headheight=14.5pt
+* \headsep=14.5pt
+* \topskip=12.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count331
+\scratchdimen=\dimen263
+\scratchbox=\box106
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen264
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks47
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
+y
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+ (/home/autobuntu/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count337
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+35.
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
+
+{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2] [3
+
+]
+(Huston_Thesis_Defense.toc
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
+.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
+.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+) [4
+
+
+])
+\tf@toc=\write4
+\openout4 = `Huston_Thesis_Defense.toc'.
+
+
+[5] (Huston_Thesis_Defense.lot)
+\tf@lot=\write5
+\openout5 = `Huston_Thesis_Defense.lot'.
+
+ [6
+
+] (Huston_Thesis_Defense.lof [7
+
+])
+\tf@lof=\write6
+\openout6 = `Huston_Thesis_Defense.lof'.
+
+ [8]
+Chapter 1.
+[9
+
+] [10]
+Chapter 2.
+[11
+
+] [12]
+Chapter 3.
+[13
+
+] [14] [15]
+<Defense_Images/Method_Least_Squares_Plane_Proj.png, id=458, 1205.2528pt x 603.
+0028pt>
+File: Defense_Images/Method_Least_Squares_Plane_Proj.png Graphic file (type png
+)
+<use Defense_Images/Method_Least_Squares_Plane_Proj.png>
+Package pdftex.def Info: Defense_Images/Method_Least_Squares_Plane_Proj.png  us
+ed on input line 235.
+(pdftex.def)             Requested size: 328.82707pt x 164.51512pt.
+ [16 <./Defense_Images/Method_Least_Squares_Plane_Proj.png>]
+<Defense_Images/RANSAC_good_and_bad.png, id=477, 567.11874pt x 225.84375pt>
+File: Defense_Images/RANSAC_good_and_bad.png Graphic file (type png)
+<use Defense_Images/RANSAC_good_and_bad.png>
+Package pdftex.def Info: Defense_Images/RANSAC_good_and_bad.png  used on input 
+line 248.
+(pdftex.def)             Requested size: 328.82707pt x 130.95155pt.
+
+[17 <./Defense_Images/RANSAC_good_and_bad.png>]
+<Defense_Images/RANSAC_example_proj.png, id=492, 1445.4pt x 743.77875pt>
+File: Defense_Images/RANSAC_example_proj.png Graphic file (type png)
+<use Defense_Images/RANSAC_example_proj.png>
+Package pdftex.def Info: Defense_Images/RANSAC_example_proj.png  used on input 
+line 259.
+(pdftex.def)             Requested size: 328.82707pt x 169.20425pt.
+ [18 <./Defense_Images/RANSAC_example_proj.png (PNG copy)>] [19]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 301.
+LaTeX Font Info:    Trying to load font information for OT1+fvm on input line 3
+01.
+LaTeX Font Info:    No file OT1fvm.fd. on input line 301.
+
+
+LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 301.
+
+(tree_bagger_example.m) [20] (y_fit_example.m) [21] [22]
+Chapter 4.
+
+LaTeX Warning: Reference `fig:Experimental_Apperatus' on page 23 undefined on i
+nput line 340.
+
+
+LaTeX Warning: Reference `fig:road_areas_annotated_22' on page 23 undefined on 
+input line 340.
+
+
+LaTeX Warning: Reference `fig:road_areas_annotated_22' on page 23 undefined on 
+input line 340.
+
+[23
+
+]
+
+! LaTeX Error: File `figures/flowz_2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.350 ...ics[width=0.7\linewidth]{figures/flowz_2}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `figures/training_data_cluster' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ...linewidth]{figures/training_data_cluster}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `figures/c2_min_class_error' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 ....7\linewidth]{figures/c2_min_class_error}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[24] [25]
+<Defense_Images/Van.jpg, id=579, 4673.46pt x 3505.095pt>
+File: Defense_Images/Van.jpg Graphic file (type jpg)
+<use Defense_Images/Van.jpg>
+Package pdftex.def Info: Defense_Images/Van.jpg  used on input line 383.
+(pdftex.def)             Requested size: 328.82707pt x 246.61183pt.
+<Defense_Images/vlp_32_mount_2.jpg, id=580, 3167.835pt x 2196.205pt>
+File: Defense_Images/vlp_32_mount_2.jpg Graphic file (type jpg)
+<use Defense_Images/vlp_32_mount_2.jpg>
+Package pdftex.def Info: Defense_Images/vlp_32_mount_2.jpg  used on input line 
+390.
+(pdftex.def)             Requested size: 328.82707pt x 227.94418pt.
+ [26 <./Defense_Images/Van.jpg>]
+<Defense_Images/Mako_Camera.jpg, id=585, 4673.46pt x 3505.095pt>
+File: Defense_Images/Mako_Camera.jpg Graphic file (type jpg)
+<use Defense_Images/Mako_Camera.jpg>
+Package pdftex.def Info: Defense_Images/Mako_Camera.jpg  used on input line 397
+.
+(pdftex.def)             Requested size: 328.82707pt x 246.61183pt.
+ [27 <./Defense_Images/vlp_32_mount_2.jpg> <./Defense_Images/Mako_Camera.jpg>]
+<Defense_Images/Gravel_Road_Armig.png, id=594, 1417.295pt x 998.73125pt>
+File: Defense_Images/Gravel_Road_Armig.png Graphic file (type png)
+<use Defense_Images/Gravel_Road_Armig.png>
+Package pdftex.def Info: Defense_Images/Gravel_Road_Armig.png  used on input li
+ne 414.
+(pdftex.def)             Requested size: 201.88013pt x 142.25972pt.
+<Defense_Images/armig_2.png, id=595, 2071.74pt x 1549.79pt>
+File: Defense_Images/armig_2.png Graphic file (type png)
+<use Defense_Images/armig_2.png>
+Package pdftex.def Info: Defense_Images/armig_2.png  used on input line 420.
+(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
+<Defense_Images/Gravel_Lot.png, id=596, 434.62375pt x 470.75874pt>
+File: Defense_Images/Gravel_Lot.png Graphic file (type png)
+<use Defense_Images/Gravel_Lot.png>
+Package pdftex.def Info: Defense_Images/Gravel_Lot.png  used on input line 432.
+
+(pdftex.def)             Requested size: 131.34311pt x 142.26309pt.
+<Defense_Images/gravel_lot_example.png, id=597, 2071.74pt x 1549.79pt>
+File: Defense_Images/gravel_lot_example.png Graphic file (type png)
+<use Defense_Images/gravel_lot_example.png>
+Package pdftex.def Info: Defense_Images/gravel_lot_example.png  used on input l
+ine 438.
+(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
+ [28 <./Defense_Images/Gravel_Road_Armig.png> <./Defense_Images/armig_2.png>]
+<Defense_Images/Sturbois_Road.png, id=604, 708.6475pt x 611.28375pt>
+File: Defense_Images/Sturbois_Road.png Graphic file (type png)
+<use Defense_Images/Sturbois_Road.png>
+Package pdftex.def Info: Defense_Images/Sturbois_Road.png  used on input line 4
+50.
+(pdftex.def)             Requested size: 164.92104pt x 142.2619pt.
+<Defense_Images/sturbois_1_straight_camera.png, id=605, 2071.74pt x 1549.79pt>
+File: Defense_Images/sturbois_1_straight_camera.png Graphic file (type png)
+<use Defense_Images/sturbois_1_straight_camera.png>
+Package pdftex.def Info: Defense_Images/sturbois_1_straight_camera.png  used on
+ input line 456.
+(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
+<Defense_Images/Bean_Hollow_Road.png, id=606, 558.085pt x 611.28375pt>
+File: Defense_Images/Bean_Hollow_Road.png Graphic file (type png)
+<use Defense_Images/Bean_Hollow_Road.png>
+Package pdftex.def Info: Defense_Images/Bean_Hollow_Road.png  used on input lin
+e 468.
+(pdftex.def)             Requested size: 129.88115pt x 142.2619pt.
+<Defense_Images/Bean_Hollow_Road_Camera.png, id=607, 2071.74pt x 1549.79pt>
+File: Defense_Images/Bean_Hollow_Road_Camera.png Graphic file (type png)
+<use Defense_Images/Bean_Hollow_Road_Camera.png>
+Package pdftex.def Info: Defense_Images/Bean_Hollow_Road_Camera.png  used on in
+put line 474.
+(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
+ [29 <./Defense_Images/Gravel_Lot.png> <./Defense_Images/gravel_lot_example.png
+> <./Defense_Images/Sturbois_Road.png> <./Defense_Images/sturbois_1_straight_ca
+mera.png>] [30 <./Defense_Images/Bean_Hollow_Road.png> <./Defense_Images/Bean_H
+ollow_Road_Camera.png>]
+<Defense_Images/Pre-Manual_Classify_1.png, id=625, 636.73674pt x 1105.35063pt>
+File: Defense_Images/Pre-Manual_Classify_1.png Graphic file (type png)
+<use Defense_Images/Pre-Manual_Classify_1.png>
+Package pdftex.def Info: Defense_Images/Pre-Manual_Classify_1.png  used on inpu
+t line 532.
+(pdftex.def)             Requested size: 211.38832pt x 366.95946pt.
+<Defense_Images/Post-Manual_Classify_1.png, id=626, 636.73674pt x 1102.30768pt>
+
+File: Defense_Images/Post-Manual_Classify_1.png Graphic file (type png)
+<use Defense_Images/Post-Manual_Classify_1.png>
+Package pdftex.def Info: Defense_Images/Post-Manual_Classify_1.png  used on inp
+ut line 538.
+(pdftex.def)             Requested size: 211.38832pt x 365.94923pt.
+ [31]
+<Defense_Images/pre_select_area.png, id=633, 665.64473pt x 748.56505pt>
+File: Defense_Images/pre_select_area.png Graphic file (type png)
+<use Defense_Images/pre_select_area.png>
+Package pdftex.def Info: Defense_Images/pre_select_area.png  used on input line
+ 552.
+(pdftex.def)             Requested size: 211.38832pt x 237.71815pt.
+<Defense_Images/area_selected.png, id=634, 667.92694pt x 754.65094pt>
+File: Defense_Images/area_selected.png Graphic file (type png)
+<use Defense_Images/area_selected.png>
+Package pdftex.def Info: Defense_Images/area_selected.png  used on input line 5
+58.
+(pdftex.def)             Requested size: 211.38832pt x 238.83325pt.
+ [32 <./Defense_Images/Pre-Manual_Classify_1.png> <./Defense_Images/Post-Manual
+_Classify_1.png>]
+<Defense_Images/visual_verification_1.png, id=639, 660.31958pt x 1081.76779pt>
+File: Defense_Images/visual_verification_1.png Graphic file (type png)
+<use Defense_Images/visual_verification_1.png>
+Package pdftex.def Info: Defense_Images/visual_verification_1.png  used on inpu
+t line 572.
+(pdftex.def)             Requested size: 138.94324pt x 227.62361pt.
+<Defense_Images/post_area_selected.png, id=640, 670.9699pt x 748.56505pt>
+File: Defense_Images/post_area_selected.png Graphic file (type png)
+<use Defense_Images/post_area_selected.png>
+Package pdftex.def Info: Defense_Images/post_area_selected.png  used on input l
+ine 578.
+(pdftex.def)             Requested size: 204.02611pt x 227.62096pt.
+ [33 <./Defense_Images/pre_select_area.png> <./Defense_Images/area_selected.png
+>]
+<Defense_Images/both_front_rear.png, id=647, 384.1721pt x 823.11726pt>
+File: Defense_Images/both_front_rear.png Graphic file (type png)
+<use Defense_Images/both_front_rear.png>
+Package pdftex.def Info: Defense_Images/both_front_rear.png  used on input line
+ 592.
+(pdftex.def)             Requested size: 234.8775pt x 503.2563pt.
+ [34 <./Defense_Images/visual_verification_1.png> <./Defense_Images/post_area_s
+elected.png>]
+<Defense_Images/back_points_2.png, id=652, 884.73695pt x 197.03084pt>
+File: Defense_Images/back_points_2.png Graphic file (type png)
+<use Defense_Images/back_points_2.png>
+Package pdftex.def Info: Defense_Images/back_points_2.png  used on input line 6
+01.
+(pdftex.def)             Requested size: 469.75502pt x 104.61525pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 601--602
+[][] 
+ []
+
+<Defense_Images/front_points_2.png, id=654, 881.694pt x 241.15358pt>
+File: Defense_Images/front_points_2.png Graphic file (type png)
+<use Defense_Images/front_points_2.png>
+Package pdftex.def Info: Defense_Images/front_points_2.png  used on input line 
+605.
+(pdftex.def)             Requested size: 469.75502pt x 128.48048pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 605--606
+[][] 
+ []
+
+[35 <./Defense_Images/both_front_rear.png>] [36 <./Defense_Images/back_points_2
+.png> <./Defense_Images/front_points_2.png>] [37] [38]
+<Defense_Images/MLS_ALL_200D_err_sub_plot.png, id=678, 2582.9298pt x 1001.6622p
+t>
+File: Defense_Images/MLS_ALL_200D_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/MLS_ALL_200D_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/MLS_ALL_200D_err_sub_plot.png  used on 
+input line 709.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 709--710
+[][] 
+ []
+
+<Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png, id=680, 2590.1568pt x 
+1001.6622pt>
+File: Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png Graphic file (type
+ png)
+<use Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png
+  used on input line 713.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 713--714
+[][] 
+ []
+
+[39]
+<Defense_Images/feat_use_top_ten_example.png, id=686, 528.71211pt x 328.63832pt
+>
+File: Defense_Images/feat_use_top_ten_example.png Graphic file (type png)
+<use Defense_Images/feat_use_top_ten_example.png>
+Package pdftex.def Info: Defense_Images/feat_use_top_ten_example.png  used on i
+nput line 730.
+(pdftex.def)             Requested size: 328.82707pt x 204.40053pt.
+ [40 <./Defense_Images/MLS_ALL_200D_err_sub_plot.png (PNG copy)> <./Defense_Ima
+ges/MLS_ALL_200D_false_pos_neg_sub_plot.png (PNG copy)>]
+<Defense_Images/Overall_Error_Early_Stopping.png, id=695, 1694.16095pt x 706.72
+453pt>
+File: Defense_Images/Overall_Error_Early_Stopping.png Graphic file (type png)
+<use Defense_Images/Overall_Error_Early_Stopping.png>
+Package pdftex.def Info: Defense_Images/Overall_Error_Early_Stopping.png  used 
+on input line 739.
+(pdftex.def)             Requested size: 352.31625pt x 146.96072pt.
+ [41 <./Defense_Images/feat_use_top_ten_example.png (PNG copy)>]
+Underfull \hbox (badness 1466) in paragraph at lines 744--745
+[]\OT1/ptm/m/n/12 Scanning LiDAR data was discretized into quadrants (Figure []
+[]4.19[][]). Quadrant size
+ []
+
+<Defense_Images/channel_split_multi.png, id=701, 1136.74687pt x 626.34pt>
+File: Defense_Images/channel_split_multi.png Graphic file (type png)
+<use Defense_Images/channel_split_multi.png>
+Package pdftex.def Info: Defense_Images/channel_split_multi.png  used on input 
+line 748.
+(pdftex.def)             Requested size: 328.82707pt x 181.18475pt.
+[42 <./Defense_Images/Overall_Error_Early_Stopping.png (PNG copy)> <./Defense_I
+mages/channel_split_multi.png>]
+<Defense_Images/all_feat_overlay.png, id=707, 673.51625pt x 561.09625pt>
+File: Defense_Images/all_feat_overlay.png Graphic file (type png)
+<use Defense_Images/all_feat_overlay.png>
+Package pdftex.def Info: Defense_Images/all_feat_overlay.png  used on input lin
+e 762.
+(pdftex.def)             Requested size: 328.82707pt x 273.94641pt.
+ [43 <./Defense_Images/all_feat_overlay.png>]
+<Defense_Images/Compiled_PCD.png, id=716, 845.93936pt x 535.55873pt>
+File: Defense_Images/Compiled_PCD.png Graphic file (type png)
+<use Defense_Images/Compiled_PCD.png>
+Package pdftex.def Info: Defense_Images/Compiled_PCD.png  used on input line 79
+6.
+(pdftex.def)             Requested size: 328.82707pt x 208.18062pt.
+
+[44] [45 <./Defense_Images/Compiled_PCD.png>] [46] [47]
+Chapter 5.
+File: Defense_Images/gravel_lot_example.png Graphic file (type png)
+<use Defense_Images/gravel_lot_example.png>
+Package pdftex.def Info: Defense_Images/gravel_lot_example.png  used on input l
+ine 849.
+(pdftex.def)             Requested size: 328.82707pt x 245.9614pt.
+<Defense_Images/chipseal_road_example.png, id=738, 2071.74pt x 1549.79pt>
+File: Defense_Images/chipseal_road_example.png Graphic file (type png)
+<use Defense_Images/chipseal_road_example.png>
+Package pdftex.def Info: Defense_Images/chipseal_road_example.png  used on inpu
+t line 856.
+(pdftex.def)             Requested size: 328.82707pt x 245.9614pt.
+[48
+
+]
+<Defense_Images/RANSAC_vs_MLL.png, id=744, 827.68169pt x 242.67505pt>
+File: Defense_Images/RANSAC_vs_MLL.png Graphic file (type png)
+<use Defense_Images/RANSAC_vs_MLL.png>
+Package pdftex.def Info: Defense_Images/RANSAC_vs_MLL.png  used on input line 8
+69.
+(pdftex.def)             Requested size: 469.75502pt x 137.73373pt.
+ [49 <./Defense_Images/chipseal_road_example.png>]
+<Defense_Images/RANSAC_threshold.png, id=756, 768.34421pt x 360.58926pt>
+File: Defense_Images/RANSAC_threshold.png Graphic file (type png)
+<use Defense_Images/RANSAC_threshold.png>
+Package pdftex.def Info: Defense_Images/RANSAC_threshold.png  used on input lin
+e 878.
+(pdftex.def)             Requested size: 328.82707pt x 154.32407pt.
+ [50 <./Defense_Images/RANSAC_vs_MLL.png>]
+<Defense_Images/RANSAC_Iteration.png, id=762, 760.73685pt x 365.15369pt>
+File: Defense_Images/RANSAC_Iteration.png Graphic file (type png)
+<use Defense_Images/RANSAC_Iteration.png>
+Package pdftex.def Info: Defense_Images/RANSAC_Iteration.png  used on input lin
+e 885.
+(pdftex.def)             Requested size: 328.82707pt x 157.83765pt.
+ [51 <./Defense_Images/RANSAC_threshold.png (PNG copy)> <./Defense_Images/RANSA
+C_Iteration.png (PNG copy)>]
+<Defense_Images/xy_vs_range.png, id=771, 1260.54095pt x 861.1541pt>
+File: Defense_Images/xy_vs_range.png Graphic file (type png)
+<use Defense_Images/xy_vs_range.png>
+Package pdftex.def Info: Defense_Images/xy_vs_range.png  used on input line 921
+.
+(pdftex.def)             Requested size: 469.75502pt x 320.90842pt.
+ [52]
+
+LaTeX Warning: Reference `fig:RAN_Top_Twenty_Histogram' on page 53 undefined on
+ input line 926.
+
+
+LaTeX Warning: Reference `fig:MLS_Top_Twenty_Histogram' on page 53 undefined on
+ input line 926.
+
+[53 <./Defense_Images/xy_vs_range.png>]
+<Defense_Images/All_Vali_Error_3.png, id=784, 821.5958pt x 1391.38768pt>
+File: Defense_Images/All_Vali_Error_3.png Graphic file (type png)
+<use Defense_Images/All_Vali_Error_3.png>
+Package pdftex.def Info: Defense_Images/All_Vali_Error_3.png  used on input lin
+e 930.
+(pdftex.def)             Requested size: 328.82707pt x 556.8637pt.
+ [54]
+Overfull \vbox (12.75694pt too high) has occurred while \output is active []
+
+
+[55 <./Defense_Images/All_Vali_Error_3.png (PNG copy)>]
+<Defense_Images/MLS_RAN_ALL.png, id=794, 570.55263pt x 380.36842pt>
+File: Defense_Images/MLS_RAN_ALL.png Graphic file (type png)
+<use Defense_Images/MLS_RAN_ALL.png>
+Package pdftex.def Info: Defense_Images/MLS_RAN_ALL.png  used on input line 939
+.
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<Defense_Images/MLS_RAN_TT.png, id=795, 570.55263pt x 380.36842pt>
+File: Defense_Images/MLS_RAN_TT.png Graphic file (type png)
+<use Defense_Images/MLS_RAN_TT.png>
+Package pdftex.def Info: Defense_Images/MLS_RAN_TT.png  used on input line 945.
+
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<Defense_Images/Range_Vali_Error.png, id=796, 570.55263pt x 380.36842pt>
+File: Defense_Images/Range_Vali_Error.png Graphic file (type png)
+<use Defense_Images/Range_Vali_Error.png>
+Package pdftex.def Info: Defense_Images/Range_Vali_Error.png  used on input lin
+e 957.
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<Defense_Images/ZXY.png, id=797, 578.16pt x 375.804pt>
+File: Defense_Images/ZXY.png Graphic file (type png)
+<use Defense_Images/ZXY.png>
+Package pdftex.def Info: Defense_Images/ZXY.png  used on input line 963.
+(pdftex.def)             Requested size: 211.38832pt x 137.39955pt.
+<Defense_Images/MLS_200D_early_stopping.png, id=798, 2590.1568pt x 1001.6622pt>
+
+File: Defense_Images/MLS_200D_early_stopping.png Graphic file (type png)
+<use Defense_Images/MLS_200D_early_stopping.png>
+Package pdftex.def Info: Defense_Images/MLS_200D_early_stopping.png  used on in
+put line 973.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+ [56 <./Defense_Images/MLS_RAN_ALL.png (PNG copy)> <./Defense_Images/MLS_RAN_TT
+.png (PNG copy)> <./Defense_Images/Range_Vali_Error.png (PNG copy)> <./Defense_
+Images/ZXY.png (PNG copy)>]
+<Defense_Images/Top_Ten_Histogram.png, id=805, 580.44221pt x 505.12926pt>
+File: Defense_Images/Top_Ten_Histogram.png Graphic file (type png)
+<use Defense_Images/Top_Ten_Histogram.png>
+Package pdftex.def Info: Defense_Images/Top_Ten_Histogram.png  used on input li
+ne 1001.
+(pdftex.def)             Requested size: 328.82707pt x 286.16162pt.
+ [57 <./Defense_Images/MLS_200D_early_stopping.png (PNG copy)>]
+File: Defense_Images/MLS_ALL_200D_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/MLS_ALL_200D_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/MLS_ALL_200D_err_sub_plot.png  used on 
+input line 1035.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1035--1036
+[][] 
+ []
+
+File: Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png Graphic file (type
+ png)
+<use Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/MLS_ALL_200D_false_pos_neg_sub_plot.png
+  used on input line 1039.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1039--1040
+[][] 
+ []
+
+<Defense_Images/MLS_ALL_200D_early_stopping.png, id=817, 2590.1568pt x 1001.662
+2pt>
+File: Defense_Images/MLS_ALL_200D_early_stopping.png Graphic file (type png)
+<use Defense_Images/MLS_ALL_200D_early_stopping.png>
+Package pdftex.def Info: Defense_Images/MLS_ALL_200D_early_stopping.png  used o
+n input line 1043.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1043--1044
+[][] 
+ []
+
+[58 <./Defense_Images/Top_Ten_Histogram.png (PNG copy)>]
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[59 <./Defense_Images/MLS_ALL_200D_early_stopping.png (PNG copy)>]
+<Defense_Images/ran_all_err_sub_plot.png, id=827, 2582.9298pt x 1001.6622pt>
+File: Defense_Images/ran_all_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/ran_all_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/ran_all_err_sub_plot.png  used on input
+ line 1055.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1055--1056
+[][] 
+ []
+
+<Defense_Images/ran_all_false_pos_neg_sub_plot.png, id=829, 2590.1568pt x 1001.
+6622pt>
+File: Defense_Images/ran_all_false_pos_neg_sub_plot.png Graphic file (type png)
+
+<use Defense_Images/ran_all_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/ran_all_false_pos_neg_sub_plot.png  use
+d on input line 1059.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1059--1060
+[][] 
+ []
+
+<Defense_Images/ran_all_early_stopping.png, id=830, 2590.1568pt x 1001.6622pt>
+File: Defense_Images/ran_all_early_stopping.png Graphic file (type png)
+<use Defense_Images/ran_all_early_stopping.png>
+Package pdftex.def Info: Defense_Images/ran_all_early_stopping.png  used on inp
+ut line 1063.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1063--1064
+[][] 
+ []
+
+
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[60 <./Defense_Images/ran_all_err_sub_plot.png (PNG copy)> <./Defense_Images/ra
+n_all_false_pos_neg_sub_plot.png (PNG copy)> <./Defense_Images/ran_all_early_st
+opping.png (PNG copy)>]
+<Defense_Images/mls_tt_err_sub_plot.png, id=836, 2582.9298pt x 1001.6622pt>
+File: Defense_Images/mls_tt_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/mls_tt_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/mls_tt_err_sub_plot.png  used on input 
+line 1075.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1075--1076
+[][] 
+ []
+
+<Defense_Images/mls_tt_false_pos_neg_sub_plot.png, id=838, 2590.1568pt x 1001.6
+622pt>
+File: Defense_Images/mls_tt_false_pos_neg_sub_plot.png Graphic file (type png)
+<use Defense_Images/mls_tt_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/mls_tt_false_pos_neg_sub_plot.png  used
+ on input line 1079.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1079--1080
+[][] 
+ []
+
+<Defense_Images/mls_tt_second_early_stopping.png, id=839, 2590.1568pt x 1001.66
+22pt>
+File: Defense_Images/mls_tt_second_early_stopping.png Graphic file (type png)
+<use Defense_Images/mls_tt_second_early_stopping.png>
+Package pdftex.def Info: Defense_Images/mls_tt_second_early_stopping.png  used 
+on input line 1083.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1083--1084
+[][] 
+ []
+
+
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[61 <./Defense_Images/mls_tt_err_sub_plot.png (PNG copy)> <./Defense_Images/mls
+_tt_false_pos_neg_sub_plot.png (PNG copy)> <./Defense_Images/mls_tt_second_earl
+y_stopping.png (PNG copy)>]
+<Defense_Images/ran_tt_err_sub_plot.png, id=846, 2582.9298pt x 1001.6622pt>
+File: Defense_Images/ran_tt_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/ran_tt_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/ran_tt_err_sub_plot.png  used on input 
+line 1095.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1095--1096
+[][] 
+ []
+
+<Defense_Images/ran_tt_false_pos_neg_sub_plot.png, id=848, 2590.1568pt x 1001.6
+622pt>
+File: Defense_Images/ran_tt_false_pos_neg_sub_plot.png Graphic file (type png)
+<use Defense_Images/ran_tt_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/ran_tt_false_pos_neg_sub_plot.png  used
+ on input line 1099.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1099--1100
+[][] 
+ []
+
+<Defense_Images/ran_tt_second_early_stopping.png, id=849, 2590.1568pt x 1001.66
+22pt>
+File: Defense_Images/ran_tt_second_early_stopping.png Graphic file (type png)
+<use Defense_Images/ran_tt_second_early_stopping.png>
+Package pdftex.def Info: Defense_Images/ran_tt_second_early_stopping.png  used 
+on input line 1103.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1103--1104
+[][] 
+ []
+
+
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[62 <./Defense_Images/ran_tt_err_sub_plot.png (PNG copy)> <./Defense_Images/ran
+_tt_false_pos_neg_sub_plot.png (PNG copy)> <./Defense_Images/ran_tt_second_earl
+y_stopping.png (PNG copy)>]
+<Defense_Images/mls_zxyt_err_sub_plot.png, id=855, 2582.9298pt x 1001.6622pt>
+File: Defense_Images/mls_zxyt_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/mls_zxyt_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/mls_zxyt_err_sub_plot.png  used on inpu
+t line 1115.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1115--1116
+[][] 
+ []
+
+<Defense_Images/mls_zyx_false_pos_neg_sub_plot.png, id=857, 2590.1568pt x 1001.
+6622pt>
+File: Defense_Images/mls_zyx_false_pos_neg_sub_plot.png Graphic file (type png)
+
+<use Defense_Images/mls_zyx_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/mls_zyx_false_pos_neg_sub_plot.png  use
+d on input line 1119.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1119--1120
+[][] 
+ []
+
+<Defense_Images/mls_zxy_early_stopping_exp.png, id=858, 2590.1568pt x 1001.6622
+pt>
+File: Defense_Images/mls_zxy_early_stopping_exp.png Graphic file (type png)
+<use Defense_Images/mls_zxy_early_stopping_exp.png>
+Package pdftex.def Info: Defense_Images/mls_zxy_early_stopping_exp.png  used on
+ input line 1123.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1123--1124
+[][] 
+ []
+
+
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[63 <./Defense_Images/mls_zxyt_err_sub_plot.png (PNG copy)> <./Defense_Images/m
+ls_zyx_false_pos_neg_sub_plot.png (PNG copy)> <./Defense_Images/mls_zxy_early_s
+topping_exp.png (PNG copy)>]
+<Defense_Images/range_err_sub_plot.png, id=864, 2582.9298pt x 1001.6622pt>
+File: Defense_Images/range_err_sub_plot.png Graphic file (type png)
+<use Defense_Images/range_err_sub_plot.png>
+Package pdftex.def Info: Defense_Images/range_err_sub_plot.png  used on input l
+ine 1135.
+(pdftex.def)             Requested size: 469.75502pt x 182.17136pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1135--1136
+[][] 
+ []
+
+<Defense_Images/range_false_pos_neg_sub_plot.png, id=866, 2590.1568pt x 1001.66
+22pt>
+File: Defense_Images/range_false_pos_neg_sub_plot.png Graphic file (type png)
+<use Defense_Images/range_false_pos_neg_sub_plot.png>
+Package pdftex.def Info: Defense_Images/range_false_pos_neg_sub_plot.png  used 
+on input line 1139.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1139--1140
+[][] 
+ []
+
+<Defense_Images/range_second_early_stopping.png, id=867, 2590.1568pt x 1001.662
+2pt>
+File: Defense_Images/range_second_early_stopping.png Graphic file (type png)
+<use Defense_Images/range_second_early_stopping.png>
+Package pdftex.def Info: Defense_Images/range_second_early_stopping.png  used o
+n input line 1143.
+(pdftex.def)             Requested size: 469.75502pt x 181.6517pt.
+
+Overfull \hbox (3.0pt too wide) in paragraph at lines 1143--1144
+[][] 
+ []
+
+
+Overfull \vbox (56.39696pt too high) has occurred while \output is active []
+
+
+[64 <./Defense_Images/range_err_sub_plot.png (PNG copy)> <./Defense_Images/rang
+e_false_pos_neg_sub_plot.png (PNG copy)> <./Defense_Images/range_second_early_s
+topping.png (PNG copy)>]
+<Defense_Images/sturbois_1_Curve_camera.png, id=878, 2071.74pt x 1549.79pt>
+File: Defense_Images/sturbois_1_Curve_camera.png Graphic file (type png)
+<use Defense_Images/sturbois_1_Curve_camera.png>
+Package pdftex.def Info: Defense_Images/sturbois_1_Curve_camera.png  used on in
+put line 1173.
+(pdftex.def)             Requested size: 469.75502pt x 351.40721pt.
+ [65]
+<Defense_Images/sturbois_curve_1_all_classified.png, id=883, 649.66927pt x 1041
+.44873pt>
+File: Defense_Images/sturbois_curve_1_all_classified.png Graphic file (type png
+)
+<use Defense_Images/sturbois_curve_1_all_classified.png>
+Package pdftex.def Info: Defense_Images/sturbois_curve_1_all_classified.png  us
+ed on input line 1182.
+(pdftex.def)             Requested size: 230.18253pt x 368.99384pt.
+<Defense_Images/sturbois_curve_1_avg_classified.png, id=884, 632.93306pt x 1049
+.0561pt>
+File: Defense_Images/sturbois_curve_1_avg_classified.png Graphic file (type png
+)
+<use Defense_Images/sturbois_curve_1_avg_classified.png>
+Package pdftex.def Info: Defense_Images/sturbois_curve_1_avg_classified.png  us
+ed on input line 1188.
+(pdftex.def)             Requested size: 230.18253pt x 381.51767pt.
+ [66 <./Defense_Images/sturbois_1_Curve_camera.png>]
+<Defense_Images/sturbois_curve_1_manual_classified.png, id=890, 636.73674pt x 1
+081.76779pt>
+File: Defense_Images/sturbois_curve_1_manual_classified.png Graphic file (type 
+png)
+<use Defense_Images/sturbois_curve_1_manual_classified.png>
+Package pdftex.def Info: Defense_Images/sturbois_curve_1_manual_classified.png 
+ used on input line 1198.
+(pdftex.def)             Requested size: 328.82707pt x 558.65999pt.
+ [67 <./Defense_Images/sturbois_curve_1_all_classified.png> <./Defense_Images/s
+turbois_curve_1_avg_classified.png>]
+<Defense_Images/Time_Hz_Rate.png, id=896, 2092.78705pt x 851.26453pt>
+File: Defense_Images/Time_Hz_Rate.png Graphic file (type png)
+<use Defense_Images/Time_Hz_Rate.png>
+Package pdftex.def Info: Defense_Images/Time_Hz_Rate.png  used on input line 12
+05.
+(pdftex.def)             Requested size: 469.75502pt x 191.07162pt.
+ [68 <./Defense_Images/sturbois_curve_1_manual_classified.png>]
+<Defense_Images/both_classification_things_sturbois_curve_1.png, id=903, 504.36
+853pt x 812.46695pt>
+File: Defense_Images/both_classification_things_sturbois_curve_1.png Graphic fi
+le (type png)
+<use Defense_Images/both_classification_things_sturbois_curve_1.png>
+Package pdftex.def Info: Defense_Images/both_classification_things_sturbois_cur
+ve_1.png  used on input line 1218.
+(pdftex.def)             Requested size: 328.82707pt x 529.70891pt.
+ [69 <./Defense_Images/Time_Hz_Rate.png>] [70] [71 <./Defense_Images/both_class
+ification_things_sturbois_curve_1.png>] [72]
+Chapter 6.
+[73
+
+]
+Appendix A.
+(Huston_Thesis_Defense.bbl [74
+
+]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
+.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+
+Underfull \hbox (badness 1540) in paragraph at lines 25--30
+[]\OT1/ptm/m/n/12 M. Ya-dav, A. K. Singh, and B. Lo-hani, ``Ex-trac-tion of roa
+d sur-face from mo-bile
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 25--30
+\OT1/ptm/m/n/12 Li-DAR data of com-plex road en-vi-ron-ment,'' \OT1/ptm/m/it/12
+ In-ter-na-tional Jour-nal of Re-mote Sens-
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 25--30
+\OT1/ptm/m/it/12 ing\OT1/ptm/m/n/12 , vol. 38, pp. 4655--4682, Aug. 2017.  Pub-
+lisher: Tay-lor & Fran-cis []eprint:
+ []
+
+[75
+
+] [76] [77] [78] [79] [80] [81] [82]
+Underfull \hbox (badness 1337) in paragraph at lines 404--409
+\OT1/ptm/m/n/12 R. Dillmann, E. Menegatti, and S. Ghidoni, eds.), (Cham), pp. 6
+26--638, Springer
+ []
+
+) 
+AED: lastpage setting LastPage
+[83] (Huston_Thesis_Defense.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Huston_Thesis_Defense.out' has not changed.
+(rerunfilecheck)             Checksum: 340AAA85F72B6B5DB9671046FB5AE6AB;5212.
+ ) 
+Here is how much of TeX's memory you used:
+ 19604 strings out of 478583
+ 332587 string characters out of 2847216
+ 642310 words of memory out of 3000000
+ 37099 multiletter control sequences out of 15000+600000
+ 504019 words of font info for 100 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,10n,77p,2517b,1479s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
+tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/a
+utobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></hom
+e/autobuntu/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxmi.pfb></home/
+autobuntu/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxr.pfb></home/aut
+obuntu/.miktex/texmfs/install/fonts/type1/public/txfonts/txex.pfb></home/autobu
+ntu/.miktex/texmfs/install/fonts/type1/public/txfonts/txsy.pfb></home/autobuntu
+/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/autobuntu/.mikt
+ex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/tex
+mfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Huston_Thesis_Defense.pdf (83 pages, 54768669 bytes).
+PDF statistics:
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 617 words of extra memory for PDF output out of 10000 (max. 10000000)
+

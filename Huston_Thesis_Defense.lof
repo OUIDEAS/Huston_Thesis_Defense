@@ -1,0 +1,55 @@
+\babel@toc {english}{}\relax 
+\addvspace {\@lineskip }
+\addvspace {\@lineskip }
+\addvspace {\@lineskip }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Method of Least Squares Plane Projection Example}}{16}{figure.caption.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 2D Simplified RANSAC Example}}{17}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces RANSAC Plane Projection Example}}{18}{figure.caption.4}%
+\addvspace {\@lineskip }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Project Flow}}{24}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example Clustering}}{24}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces RDF Training Classification Error}}{24}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Sensor Van}}{26}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces VLP 32 on Van}}{27}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mako Camera}}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Armig Road}}{28}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Gravel Lot}}{29}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sturbois Road}}{29}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Bean Hollow Road}}{30}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Manual Point Cloud Classification Overview}}{32}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Manual Area Selection Process}}{33}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Manual Classification Visual Verification}}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Front and Rear Points}}{35}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Front and Rear Point Extraction}}{36}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Validation Error Example Plots}}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Example Feature Use Histogram}}{41}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Validation Error versus RDF Size}}{42}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Quadrants Discretization}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Classified Single Point Cloud}}{43}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Compiled Point Cloud Data}}{45}{figure.caption.26}%
+\addvspace {\@lineskip }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of Gravel Road}}{48}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of Chipseal Road}}{49}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces RANSAC vs MLS Compute Times}}{50}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces RANSAC Computation Time vs Threshold Distance}}{51}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces RANSAC Computation Time vs Iteration Count}}{51}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces XY vs Range vs Z Height}}{53}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Validation Error vs RDF Size}}{55}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces MLS vs RANSAC Validation Accuracy (1)}}{56}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces MLS vs RANSAC Validation Accuracy (1)}}{56}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Early Stopping}}{57}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Example Feature Importance}}{58}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces MLS All Error Plots}}{59}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces RAN All Error Plots}}{60}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces MLS Top Twenty Error Plots}}{61}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces RANSAC Top Twenty Error Plots}}{62}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces ZXY Error Plots}}{63}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Range Error Plots}}{64}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Sturbois Road Curve}}{66}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Compiled Classified Point Cloud}}{67}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Manually Classified Areas - Sturbois Curved Section}}{68}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Quadrant Classification Rate}}{69}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces On-Road Classification Results 1}}{71}{figure.caption.49}%
+\addvspace {\@lineskip }
+\addvspace {\@lineskip }
+\addvspace {\@lineskip }
