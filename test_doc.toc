@@ -1,4 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {chapter}{Abstract}{3}{schapter.1}%
-\contentsline {chapter}{List of Tables}{5}{schapter.2}%
-\contentsline {chapter}{List of Figures}{6}{schapter.3}%
