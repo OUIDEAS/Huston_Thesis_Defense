@@ -20,34 +20,34 @@
 \contentsline {chapter}{\numberline {4}Methodology}{23}{chapter.4}%
 \contentsline {subsection}{\numberline {4.0.1}Overview}{23}{subsection.4.0.1}%
 \contentsline {section}{\numberline {4.1}Objective 1}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Task 1}{25}{subsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.1}Experimental Apparatus Setup}{25}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}Data Collection}{28}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Data Processing}{30}{subsubsection.4.1.1.3}%
-\contentsline {subsection}{\numberline {4.1.2}Task 2}{30}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}RANSAC and Method of Least Squares Plane Projection}{31}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}Training and Verification Data Selection Process}{31}{subsubsection.4.1.2.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.3}Feature Extraction}{37}{subsubsection.4.1.2.3}%
-\contentsline {subsection}{\numberline {4.1.3}Feature Data Sets}{38}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}Random Decision Forest Creation}{39}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4.1.3.2}Random Decision Forest Verification}{39}{subsubsection.4.1.3.2}%
-\contentsline {subsubsection}{\numberline {4.1.3.3}Random Decision Forest Optimization}{40}{subsubsection.4.1.3.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.4}Random Decision Forest Testing}{43}{subsubsection.4.1.3.4}%
-\contentsline {section}{\numberline {4.2}Objective 2}{44}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Task 1}{44}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Transformation Matrix Derivation}{44}{subsubsection.4.2.1.1}%
-\contentsline {subsection}{\numberline {4.2.2}Task 2}{45}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Consecutive Point Cloud Classification}{46}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Consecutive Point Cloud Classification Scoring}{46}{subsubsection.4.2.2.2}%
-\contentsline {section}{\numberline {4.3}Summary of Methods}{47}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Results}{48}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Training Data Collection}{48}{section.5.1}%
-\contentsline {section}{\numberline {5.2}RANSAC vs Method of Least Squares}{49}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Random Decision Forest Training and Verification}{52}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Classifying Consecutive Scanning LiDAR}{65}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Consecutive Scanning LiDAR Classification Results}{69}{section.5.5}%
+\contentsline {subsection}{\numberline {4.1.1}Task 1}{26}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Experimental Apparatus Setup}{27}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Data Collection}{29}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Data Processing}{31}{subsubsection.4.1.1.3}%
+\contentsline {subsection}{\numberline {4.1.2}Task 2}{31}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}RANSAC and Method of Least Squares Plane Projection}{32}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Training and Verification Data Selection Process}{32}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}Feature Extraction}{38}{subsubsection.4.1.2.3}%
+\contentsline {subsection}{\numberline {4.1.3}Feature Data Sets}{39}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Random Decision Forest Creation}{40}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Random Decision Forest Verification}{40}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Random Decision Forest Optimization}{41}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}Random Decision Forest Testing}{44}{subsubsection.4.1.3.4}%
+\contentsline {section}{\numberline {4.2}Objective 2}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Task 1}{45}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Transformation Matrix Derivation}{45}{subsubsection.4.2.1.1}%
+\contentsline {subsection}{\numberline {4.2.2}Task 2}{46}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Consecutive Point Cloud Classification}{47}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Consecutive Point Cloud Classification Scoring}{47}{subsubsection.4.2.2.2}%
+\contentsline {section}{\numberline {4.3}Summary of Methods}{48}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Results}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Training Data Collection}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}RANSAC vs Method of Least Squares}{50}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Random Decision Forest Training and Verification}{53}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Classifying Consecutive Scanning LiDAR}{66}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Consecutive Scanning LiDAR Classification Results}{70}{section.5.5}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {6}Conclusion}{73}{chapter.6}%
-\contentsline {chapter}{Appendix: Source Code}{74}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Additional Tables}{74}{section.A.1}%
-\contentsline {section}{\numberline {A.2}MATLAB Source Code}{74}{section.A.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{74}{chapter.6}%
+\contentsline {chapter}{Appendix: Source Code}{75}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Additional Tables}{75}{section.A.1}%
+\contentsline {section}{\numberline {A.2}MATLAB Source Code}{75}{section.A.2}%
