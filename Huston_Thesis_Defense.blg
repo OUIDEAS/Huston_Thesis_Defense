@@ -9,10 +9,6 @@ Repeated entry---line 1574 of file resources.bib
  : @article{seker_experiments_nodate
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1730 of file resources.bib
- : @article{shapiro_analysis_1965
- :                               ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 1787 of file resources.bib
  : @inproceedings{gojcic_perfect_2019
  :                                   ,
@@ -47,6 +43,7 @@ Warning--empty year in wang_road_nodate
 Warning--empty journal in coombs_driving_2000
 Warning--empty journal in stavens_self-supervised_nodate
 Warning--empty year in stavens_self-supervised_nodate
+Warning--empty booktitle in dupont_online_2008
 Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
@@ -56,45 +53,45 @@ Warning--empty journal in derpanis_overview_nodate
 Warning--empty year in derpanis_overview_nodate
 Warning--empty journal in cantzler_random_nodate
 Warning--empty year in cantzler_random_nodate
-You've used 77 entries,
+You've used 75 entries,
             1876 wiz_defined-function locations,
-            891 strings with 19040 characters,
-and the built_in function-call counts, 21845 in all, are:
-= -- 2185
-> -- 792
+            875 strings with 18716 characters,
+and the built_in function-call counts, 21390 in all, are:
+= -- 2121
+> -- 799
 < -- 0
-+ -- 293
-- -- 216
-* -- 1586
-:= -- 2935
-add.period$ -- 93
-call.type$ -- 77
-change.case$ -- 77
++ -- 294
+- -- 219
+* -- 1561
+:= -- 2881
+add.period$ -- 91
+call.type$ -- 75
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 1113
-empty$ -- 2075
-format.name$ -- 216
-if$ -- 5339
+cite$ -- 99
+duplicate$ -- 1088
+empty$ -- 2030
+format.name$ -- 219
+if$ -- 5219
 int.to.chr$ -- 0
-int.to.str$ -- 77
-missing$ -- 67
-newline$ -- 257
-num.names$ -- 78
-pop$ -- 304
+int.to.str$ -- 75
+missing$ -- 65
+newline$ -- 250
+num.names$ -- 77
+pop$ -- 311
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 875
+skip$ -- 844
 stack$ -- 0
-substring$ -- 1562
-swap$ -- 468
+substring$ -- 1514
+swap$ -- 453
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 23
-while$ -- 230
-width$ -- 79
-write$ -- 727
-(There were 7 error messages)
+warning$ -- 24
+while$ -- 223
+width$ -- 77
+write$ -- 705
+(There were 6 error messages)

@@ -297,6 +297,11 @@ S.~Siva, M.~Wigness, J.~Rogers, and H.~Zhang, ``Robot adaptation to
   unstructured terrains by joint representation and apprenticeship learning,''
   {\em Robotics: science and systems}, Jan. 2019.
 
+\bibitem{dupont_online_2008}
+E.~M. DuPont, R.~G. Roberts, M.~F. Selekwa, C.~A. Moore, and E.~G. Collins,
+  ``Online {Terrain} {Classification} for {Mobile} {Robots},'' pp.~1643--1648,
+  American Society of Mechanical Engineers Digital Collection, Feb. 2008.
+
 \bibitem{mijakovska_generating_2014}
 S.~Mijakovska, I.~Nedelkovski, and F.~Popovski, ``Generating {3D} {Model} from
   {Video},'' {\em Advanced Computing: An International Journal}, vol.~5,
@@ -369,26 +374,6 @@ H.~Cantzler, ``Random {Sample} {Consensus} ({RANSAC}),'' p.~4.
 B.~Alam, ``Using the {Random} {Sample} {Consensus} ({RANSAC}) algorithm in
   {Python},'' Apr. 2022.
 
-\bibitem{shapiro_analysis_1965}
-S.~S. SHAPIRO and M.~B. WILK, ``An analysis of variance test for normality
-  (complete samples)†,'' {\em Biometrika}, vol.~52, pp.~591--611, Dec. 1965.
-
-\bibitem{royston_extension_1982}
-J.~P. Royston, ``An {Extension} of {Shapiro} and {Wilk}'s {W} {Test} for
-  {Normality} to {Large} {Samples},'' {\em Journal of the Royal Statistical
-  Society: Series C (Applied Statistics)}, vol.~31, no.~2, pp.~115--124, 1982.
-\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2307/2347973.
-
-\bibitem{davis_covariance_1977}
-C.~S. Davis and M.~A. Stephens, ``The covariance matrix of normal order
-  statistics,'' {\em Communications in Statistics - Simulation and
-  Computation}, vol.~6, pp.~75--81, Jan. 1977.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/03610917708812028.
-
-\bibitem{noauthor_shapiro-wilk_nodate}
-``Shapiro-{Wilk} and {Shapiro}-{Francia} normality tests..''
-
 \bibitem{ho_random_1995}
 T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
   {International} {Conference} on {Document} {Analysis} and {Recognition}},
@@ -407,7 +392,12 @@ J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
   and S.~Ghidoni, eds.), (Cham), pp.~626--638, Springer International
   Publishing, 2019.
 
-\bibitem{MATLAB_PCFITPLANE}
-``Fit plane to 3-{D} point cloud - {MATLAB} pcfitplane.''
+\bibitem{noauthor_bayesian_nodate}
+``Bayesian {Optimization} {Algorithm} - {MATLAB} \& {Simulink}.''
+
+\bibitem{snoek_practical_2012}
+J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
+  of {Machine} {Learning} {Algorithms},'' Aug. 2012.
+\newblock arXiv:1206.2944 [cs, stat].
 
 \end{thebibliography}
