@@ -163,7 +163,7 @@
 
 	\subsection{Objective 2}
 
-		{\textbf{Automate classification of consecutive LiDAR scans of unmarked chipseal and gravel roads and verify using manually defined road boundaries.} LiDAR, GPS, and IMU data of physical unmarked gravel and chipseal roads was collected. Road surface area was predicted using the model developed in Objective 1. GPS and IMU data allowed for the creation of transformation matrices required for stitching consecutive LiDAR scans. Stitched results were then scored by comparing them to manually defined road surfaces. Completion of Objective II was accomplished by achieving the goal of classifying consecutive LiDAR scans of unmarked chipseal and gravel roads. Success of Objective II was measured by determining the accuracy of detection and processing time. The outcome of Objective II is a method of detecting a stretch of an unmarked gravel or chipseal road with a LiDAR sensor.}
+		{\textbf{Automate classification of consecutive LiDAR scans of unmarked chipseal and gravel roads and verify using manually defined road boundaries.} LiDAR, GPS, and IMU data of physical unmarked gravel and chipseal roads was collected. Road surface area was predicted using the model developed in Objective 1. GPS and IMU data allowed for the creation of transformation matrices required for stitching consecutive LiDAR scans. Stitched results were then scored by comparing them to manually defined road surfaces. Completion of Objective II was accomplished by achieving the goal of classifying consecutive LiDAR scans of unmarked chipseal and gravel roads. Success of Objective II was measured by determining the accuracy of detection and processing time. The outcome of Objective II is a method of detecting a stretch of an unmarked asphalt road with intercepting gravel roads with a Scanning LiDAR sensor.}
 
 
 \chapter{Literature Review}
@@ -188,9 +188,9 @@
 %	
 %	}
 	
-	\section{Terrain Classification Overview}{
+	\section{Terrain Classification}{
 		
-		{Classification of the surrounding environment is an integral part to the proposed work, as differentiation of gravel road surfaces and surrounding terrain is necessary to determine road boundaries. Terrain classification is the analysis of the ground surface in order to specify the ground surface type \cite{laible_3d_2012,laible_terrain_2013,laible_map_building,rasmussen_combining_2002,reymann_improving_2015,walas_terrain_2014,wietrzykowski_boosting_2014,wang_road_nodate}. Current literature proposes multiple methods of terrain classification using LiDAR and RGB cameras, and may be roughly broken into two areas of application. Traversability or trafficability is the analysis of generally unstructured environments that includes obstacles or rough terrain types for autonomous vehicle path finding solutions  \cite{schilling_geometric_2017,ojeda_terrain_2006,coombs_driving_2000,stavens_self-supervised_nodate,belter_rough_2010,bartoszyk_terrain-aware_2017,noauthor_fusion_nodate,li_rugged_2019,wilson_terrain_2014,siva_robot_2019}. While this research may be useful for detection of obstacles on the road for the proposed work, it is assumed that the roads that will be studied will be free of obstacles. Terrain classification was studied Edmond et al. propose a method to detect terrain type through implementation of vehicle vibration, however this method is limited to what the vehicle is currently driving over and thus cannot detect intercepting gravel roads \cite{dupont_online_2008}.}
+		{Classification of the surrounding environment is an integral part to the proposed work, as differentiation of gravel road surfaces and surrounding terrain is necessary to determine road boundaries. Terrain classification is the analysis of the ground surface in order to specify the ground surface type \cite{laible_3d_2012,laible_terrain_2013,laible_map_building,rasmussen_combining_2002,reymann_improving_2015,walas_terrain_2014,wietrzykowski_boosting_2014,wang_road_nodate}. Current literature proposes multiple methods of terrain classification using LiDAR and RGB cameras, and may be roughly broken into two areas of application. Traversability or trafficability is the analysis of generally unstructured environments that includes obstacles or rough terrain types for autonomous vehicle path finding solutions  \cite{schilling_geometric_2017,ojeda_terrain_2006,coombs_driving_2000,stavens_self-supervised_nodate,belter_rough_2010,bartoszyk_terrain-aware_2017,noauthor_fusion_nodate,li_rugged_2019,wilson_terrain_2014,siva_robot_2019}. While this research may be useful for detection of obstacles on the road for the proposed work, it is assumed that the roads that will be studied will be free of obstacles. Edmond et al. propose a method to detect terrain type through implementation of vehicle vibration, however this method is limited to what the vehicle is currently driving over and thus cannot detect intercepting gravel roads \cite{dupont_online_2008}. Filitchkin et al. propose a method to detect terrain type using a downward orientated camera for use in a small robotic dog, however this method was not extended to explore terrain surrounding the robot \cite{filitchkin_feature_based_2012}. Weska et al. propose a method of terrain classification through arieal photography, however the implementation on a road vehicle was not explored \cite{weszka_comparative_1976}. Obstacle detection using a single axis LiDAR was studied \cite{manduchi_obstacle_2005}, however this method cannot detect road surfaces, only detect obstacles in roads. Terrain classification using cameras for use in off-road robots was studied \cite{walch_offroad_2022}, however the method focuses on terrain traversability, furthermore ambient conditions may lower classification accuracy \cite{levi_3d_2012_light}.}
 		
 		{LiDAR and camera based real-time terrain classification was studied by projecting a 2D plane unto the point cloud data using a variant of Random Sample Consensus (RANSAC) called M-estimator Sample Consensus (MSAC) \cite{mijakovska_generating_2014} that is built for a more robust result \cite{laible_3d_2012,laible_map_building,laible_terrain_2013}. After segmenting the plane into cells, roughness and intensity histograms were analyzed on a per-cell basis. Markov Random Field (MRF) \cite{chellappa_classification_1985} and Conditional Random Field (CRF) \cite{wallach_conditional_nodate} were compared in their ability to compare individual cells with neighboring cells. Comparison with neighboring cells increases classification type accuracy, as adjacent cell are likely to have the same terrain type \cite{haselich_terrain_2011,zhao_fusion_2014}. It was found that CRF was better suited for classification. Random Forest (RF) classification showed good results for identification of analysis of LiDAR and camera data \cite{breiman_random_2001}, and was used to predict cell terrain into one of five types, including gravel and grass. It was found that characterizing the LiDAR intensity as Gaussian distributed noise yielded poor results with only a 49.5\% true positive rate, however a low-resolution LiDAR was used. Higher resolution LiDAR that produces a high density point cloud, such as the Velodyne VLP-32 that will be used in the proposed work \cite{vlp_32c}, may allow for better terrain classification with Gaussian characterization of return intensity and spatial data. While capable of real-time classification of terrain type, this method was not employed in road identification and used a low resolution LiDAR system.}
 		
@@ -460,48 +460,45 @@
 					\begin{subfigure}{0.45\textwidth}
 						\centering
 						\includegraphics[width=1.0\linewidth]{Defense_Images/pre_select_area}
-						\caption[Bean Hollow Road Satellite View]{}
+						\caption[Road area on Point Cloud]{}
 						\label{fig:pre_select_area}
 					\end{subfigure}
 					\begin{subfigure}{0.45\textwidth}
 						\centering
 						\includegraphics[width=1.0\linewidth]{Defense_Images/area_selected}
-						\caption[Bean Hollow Road Camera View]{}
+						\caption[Selected Road area on Point Cloud]{}
 						\label{fig:area_selected}
 					\end{subfigure}
 					\caption[Manual Area Selection Process]{Combined scanning LiDAR point cloud data (a) may be manually defined using MATLAB's $drawpolygon$ function to select the desired area. }
 					\label{fig:Area_Selection_Process}
 				\end{figure}
-				
-				{Six degree arcs from the first three channels of scanning LiDAR data that lay directly in front of the vehicle (Figure \ref{fig:area_example}) were extracted using MATLAB's $inpolygon$ function and exported to a database if coincident with the manually defined areas. Training data was extracted from a single arc from each 360 degree LiDAR scan if the arc was coincident to a manually projected 2D area. Raw spatial and intensity values from the coincident arc were saved to a raw training database. Separate training databases were maintained for each individual channel.}
+			
+				{Manually defined areas may then be overlayed unto the point cloud representing training areas (Fig. \ref{fig:test_vs_train_areas}) using MATLAB's $inpolygon$ function. Six degree arcs (Fig. \ref{fig:area_example}) from the first three channels of scanning LiDAR data that lay directly in front of the vehicle were extracted and exported to a database if coincident with the manually defined areas. Training data was extracted from a single arc from each 360 degree LiDAR scan if the arc was coincident to a manually projected 2D area. Raw spatial and intensity values from the coincident arc were saved to a raw training database. Separate training databases were maintained for each individual channel. Features that describe the raw spatial and intensity data were extracted. }
 				
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.25\linewidth]{Defense_Images/area_example}
-					\caption[Areas to Classify]{Three arcs from three channels were classified per 360 degree scan. The front three arcs were used to gather training data, while all nine arcs were classified during testing. }
+					\caption[Areas to Classify]{Three arcs from three channels were classified per 360 degree scan. }
 					\label{fig:area_example}
 				\end{figure}
 				
-
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/test_vs_train_areas_hatch}
+					\caption[Training vs Testing Areas]{Training areas were kept separate from the testing areas.}
+					\label{fig:test_vs_train_areas}
+				\end{figure}
+			
 			} % End Training and Verification Data Selection Process
 		
 		\newpage
 			
 			\subsubsection{Feature Extraction}\label{sec:Feat_Extract} {
 			
-				{LiDAR returns spatial data represented by Cartesian coordinates with units in meters and remission data represented by a dimensionless ratio of minimum to maximum detected brightness. Feature extraction was completed by performing mathematical functions on the gathered spatial training data. Reference plane normal vector and distance from origin $[a,b,c,d]$ was derived from RANSAC and Method of Least Squares methods for each arc segment. Mean XY, Range, and mean range are calculated \ref{fig:xy_vs_range}. Per-point distance from the reference plane was calculated. Spatial features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. As remission is a ratio of minimum to maximum detectable reflected intensity there was no need to render the features non-dimensionalized. Thirty percent of the training data was randomly selected and reserved to create a validation data set.}
+				{LiDAR returns spatial data represented by Cartesian coordinates with units in meters and remission data represented by a dimensionless ratio of minimum to maximum detected brightness. Feature extraction was completed by performing mathematical functions on the gathered spatial training data. Reference plane normal vector and distance from origin $[a,b,c,d]$ was derived from RANSAC and Method of Least Squares methods for each arc segment. Mean XY, Range, and mean range are calculated \ref{fig:xy_vs_range}. Per-point distance from the reference plane was calculated. Spatial features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. As remission is a ratio of minimum to maximum detectable reflected intensity there was no need to render the features non-dimensionalized. Thirty percent of the training data was randomly selected and reserved to create a validation data set. Features extracted include the following:}
 				
-				\begin{figure}[H]
-					\centering
-					\includegraphics[width=1\linewidth]{Defense_Images/xy_vs_range}
-					\caption[XY vs Range vs Z Height]{Three references for feature extraction may be seen in this simplified graph. First is the Range shown by the magenta line from the LiDAR origin to the Point of Interest (PoI). Second is the height from  LiDAR origin to the PoI (cyan). Finally, distance from the projected plane (red) to the PoI (green). XY Distance (blue) and Range (magenta) from the sensor was used consider the effect of distance from LiDAR origin to the PoI.}
-					\label{fig:xy_vs_range}
-				\end{figure}
-%				
-				{Features extracted include the following:}
-
 				\begin{multicols}{2}
-					\begin{itemize}[itemsep=1pt]
+					\begin{itemize}[itemsep=.1pt]
 						\item Standard Deviation
 						\item Roughness
 						\item Min Max Ratio
@@ -511,7 +508,7 @@
 					\end{itemize}
 					\vfill\null
 					\columnbreak
-					\begin{itemize}[itemsep=1pt]
+					\begin{itemize}[itemsep=.1pt]
 						\item $std$
 						\item $max - min$
 						\item $min / max$
@@ -522,10 +519,25 @@
 					\vfill\null
 					\label{lst:feature_list}
 				\end{multicols}
-			
+				
 				{where $Gradient$ refers to the difference between consecutive numbers in an array. These features closely follow convention when describing scanning LiDAR data \cite{breiman_random_2001}.}
+				
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=1\linewidth]{Defense_Images/xy_vs_range}
+					\caption[XY vs Range vs Z Height]{Three references for feature extraction may be seen in this simplified graph. First is the Range shown by the magenta line from the LiDAR origin to the Point of Interest (PoI). Second is the height from  LiDAR origin to the PoI (cyan). Finally, distance from the projected plane (red) to the PoI (green). XY Distance (blue) and Range (magenta) from the sensor was used consider the effect of distance from LiDAR origin to the PoI.}
+					\label{fig:xy_vs_range}
+				\end{figure}
 			
-			\newpage
+				{Thirty percent of the training data base was randomly selected and set aside as a validation data base. Training data was visually examined for clustering to verify that a Random Decision Forest would be able to be trained (Fig. \ref{fig:range_training_data_cluster_3}). It was found that each class generally clustered to a certain range with some overlap, which indicates that a Random Decision Forest may be trained.}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/training_data_cluster_3}
+					\caption[Example Clustering]{Example of training data comparison between two features.}
+					\label{fig:range_training_data_cluster_3}
+				\end{figure}
 				
 			} % End Feature Extration
 			
@@ -537,14 +549,14 @@
 					
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/c2_min_class_error}
-					\caption[RDF Training Classification Error]{Classification error during Bayesian Optimization tuning.}
+					\includegraphics[width=0.5\linewidth]{Defense_Images/c2_bayesian_range}
+					\caption[Bayesian Optimization - RANGE]{Classification error during Bayesian Optimization tuning.}
 					\label{fig:c2_min_class_error}
 				\end{figure}				
 				
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/chan_2c_conf_OOB_mat222}
+					\includegraphics[width=0.65\linewidth]{Defense_Images/chan_2c_conf_OOB_mat222}
 					\caption[Out-of-Bag Error]{During training the RDF may be tested using the out-of-bag error. Confusion matrices are used to indicate the final RDF iteration training error. As Resubstitution Validation was used, these results may be too optimistic, therefore further testing was used to ensure that the model did not over-fit.}
 					\label{fig:out_of_bag_err_conf_mat}
 				\end{figure}
@@ -573,19 +585,19 @@
 	
 			\subsubsection{Random Decision Forest Verification}\label{sec:random-decision-forest-verification}{
 			
-				{Random Decision Forest classification accuracy was verified by passing the algorithm a verification data set. Thirty percent of the training data base was randomly selected and set aside to create the verification data base. Confusion matrices were made to visualize the ability of the algorithm to distinguish between terrain classes (Figure \ref{fig:vali_err_conf_mat}). Hyperparameter tuning may lead to over-fitting to the training data base. Testing for over-fitting was accomplished by comparing the out-of-bag training error to the validation error (Fig. \ref{fig:train_vs_valid_overfit_test2}). }
+				{Random Decision Forest classification accuracy was verified by passing the algorithm a verification data set. Thirty percent of the training data base was randomly selected and set aside to create the verification data base. Confusion matrices provide classification accuracy information on validation database by classifying each data set in the validation database and comparing actual and predicted classes, resulting in a matrix that visualizes the accuracy for each terrain type as well as which terrain types are more likely to be confused for a different class (Fig. \ref{fig:vali_err_conf_mat_range}). Hyperparameter tuning may lead to over-fitting to the training data base. Testing for over-fitting was accomplished by comparing the out-of-bag training error to the validation error (Fig. \ref{fig:train_vs_valid_overfit_test2}). This process was completed for each of the three considered scanning LiDAR channels used for classification. }
 								
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/chan_2c_conf_VALIDATION_mat222}
+					\includegraphics[width=0.65\linewidth]{Defense_Images/chan_2c_conf_VALIDATION_mat222}
 					\caption[Validation Error]{Confusion matrix with the validation training data set.}
-					\label{fig:vali_err_conf_mat}
+					\label{fig:vali_err_conf_mat_range}
 				\end{figure}
 			
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.75\linewidth]{Defense_Images/train_vs_valid_overfit_test2}
-					\caption[Training vs Validation Error]{Hyperparameter tuning may lead to over-fitting. Testing out-of-bag versus validation error demonstrates that the model is not over-fitting to the training data base if the validation error does not diverge from the out-of-bag error.}
+					\caption[Training vs Validation Error]{Hyperparameter tuning may lead to over-fitting. Testing out-of-bag versus validation error demonstrates that the model is not over-fitting to the training data base if the validation error does not diverge from the out-of-bag error. Out-of-bag training- versus validation-error for the range-based channel 2 RDF.}
 					\label{fig:train_vs_valid_overfit_test2}
 				\end{figure}
 					
@@ -636,7 +648,7 @@
 				
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.9\linewidth]{Defense_Images/raw_classification_results_v3}
+					\includegraphics[width=0.9\linewidth]{Defense_Images/classified_point_cloud_example_redux}
 					\caption[Classified Point Cloud]{Classified Point Cloud.}
 					\label{fig:raw_classification_results}
 				\end{figure}
@@ -653,7 +665,7 @@
 				
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/area_score_example}
+					\includegraphics[width=0.75\linewidth]{Defense_Images/rm_db_1_area_score}
 					\caption[Area Scores]{Per-area scores were calculated, indicating algorithm unmarked road detection accuracy. }
 					\label{fig:prepostadjust}
 				\end{figure}
@@ -668,7 +680,7 @@
 				
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.9\linewidth]{Defense_Images/rm_db_4_ToC_22}
+					\includegraphics[width=0.9\linewidth]{Defense_Images/rm_db_4_overlap_reredux}
 					\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed and compared to actual road-surface areas. }
 					\label{fig:rm_db_4_toc}
 				\end{figure}	
@@ -690,7 +702,7 @@
 		
 		{Point cloud data was used to take advantage of an unmarked road's surface noise profile by projecting a reference plane and examination of point height variance. Objective I explored physical point cloud data for identifying a model for describing a gravel road such that a vehicle may be able to predict road surface area based on terrain classification. The outcome of Objective I was a terrain classification approach to describing gravel road surface point cloud data. Objective II explored using the model derived in Objective I to classify consecutive Scanning LiDAR scans to create an aggregated classified point cloud map. The outcome of Objective II was automated classification of consecutive LiDAR scans with corresponding accuracy scores and a visual detection method for road surfaces.}
 		 
-		{\textbf{Final Deliverable:} Method for physical gravel and chipseal road detection by using a terrain classification approach to predicting road surface area.}
+		{\textbf{Final Deliverable:} Method for physical, unmarked gravel and asphalt road detection by using a terrain classification approach to predicting road surface area.}
 		
 	} % End Summary of Methods
 
@@ -698,61 +710,225 @@
 	
 	\section{Training Data Collection}\label{sec:training-data-collection}{
 	
-		{Scanning LiDAR, GPS, and IMU data was collected using the Experimental Apparatus (Figure \ref{fig:Experimental_Apperatus}). Gravel data was gathered from the Redmen Lodge gravel parking lot (Figure \ref{fig:gravel_lot_example}). Grass data was gathered from the lawn by the gravel parking lot. Asphalt data was gathered Blackburn Road (Figure \ref{fig:chipseal_road_example}). Point cloud data from the resulting rosbags was manually defined by area as one of three terrain types: gravel, chipseal, or grass. Although this work does not evaluate the detection accuracy of grass, differentiation between a road and non-road surface is necessary for evaluating road-surface detection, therefore grass is labeled as "unknown" in this work.}
+		{Scanning LiDAR, GPS, and IMU data was collected using the Experimental Apparatus (Figure \ref{fig:Experimental_Apperatus}). Gravel data was gathered from the Redmen Lodge gravel parking lot (Figure \ref{fig:gravel_training_lot}). Grass data was gathered from the lawn by the gravel parking lot. Asphalt data was gathered Blackburn Road (Figure \ref{fig:Blackburn_Road_View}). Three gravel driveways intercept Blackburn Road (Figure \ref{fig:road_areas_annotated_2}). Training data was extracted from designated areas that were seperate from the testing areas (Figure \ref{fig:test_vs_train_areas}). Point cloud data from the resulting rosbags was manually defined by area as one of three terrain types: gravel, chipseal, or grass. Although this work does not evaluate the detection accuracy of grass, differentiation between a road and non-road surface is necessary for evaluating road-surface detection, therefore grass is labeled as "unknown" in this work.} 
+		
+		
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.7\linewidth]{Defense_Images/gravel_lot_pic}
-			\caption[Example of Gravel Road]{Gravel lot maintained by the Ohio University Civil Engineering Department}
-			\label{fig:gravel_lot_example}
+			\includegraphics[width=0.65\linewidth]{Defense_Images/road_areas_annotated_2}
+			\caption[Blackburn Road Overlays]{Blackburn Road with three intercepting driveways. Driveway $3$ is the entrance to the lot from which gravel training data was gathered. }
+			\label{fig:road_areas_annotated_2}
 		\end{figure}
+
+		{Training data was examined for clustering by comparing two feature sets against each other (Figure \ref{fig:range_training_data_cluster_3}, \ref{fig:ransac_training_data_cluster}, \ref{fig:mls_training_data_cluster}). Histograms were also used to visualize data feature clustering (Figure \ref{fig:ransac_two_histograms}). Clustering indicates that each terrain classes features trend towards certain regions of values that are distinct from one another. High overlap in feature regions indicate that terrain types are not distinct from each other, as in the case of the dirt on the side of the Blackburn Road (Figure \ref{fig:here_be_dirt}, \ref{fig:dirt_v_gravel2}). }
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.7\linewidth]{Defense_Images/blackburn_road}
-			\caption[Example of Chipseal Road]{Example of a chipseal road with intercepting gravel driveways}
-			\label{fig:chipseal_road_example}
+			\includegraphics[width=0.65\linewidth]{Defense_Images/ransac_training_data_cluster}
+			\caption[Example RANSAC Clustering]{Example of training data generated with a RANSAC projected plane reference point features compared.}
+			\label{fig:ransac_training_data_cluster}
 		\end{figure}
 	
-	}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\linewidth]{Defense_Images/mls_training_data_cluster}
+			\caption[Example MLS Clustering]{Example of training data generated with a MLS projected plane reference point features compared.}
+			\label{fig:mls_training_data_cluster}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/Ransac_Histogram_example_1}
+				\caption[Feature Histogram Example 1]{}
+				\label{fig:Ransac_Histogram_example_1}
+			\end{subfigure}
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/Ransac_Histogram_example_2}
+				\caption[Feature Histogram Example 2]{}
+				\label{fig:Ransac_Histogram_example_2}
+			\end{subfigure}
+			\caption[Feature Histograms]{Histograms were also used to help visualize data features to ensure trainability of a machine learning algorithm.}
+			\label{fig:ransac_two_histograms}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\linewidth]{Defense_Images/here_be_dirt}
+			\caption[Re-grassed Dirt]{Dirt being re-grassed leads to terrain classification confusion with gravel surfaces.}
+			\label{fig:here_be_dirt}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\linewidth]{Defense_Images/dirt_v_gravel2}
+			\caption[Dirt vs Gravel]{Dirt being re-grassed leads to terrain classification confusion with gravel surfaces. }
+			\label{fig:dirt_v_gravel2}
+		\end{figure}
+	
+	} % Training Data Collection
 		
 	
-	\section{Random Decision Forest Training and Verification}
+	\section{Random Decision Forest Training and Verification}\label{sec:rdf_train_verify}{
 	
-		{MATLAB was used to train Random Decision Forest terrain classification algorithms using the Classifier Learner App. Training data was loaded into the application. Validation methods for the trained model include Hold-out Validation, Cross Validation, and Resubstitution Validation. Resubstitution Validation, the chosen option, uses all the training data for training and initial validation and does not protect against over-fitting, as MATLAB randomly determines the training and validation data sets if other options are chosen, reducing reproducibility of results. Random Decision Forest hyper-parameters were tuned to increase terrain classification accuracy. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization. Bayesian Optimization automates the manual hyper-parameter tuning process by creating a surrogate model representing the objective function, in this case out-of-bag error (Fig. \ref{fig:c2_min_class_error}).}
+		{MATLAB was used to train Random Decision Forest terrain classification algorithms using the Classifier Learner App. Training data was loaded into the application. Validation methods for the trained model include Hold-out Validation, Cross Validation, and Resubstitution Validation. Resubstitution Validation, the chosen option, uses all the training data for training and initial validation and does not protect against over-fitting, as MATLAB randomly determines the training and validation data sets if other options are chosen, reducing reproducibility of results. Random Decision Forest hyper-parameters were tuned to increase terrain classification accuracy. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization. Bayesian Optimization automates the manual hyper-parameter tuning process by creating a surrogate model representing the objective function, in this case out-of-bag error (Figure \ref{fig:c2_min_class_error}, \ref{fig:c2_min_class_error_ransac}, \ref{fig:c2_min_class_error_mls}). Testing for over-fitting was accomplished by comparing out-of-bag training error to validation error (Figure \ref{fig:train_vs_valid_overfit_test2}, \ref{fig:train_vs_vali_ransac}, \ref{fig:train_vs_vali_mls}). Confusion matrices provide validation database classification accuracy information by classifying each data set in the validation database and comparing actual and predicted classes (Figure \ref{fig:vali_err_conf_mat_range} \ref{fig:c2_vali_conf_ransac} \ref{fig:c2_vali_confmat_mls}).} 
 		
-		% FIGURES NEEDED FOR THIS SECTION:
-		% Conf matrices for each
-		% Parallel Coordintates
-		% OOB vs Vali 
-		% Min Class Error
-		% Where training location?
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/c2_bayesian_ransac}
+				\caption[Bayesian Optimization - RANSAC]{}
+				\label{fig:c2_min_class_error_ransac}
+			\end{subfigure}
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/c2_bayesian_mls}
+				\caption[Bayesian Optimization - MLS]{}
+				\label{fig:c2_min_class_error_mls}
+			\end{subfigure}
+			\caption[Bayesian Optimization - RANSAC/MLS]{Classification error during Bayesian Optimization tuning with RANSAC (a) and MLS (b) to project a reference plane for generating spatial features.}
+			\label{fig:c2_min_class_error_ransac_mls}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/train_vs_vali_ransac}
+				\caption[Training vs Validation Error - RANSAC]{}
+				\label{fig:train_vs_vali_ransac}
+			\end{subfigure}
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/train_vs_vali_mls}
+				\caption[Training vs Validation Error - RANSAC]{}
+				\label{fig:train_vs_vali_mls}
+			\end{subfigure}
+			\caption[Training vs Validation Error - RANSAC/MLS]{Out of bag training versus validation error with RANSAC (a) and MLS (b) to project the reference plane for generating spatial features. }
+			\label{fig:train_vs_vali_ransac_mls}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/c2_vali_conf_ransac}
+				\caption[Validation Confusion Matrices - RANSAC]{}
+				\label{fig:c2_vali_conf_ransac}
+			\end{subfigure}
+			\begin{subfigure}{0.45\textwidth}
+				\centering
+				\includegraphics[width=1.0\linewidth]{Defense_Images/c2_vali_confmat_mls}
+				\caption[Validation Confusion Matrices - MLS]{}
+				\label{fig:c2_vali_confmat_mls}
+			\end{subfigure}
+			\caption[Validation Confusion Matrices - RANSAC/MLS]{Confusion matrices provide visual representation on the validation dataset classification accuracy. }
+			\label{fig:vali_confmat_ransac_mls}
+		\end{figure}
+	
+	} %rdf_train_verify
 		
-		% MLS/RANSAC - Need xy range as well???
+	\section{Classifying Consecutive Scanning LiDAR}\label{sec:classify_consec_scan_lidar}{
 	
-	
+		{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:area_example}). Features from each arc were extracted and the arc was classified (Figure \ref{fig:range_raw_results_example}). Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road was being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some miss-classification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap (Fig. \ref{fig:dirt_v_gravel2}). Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored, as the dirt area had a higher level . All gravel surfaces that did not meet a 80\% confidence score was re-labeled as "unknown", however these adjustment had either a negligible or detrimental impact on the final results as higher confidence score requirements resulted in "unknown" over-classification and too low resulted in "gravel" over-classification. Training a terrain classification algorithm to re-classify any gravel classification as either "unknown" or "gravel" was explored. Training data from the dirt area was gathered as in the method described in \ref{sec:training-data-collection} and used to train an RDF in the method described in \ref{sec:rdf_train_verify}. }
 		
-	\section{Classifying Consecutive Scanning LiDAR}
-	
-		% FIGURES NEEDED FOR THIS SECTION:
-		% 5 drive bys raw results
-		% Where testing location
+		% RANGE
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/db_4_raw_range}
+				\caption{}
+				\label{fig:db_4_raw_range}
+			\end{subfigure}
+			\vspace{1cm} % Adjust the vertical space between the subfigures
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/db_6_raw_range}
+				\caption{}
+				\label{fig:db_6_raw_range}
+			\end{subfigure}
+			\caption[Raw Result Example - RANGE Spatial Reference Point]{Two examples of raw classification results using an algorithm that used the range from LiDAR point of origin as the spatial reference point. }
+			\label{fig:range_raw_results_example}
+		\end{figure}
 		
+	} % Classifying Consecutive Scanning LiDAR
 	
-	\section{Consecutive Scanning LiDAR Classification Results}
+	
+	\section{Consecutive Scanning LiDAR Classification Scoring}\label{sec:consec_class_scoring}{
+		
+		{Manually defined areas were derived using the process described in \ref{sec:training_and_verification_data_selection_process}. Gravel, asphalt, and side-of-road truth areas were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_4_toc}). Distribution of classified points per area was determined and used to calculate per-area score. }
 	
 		% FIGURES NEEDED FOR THIS SECTION:
 		% 5 drive bys score results
 		% Table
+		
+		% RANGE
+%		\begin{figure}[H]
+%			\centering
+%			\begin{subfigure}[b]{\textwidth}
+%				\centering
+%				\includegraphics[width=0.9\textwidth]{Defense_Images/}
+%				\caption{}
+%				\label{fig:}
+%			\end{subfigure}
+%			\vspace{1cm} % Adjust the vertical space between the subfigures
+%			\begin{subfigure}[b]{\textwidth}
+%				\centering
+%				\includegraphics[width=0.9\textwidth]{Defense_Images/}
+%				\caption{}
+%				\label{fig:}
+%			\end{subfigure}
+%			\caption[Raw Result Example - RANGE Spatial Reference Point]{Two examples of raw classification results using an algorithm that used the range from LiDAR point of origin as the spatial reference point. }
+%			\label{fig:}
+%		\end{figure}
+%	
+		{Confusion between dirt and gravel (Section \ref{sec:training-data-collection} \ref{sec:classify_consec_scan_lidar}) }
 	
 	
-	\section{Visual Detection of Unmarked Road Surfaces}
+	}
+	
+	
+	\section{Visual Detection of Unmarked Road Surfaces}{
 	
 		% FIGURES NEEDED FOR THIS SECTION:
 		% 5 drive bys overlap results
 		% Table
+		
+		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:rm_db_4_toc}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection.}
+		
+		%{It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drive-bys. In all drive-bys the asphalt road was accurately detected.}
+		
+		
+		
 	
-	
+	}
+
+
+
+	\section{Rate of Classification}{
+		
+		{Classification was completed using Ubuntu 18.04 and an AMD Ryzen 9 5900X 12 core 24 thread. Rate of classification for all nine areas of interest in a single scan was found to be an average of 35.19 ms using a single core (Fig. \ref{fig:per_arc_classification_time}) or 316.68 ms per 360 degree scan (Fig. \ref{fig:per_scan_classification_rate}). Further optimization may increase this speed, however real-time classification is not a focus of this work. When utilizing all 24 cores during this indicates that a rate of 13.19 ms per 360 scan. Extrapolating from the distance traveled during a drive-by, a hypothetical 71.39 feet per second or 48.68 miles per hour may be possible.}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\linewidth]{Defense_Images/per_arc_classification_time}
+			\caption[Per-Arc Time]{Per-arc classification time}
+			\label{fig:per_arc_classification_time}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\linewidth]{Defense_Images/per_scan_classification_rate}
+			\caption[Per-Scan Time]{Per-scan classification time}
+			\label{fig:per_scan_classification_rate}
+		\end{figure}
+		
+	}
 		
 } % End Results
 

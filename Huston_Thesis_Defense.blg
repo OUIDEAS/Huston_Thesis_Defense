@@ -29,6 +29,10 @@ Repeated entry---line 2644 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2868 of file resources.bib
+ : @inproceedings{dupont_online_2008
+ :                                  ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in skorseth_gravel_nodate
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
@@ -53,45 +57,45 @@ Warning--empty journal in derpanis_overview_nodate
 Warning--empty year in derpanis_overview_nodate
 Warning--empty journal in cantzler_random_nodate
 Warning--empty year in cantzler_random_nodate
-You've used 75 entries,
+You've used 79 entries,
             1876 wiz_defined-function locations,
-            875 strings with 18716 characters,
-and the built_in function-call counts, 21390 in all, are:
-= -- 2121
-> -- 799
+            900 strings with 19695 characters,
+and the built_in function-call counts, 22737 in all, are:
+= -- 2265
+> -- 846
 < -- 0
-+ -- 294
-- -- 219
-* -- 1561
-:= -- 2881
-add.period$ -- 91
-call.type$ -- 75
-change.case$ -- 75
++ -- 311
+- -- 232
+* -- 1659
+:= -- 3062
+add.period$ -- 97
+call.type$ -- 79
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 99
-duplicate$ -- 1088
-empty$ -- 2030
-format.name$ -- 219
-if$ -- 5219
+cite$ -- 103
+duplicate$ -- 1154
+empty$ -- 2149
+format.name$ -- 232
+if$ -- 5548
 int.to.chr$ -- 0
-int.to.str$ -- 75
-missing$ -- 65
-newline$ -- 250
-num.names$ -- 77
-pop$ -- 311
+int.to.str$ -- 79
+missing$ -- 69
+newline$ -- 264
+num.names$ -- 81
+pop$ -- 321
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 844
+skip$ -- 898
 stack$ -- 0
-substring$ -- 1514
-swap$ -- 453
+substring$ -- 1632
+swap$ -- 485
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 24
-while$ -- 223
-width$ -- 77
-write$ -- 705
-(There were 6 error messages)
+while$ -- 239
+width$ -- 81
+write$ -- 747
+(There were 7 error messages)
