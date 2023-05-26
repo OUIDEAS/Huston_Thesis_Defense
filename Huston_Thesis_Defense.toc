@@ -43,10 +43,10 @@
 \contentsline {section}{\numberline {5.2}Random Decision Forest Training and Verification}{47}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Classifying Consecutive Scanning LiDAR}{49}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Consecutive Scanning LiDAR Classification Scoring}{50}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Visual Detection of Unmarked Road Surfaces}{51}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Rate of Classification}{51}{section.5.6}%
+\contentsline {section}{\numberline {5.5}Visual Detection of Unmarked Road Surfaces}{55}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Rate of Classification}{55}{section.5.6}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {6}Conclusion}{53}{chapter.6}%
-\contentsline {chapter}{Appendix: Source Code}{54}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Additional Tables}{54}{section.A.1}%
-\contentsline {section}{\numberline {A.2}MATLAB Source Code}{54}{section.A.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{57}{chapter.6}%
+\contentsline {chapter}{Appendix: Source Code}{58}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Additional Tables}{58}{section.A.1}%
+\contentsline {section}{\numberline {A.2}MATLAB Source Code}{58}{section.A.2}%

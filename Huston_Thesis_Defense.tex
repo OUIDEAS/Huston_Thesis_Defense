@@ -25,6 +25,7 @@
 \usepackage{multicol}
 \usepackage{enumitem}
 \usepackage[bottom]{footmisc}
+\usepackage{colortbl}
 
 \justifying
 
@@ -495,7 +496,7 @@
 			
 			\subsubsection{Feature Extraction}\label{sec:Feat_Extract} {
 			
-				{LiDAR returns spatial data represented by Cartesian coordinates with units in meters and remission data represented by a dimensionless ratio of minimum to maximum detected brightness. Feature extraction was completed by performing mathematical functions on the gathered spatial training data. Reference plane normal vector and distance from origin $[a,b,c,d]$ was derived from RANSAC and Method of Least Squares methods for each arc segment. Mean XY, Range, and mean range are calculated \ref{fig:xy_vs_range}. Per-point distance from the reference plane was calculated. Spatial features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. As remission is a ratio of minimum to maximum detectable reflected intensity there was no need to render the features non-dimensionalized. Thirty percent of the training data was randomly selected and reserved to create a validation data set. Features extracted include the following:}
+				{LiDAR returns spatial data represented by Cartesian coordinates with units in meters and remission data represented by a dimensionless ratio of minimum to maximum detected brightness. Feature extraction was completed by performing mathematical functions on the gathered spatial training data. This work examines three reference spatial reference points for spatial feature extraction \ref{fig:xy_vs_range}. \textbf{RANGE} refers to the algorithm that was trained using the LiDAR point of origin as the reference point. \textbf{RANSAC} and \textbf{MLS} refers to the algorithm that was trained using a RANSAC and MLS projected plane unto an arc as the spatial reference point respectively. Reference plane normal vector and distance from origin $[a,b,c,d]$ was derived from RANSAC and MLS methods for each arc segment. Per-point distance from the reference plane was calculated. Spatial features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. As remission is a ratio of minimum to maximum detectable reflected intensity there was no need to render the features non-dimensionalized. Thirty percent of the training data was randomly selected and reserved to create a validation data set. Features extracted include the following:}
 				
 				\begin{multicols}{2}
 					\begin{itemize}[itemsep=.1pt]
@@ -660,17 +661,14 @@
 				{Scoring results was accomplished by comparing the aggregated classified point cloud to manually defined areas. Manually defined areas were derived using the process described in \ref{sec:training_and_verification_data_selection_process}. Gravel, asphalt, and side-of-road truth areas were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_4_toc}). Classification results that were sympatric to manually defined areas were extracted and examined for accuracy. Accuracy scores was calculated based on the distribution of classified points with each area, allowing evaluation of unmarked road detection performance. Road detection accuracy was determined by scoring the exact terrain classification, true positive road surface detection, and false negative road surface detection. Side-of-road areas were considered for road edge detection. Drop off in positive road surface classification rates in side-of-road areas would be indicative that the random decision forest classification algorithm was adequate at detecting the road edge.}
 				
 				% IMAGE FOR CLASSIFIED PIONTS VS AREAS
-				
-				
-				
+
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.75\linewidth]{Defense_Images/rm_db_1_area_score}
 					\caption[Area Scores]{Per-area scores were calculated, indicating algorithm unmarked road detection accuracy. }
 					\label{fig:prepostadjust}
 				\end{figure}
-				
-				
+
 				
 			}
 		
@@ -861,35 +859,89 @@
 	
 	\section{Consecutive Scanning LiDAR Classification Scoring}\label{sec:consec_class_scoring}{
 		
-		{Manually defined areas were derived using the process described in \ref{sec:training_and_verification_data_selection_process}. Gravel, asphalt, and side-of-road truth areas were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_4_toc}). Distribution of classified points per area was determined and used to calculate per-area score. }
+		{Manually defined areas were derived using the process described in \ref{sec:training_and_verification_data_selection_process}. Gravel, asphalt, and side-of-road truth areas were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_4_toc}). Distribution of classified points per area was determined and used to calculate per-area score. Per-area scores were averaged over the five drive-bys and tabulated (Table \ref{tab:average_per_area_score_results}). Process was completed for each of the three algorithm sets considered. It was found that the \textbf{RANGE} algorithm obtained a average true-positive accuracy of all intercepting gravel surfaces was 67.54\% (Fig. \ref{fig:range_example_area_score}). It was found that an average true-positive accuracy of all asphalt surfaces was 78.06\%. Differentiation between gravel road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Overall average distribution for "unknown" terrain class within side-of-road areas was found to be 77.94\%. Other algorithms performed similarly to each other in terms of gravel and asphalt true-positive classification rate, however there \textbf{RANGE} exhibits a substantial increase when detecting side-of-road areas. For this reason, the \textbf{RANGE} algorithm was chosen as the best performing algorithm. It is speculated that the reason for the better } 
 	
-		% FIGURES NEEDED FOR THIS SECTION:
-		% 5 drive bys score results
-		% Table
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{c|c|c|c|}
+																	& Areas        & Distribution \% 		& Median \% 	\\[-4pt]
+				\hline
+				\multirow{3}{*}{\rotatebox{90}{\textbf{RANGE}}}  	& Gravel       & 69.15   				& 68.98    		\\[-4pt]
+																	& Asphalt      & 78.07   				& 78.07    		\\[-4pt]
+																	& Side of Road & 77.64   				& 79.94    		\\[-4pt]
+				\hline
+				\multirow{3}{*}{\rotatebox{90}{\textbf{RANSAC}}} 	& Gravel       & 65.91   				& 74.74    		\\[-4pt]
+																	& Asphalt      & 87.13   				& 78.70    		\\[-4pt]
+																	& Side of Road & 60.66   				& 52.59    		\\[-4pt]
+					\hline
+				\multirow{3}{*}{\rotatebox{90}{\textbf{MLS}}}    	& Gravel       & 74.38   				& 87.13    		\\[-4pt]
+																	& Asphalt      & 78.70   				& 87.13    		\\[-4pt]
+																	& Side of Road & 53.69   				& 61.05    
+			\end{tabular}
+			\caption[Averaged Area Score Results]{Average per-area score results for the three considered algorithms.}
+			\label{tab:average_per_area_score_results}
+		\end{table}
 		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/range_actual_rm_db_4_area_score}
+			\caption[Area Scores: RANGE]{Example of per-area score using the \textbf{RANGE} algorithm}
+			\label{fig:range_example_area_score}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/ransac_actual_db_4_area_score}
+			\caption[Area Scores: RANSAC]{Example of per-area score using the \textbf{RANSAC} algorithm.}
+			\label{fig:ransac_example_area_score}
+		\end{figure}
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/mls_db_4_area_scores}
+			\caption[Area Scores: MLS]{Example of per-area score using the \textbf{MLS} algorithm. Note the low Unknown score (27.82\%) in the lower right side-of-road area.}
+			\label{fig:mls_example_area_score}
+		\end{figure}
+	
+		{Including asphalt miss-classification in gravel areas for an overall road area detection score, the average true-positive road detection accuracy for increases to 79.18\% (Table \ref{tab:adjusted_grav_avg_score}), a 10.02\% increase over raw results. Out of three instances of where the gravel class distribution was below 50\%, two gravel driveway areas saw an increase to greater than 50\%, indicating that asphalt classification inclusion may be beneficial to unmarked road detection at the expense of true-positive detection of road surface type.}
+	
+		\begin{table}[]
+			\centering
+			\begin{tabular}{l|c}
+									& Adjusted \% \\
+				\hline
+				\textbf{RANGE}  	& 79.18       \\[-4pt]
+				\textbf{RANSAC} 	& 78.94       \\[-4pt]
+				\textbf{MLS}    	& 72.63      
+			\end{tabular}
+			\caption[Adjusted Averaged Gravel Area Score]{If asphalt and gravel classification distributions are combined for an overall road area detection within gravel areas, a slight increase over raw gravel distribution is found.}
+			\label{tab:adjusted_grav_avg_score}
+		\end{table}
+
+		{Confusion between dirt and gravel (Section \ref{sec:training-data-collection} \ref{sec:classify_consec_scan_lidar}) usually results in poor side-of-road detection (see \ref{fig:mls_example_area_score}). Implementation of a dedicated algorithm to further test terrain classified as gravel was explored by training an algorithm with gravel and dirt training data. As the closest channel was the most effected by the confusion, the closest channel was re-examined initially for proof of concept. Although the true side-of-road detection rate (Figure \ref{fig:area_score_comp}) did improve (15.38\% increase in side-of-road detection), it came with increased false-negatives in gravel terrain discovery in addition to increased computational load. Original results (Figure \ref{fig:db_4_raw_range_2}) show side of road areas having a distribution majority of unknown classifications, indicating that the additional classification algorithm may not be needed to detect side-of-road areas.} 
+		
+%		dvg_example
 		% RANGE
-%		\begin{figure}[H]
-%			\centering
-%			\begin{subfigure}[b]{\textwidth}
-%				\centering
-%				\includegraphics[width=0.9\textwidth]{Defense_Images/}
-%				\caption{}
-%				\label{fig:}
-%			\end{subfigure}
-%			\vspace{1cm} % Adjust the vertical space between the subfigures
-%			\begin{subfigure}[b]{\textwidth}
-%				\centering
-%				\includegraphics[width=0.9\textwidth]{Defense_Images/}
-%				\caption{}
-%				\label{fig:}
-%			\end{subfigure}
-%			\caption[Raw Result Example - RANGE Spatial Reference Point]{Two examples of raw classification results using an algorithm that used the range from LiDAR point of origin as the spatial reference point. }
-%			\label{fig:}
-%		\end{figure}
-%	
-		{Confusion between dirt and gravel (Section \ref{sec:training-data-collection} \ref{sec:classify_consec_scan_lidar}) }
-	
-	
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/range_actual_rm_db_4_area_score}
+				\caption{}
+				\label{fig:db_4_raw_range_2}
+			\end{subfigure}
+			\vspace{1cm} % Adjust the vertical space between the subfigures
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/dvg_example}
+				\caption{}
+				\label{fig:dvg_example}
+			\end{subfigure}
+			\caption[]{}
+			\label{fig:area_score_comp}
+		\end{figure}
+		
+		
 	}
 	
 	
@@ -899,7 +951,7 @@
 		% 5 drive bys overlap results
 		% Table
 		
-		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:rm_db_4_toc}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection.}
+		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:rm_db_4_toc}). Using the \textbf{RANGE} algorithm, driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection. It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drive-bys. In all drive-bys the asphalt road was accurately detected.}
 		
 		%{It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drive-bys. In all drive-bys the asphalt road was accurately detected.}
 		
