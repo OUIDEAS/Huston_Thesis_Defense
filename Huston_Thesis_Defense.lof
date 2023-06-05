@@ -2,46 +2,49 @@
 \addvspace {\@lineskip }
 \addvspace {\@lineskip }
 \addvspace {\@lineskip }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Method of Least Squares Plane Projection Example}}{16}{figure.caption.2}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 2D Simplified RANSAC Example}}{17}{figure.caption.3}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces RANSAC Plane Projection Example}}{17}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Method of Least Squares Plane Projection Example}}{17}{figure.caption.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 2D Simplified RANSAC Example}}{18}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces RANSAC Plane Projection Example}}{18}{figure.caption.4}%
 \addvspace {\@lineskip }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Project Flow}}{20}{figure.caption.5}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example Clustering}}{22}{figure.caption.6}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Sensor Van}}{24}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces VLP 32 on Van}}{24}{figure.caption.8}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Mako Camera}}{25}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Blackburn Road Camera View}}{26}{figure.caption.10}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Gravel Training Lot}}{26}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Compiled Point Cloud Data}}{28}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Manual Area Selection Process}}{29}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Areas to Classify}}{30}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Training vs Testing Areas}}{30}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces XY vs Range vs Z Height}}{32}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Example Clustering}}{33}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Bayesian Optimization - RANGE}}{34}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Out-of-Bag Error}}{35}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Validation Error}}{37}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Training vs Validation Error}}{37}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Classified Point Cloud}}{40}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Area Scores}}{41}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Projected Guess vs Truth}}{42}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Project Flow}}{21}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example Clustering}}{23}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sensor Van}}{25}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces VLP 32 on Van}}{25}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mako Camera}}{26}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Blackburn Road Camera View}}{27}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Gravel Training Lot}}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Compiled Point Cloud Data}}{29}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Manual Area Selection Process}}{30}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Areas to Classify}}{31}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Training vs Testing Areas}}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces XY vs Range vs Z Height}}{33}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Example Clustering}}{34}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Bayesian Optimization - RANGE}}{35}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Out-of-Bag Error}}{36}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Validation Error}}{38}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Training vs Validation Error}}{38}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Classified Point Cloud}}{41}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Area Scores}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Projected Guess vs Truth}}{43}{figure.caption.25}%
 \addvspace {\@lineskip }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Blackburn Road Overlays}}{44}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Example RANSAC Clustering}}{45}{figure.caption.27}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example MLS Clustering}}{45}{figure.caption.28}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Feature Histograms}}{46}{figure.caption.29}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Re-grassed Dirt}}{46}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Dirt vs Gravel}}{47}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Bayesian Optimization - RANSAC/MLS}}{48}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Training vs Validation Error - RANSAC/MLS}}{48}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Validation Confusion Matrices - RANSAC/MLS}}{49}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Raw Result Example - RANGE Spatial Reference Point}}{50}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Area Scores: RANGE}}{52}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Area Scores: RANSAC}}{52}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Area Scores: MLS}}{53}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Per-Arc Time}}{55}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Per-Scan Time}}{56}{figure.caption.43}%
-\addvspace {\@lineskip }
-\addvspace {\@lineskip }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Blackburn Road Overlays}}{45}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example RANSAC Clustering}}{46}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example MLS Clustering}}{46}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Feature Histograms}}{47}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Re-grassed Dirt}}{47}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Dirt vs Gravel}}{48}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bayesian Optimization - RANSAC/MLS}}{49}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Training vs Validation Error - RANSAC/MLS}}{49}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Validation Confusion Matrices - RANSAC/MLS}}{50}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Raw Result Example - RANGE Spatial Reference Point}}{51}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Area Scores: RANGE}}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Area Scores: RANSAC}}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Area Scores: MLS}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Complementary RDF Area Scores}}{56}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Visual Scores: RANGE}}{58}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Visual Scores: RANSAC}}{59}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Visual Scores: MLS}}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Gravel on Asphalt}}{61}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Per-Arc Time}}{61}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Per-Scan Time}}{62}{figure.caption.49}%
 \addvspace {\@lineskip }
