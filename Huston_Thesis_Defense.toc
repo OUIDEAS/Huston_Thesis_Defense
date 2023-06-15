@@ -23,26 +23,28 @@
 \contentsline {subsection}{\numberline {4.1.1}Task 1}{24}{subsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.1.1}Experimental Apparatus Setup}{24}{subsubsection.4.1.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.1.2}Data Collection}{26}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Data Processing}{27}{subsubsection.4.1.1.3}%
-\contentsline {subsection}{\numberline {4.1.2}Task 2}{28}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}Aggregating Point Cloud Data}{28}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}Training and Verification Data Selection Process}{29}{subsubsection.4.1.2.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.3}Feature Extraction}{32}{subsubsection.4.1.2.3}%
-\contentsline {subsubsection}{\numberline {4.1.2.4}Random Decision Forest Creation}{34}{subsubsection.4.1.2.4}%
-\contentsline {subsubsection}{\numberline {4.1.2.5}Random Decision Forest Verification}{37}{subsubsection.4.1.2.5}%
-\contentsline {section}{\numberline {4.2}Objective 2}{39}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Task 1}{39}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Transformation Matrix Derivation}{39}{subsubsection.4.2.1.1}%
-\contentsline {subsection}{\numberline {4.2.2}Task 2}{40}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Consecutive Point Cloud Classification}{40}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Consecutive Point Cloud Classification Scoring}{41}{subsubsection.4.2.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.3}Visual Road Detection}{42}{subsubsection.4.2.2.3}%
-\contentsline {section}{\numberline {4.3}Summary of Methods}{44}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Results}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Training Data Collection}{45}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Random Decision Forest Training and Verification}{48}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Classifying Consecutive Scanning LiDAR}{50}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Consecutive Scanning LiDAR Classification Scoring}{51}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Visual Detection of Unmarked Road Surfaces}{57}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Rate of Classification}{61}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusion}{63}{chapter.6}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Data Processing}{30}{subsubsection.4.1.1.3}%
+\contentsline {subsection}{\numberline {4.1.2}Task 2}{30}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Aggregating Point Cloud Data}{30}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Training and Verification Data Selection Process}{31}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}Feature Extraction}{34}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}Random Decision Forest Creation}{36}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}Random Decision Forest Verification}{39}{subsubsection.4.1.2.5}%
+\contentsline {section}{\numberline {4.2}Objective 2}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Task 1}{41}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Transformation Matrix Derivation}{41}{subsubsection.4.2.1.1}%
+\contentsline {subsection}{\numberline {4.2.2}Task 2}{42}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Consecutive Point Cloud Classification}{42}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Consecutive Point Cloud Classification Scoring}{43}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Visual Road Detection}{44}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}Automated Road Detection}{45}{subsubsection.4.2.2.4}%
+\contentsline {section}{\numberline {4.3}Summary of Methods}{48}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Results}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Training Data Collection}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Random Decision Forest Training and Verification}{53}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Classifying Consecutive Scanning LiDAR}{55}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Consecutive Scanning LiDAR Classification Scoring}{57}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Visual Detection of Unmarked Road Surfaces}{63}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Visual Detection of Unmarked Road Surfaces}{67}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Rate of Classification}{70}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Conclusion}{72}{chapter.6}%

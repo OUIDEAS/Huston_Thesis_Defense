@@ -92,7 +92,7 @@
 
 \college   {Russ College of Engineering and Technology}  
 
-\abstract  {Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) based on scanning LiDAR data may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. This work will examine a method of classifying scanning LiDAR spatial and remission data features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road terrain detection using LiDAR data for the purpose of predicting potential road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 ms per 360 degree scan. Overlapping results between manually projected and actual road surface areas resulted in 87.17\% intercepting gravel road detection accuracy. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.}
+\abstract  {Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) based on scanning LiDAR data may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. This work will examine a method of classifying scanning LiDAR spatial and remission data features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road terrain detection using LiDAR data for the purpose of predicting potential road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 ms per 360 degree scan. Overlapping results between manually projected and actual road surface areas resulted in 89.17\% intercepting gravel road detection accuracy. Automated post-process examination of classification results yielded a similar true-positive gravel road detection rate of 83.33\%. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.}
 
 %% Optional front matter definitions.  Delete or comment out if not needed
 
@@ -400,9 +400,45 @@
 			
 			\subsubsection{Data Collection}{
 				
-				{Scanning LiDAR data of a gravel surface was gathered from a gravel parking lot that intersects Blackburn Road near Athens Ohio. Scanning LiDAR data of an asphalt surface was gathered from Blackburn Road near the intersecting gravel lot. Scanning LiDAR data of grassy surfaces was gathered from the side of the gravel lot. Although this work does not evaluate the detection accuracy of grass, differentiation between a road and non-road surface is necessary for evaluating road-surface detection, therefore grass is labeled as "unknown" in this work. Raw data was gathered using the Robotic Operating System (ROS) to package incoming scanning LiDAR, GNSS, IMU, and camera sensor data as rosbags.}
+				{Scanning LiDAR data of a gravel surface was gathered from a gravel parking lot that intersects Blackburn Road near Athens Ohio (Figure \ref{fig:gravel_training_lot}). Including the lot from which gravel training data was gathered, three gravel driveways intersect Blackburn Road (Figure \ref{fig:three_driveways_sat}; Figures \ref{fig:training_gravel}, \ref{fig:driveway_2}, and \ref{fig:driveway_1} show example gravel from driveways 3, 2, and 1 respectively.). 
+					
+					Scanning LiDAR data of an asphalt surface was gathered from Blackburn Road near the intersecting gravel lot (Figure \ref{fig:Blackburn_Road_View}). Scanning LiDAR data of grassy surfaces was gathered next to the gravel lot. Although this work does not evaluate the detection accuracy of grass, differentiation between a road and non-road surface is necessary for evaluating road-surface detection, therefore grass is labeled as "unknown" in this work. Raw data was gathered using the Robotic Operating System (ROS) to package incoming scanning LiDAR, GNSS, IMU, and camera sensor data as rosbags.  Gravel samples from }
 				
 				%[width=1.0\linewidth,height=8.0 cm,keepaspectratio]
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/gravel_training_lot}
+					\caption[Gravel Training Lot]{Camera view of the gravel lot from which gravel training data was gathered.}
+					\label{fig:gravel_training_lot}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/three_driveways_sat}
+					\caption[Satellite View of Blackburn Road]{Satellite view of Blackburn Road. Three gravel driveways intercept Blackburn Road. }
+					\label{fig:three_driveways_sat}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/training_gravel}
+					\caption[Training Gravel]{Close-up of gravel that makes up the training lot (driveway 3).}
+					\label{fig:training_gravel}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/driveway_2}
+					\caption[Driveway 2 Gravel]{Close-up of gravel from driveway 2.}
+					\label{fig:driveway_2}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.75\linewidth]{Defense_Images/driveway_1}
+					\caption[Driveway 2 Gravel]{Close-up of gravel from driveway 1.}
+					\label{fig:driveway_1}
+				\end{figure}
 				
 				\begin{figure}[H]
 					\centering
@@ -411,12 +447,8 @@
 					\label{fig:Blackburn_Road_View}
 				\end{figure}
 				
-				\begin{figure}[H]
-					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/gravel_training_lot}
-					\caption[Gravel Training Lot]{Camera view of the gravel lot from which gravel training data was gathered.}
-					\label{fig:gravel_training_lot}
-				\end{figure}
+				
+				
 										
 			} % End Data Collection
 				
@@ -599,7 +631,7 @@
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.75\linewidth]{Defense_Images/train_vs_valid_overfit_test2}
-					\caption[Training vs Validation Error]{Hyperparameter tuning may lead to over-fitting. Testing out-of-bag versus validation error demonstrates that the model is not over-fitting to the training data base if the validation error does not diverge from the out-of-bag error. Out-of-bag training- versus validation-error for the range-based channel 2 RDF.}
+					\caption[Training vs Validation Error]{Out-of-bag training- versus validation-error for the range-based channel 2 RDF. Hyperparameter tuning may lead to over-fitting. Testing out-of-bag versus validation error demonstrates that the model is not over-fitting to the training data base the validation error does not diverge from the out-of-bag error.}
 					\label{fig:train_vs_valid_overfit_test2}
 				\end{figure}
 					
@@ -665,7 +697,7 @@
 
 				\begin{figure}[H]
 					\centering
-					\includegraphics[width=0.75\linewidth]{Defense_Images/rm_db_1_area_score}
+					\includegraphics[width=0.90\linewidth]{Defense_Images/rm_db_1_area_score}
 					\caption[Area Scores]{Per-area scores were calculated, indicating algorithm unmarked road detection accuracy. }
 					\label{fig:prepostadjust}
 				\end{figure}
@@ -680,10 +712,30 @@
 				\begin{figure}[H]
 					\centering
 					\includegraphics[width=0.9\linewidth]{Defense_Images/range_db_6_overlap_2}
-					\caption[Projected Guess vs Truth]{Gravel surfaces were manually guessed and compared to actual gravel surface areas. Not shown is a similar method employed to compare guessed versus actual asphalt areas}
+					\caption[Projected Visual Guess vs Truth]{Gravel surfaces were manually guessed and compared to actual gravel surface areas. Not shown is a similar method employed to compare guessed versus actual asphalt areas}
 					\label{fig:rm_db_4_toc}
 				\end{figure}	
 	
+			}
+			
+			\subsubsection{Automated Road Detection}\label{sec:auto_road_detection}{
+				
+				{Automated detection of unmarked road was explored in order to determine if visual detection results may be repeated. Three areas were examined for classification trends across the three considered channels (Figure \ref{fig:auto_guess_areas}) in a post-processing step. Class percentages, standard deviation of height, standard deviation of average [x,y] distance to the LiDAR point of origin, and distance trends between classified arcs were exploited to determine if the area best describes a gravel, asphalt, or unknown surface (Figure \ref{fig:auto_guess_areas}). Results were compiled into a single classified map and compared to truth areas, then scored based off number of true/false positive road detection (Figure \ref{fig:auto_guess_v_truth}).}	
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.5\linewidth]{Defense_Images/auto_guess_areas}
+					\caption[Projected Automated Guess vs Truth]{Automated detection of unmarked roads were explored for three areas around the van. Trends across channels were examined, dictating the best guess for area class type. }
+					\label{fig:auto_guess_areas}
+				\end{figure}
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.9\linewidth]{Defense_Images/auto_guess_v_truth}
+					\caption[Projected Automated Guess vs Truth]{Results of automated unmarked road detection were aggregated and compared to truth areas.}
+					\label{fig:auto_guess_v_truth}
+				\end{figure}	
+				
 			}
 		
 		} % End Obj 2 Task 2
@@ -720,7 +772,7 @@
 			\label{fig:road_areas_annotated_2}
 		\end{figure}
 
-		{Training data was examined for clustering by comparing two feature sets against each other (Figure \ref{fig:range_training_data_cluster_3}, \ref{fig:ransac_training_data_cluster}, \ref{fig:mls_training_data_cluster}). Histograms were also used to visualize data feature clustering (Figure \ref{fig:ransac_two_histograms}). Clustering indicates that each terrain classes features trend towards certain regions of values that are distinct from one another. High overlap in feature regions indicate that terrain types are not distinct from each other, as in the case of the dirt on the side of the Blackburn Road (Figure \ref{fig:here_be_dirt}, \ref{fig:dirt_v_gravel2}). }
+		{Training data was examined for clustering by comparing two feature sets against each other (Figure \ref{fig:range_training_data_cluster_3}, \ref{fig:ransac_training_data_cluster}, \ref{fig:mls_training_data_cluster}). Histograms were also used to visualize data feature clustering (Figure \ref{fig:ransac_two_histograms}). Clustering indicates that each terrain classes features trend towards certain regions of values that are distinct from one another. High overlap in feature regions indicate that terrain types are not distinct from each other, as in the case of the dirt on the side of the Blackburn Road (Figure \ref{fig:here_be_dirt}, \ref{fig:here_be_side_of_road_dirt}, \ref{fig:dirt_v_gravel2}). }
 		
 		\begin{figure}[H]
 			\centering
@@ -760,7 +812,15 @@
 			\caption[Re-grassed Dirt]{Dirt being re-grassed leads to terrain classification confusion with gravel surfaces.}
 			\label{fig:here_be_dirt}
 		\end{figure}
+		
 	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\linewidth]{Defense_Images/here_be_side_of_road_dirt}
+			\caption[Dirt on Side of Road]{Dirt on side of road in this configuration was found to cause terrain classification confusion with gravel surfaces.}
+			\label{fig:here_be_side_of_road_dirt}
+		\end{figure}
+		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.65\linewidth]{Defense_Images/dirt_v_gravel2}
@@ -835,7 +895,7 @@
 		
 	\section{Classifying Consecutive Scanning LiDAR}\label{sec:classify_consec_scan_lidar}{
 	
-		{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:area_example}). Features from each arc were extracted and the arc was classified (Figure \ref{fig:range_raw_results_example}). Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road was being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some miss-classification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap (Fig. \ref{fig:dirt_v_gravel2}). Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored, as the dirt area had a higher level . All gravel surfaces that did not meet a 80\% confidence score was re-labeled as "unknown", however these adjustment had either a negligible or detrimental impact on the final results as higher confidence score requirements resulted in "unknown" over-classification and too low resulted in "gravel" over-classification. Training a terrain classification algorithm to re-classify any gravel classification as either "unknown" or "gravel" was explored. Training data from the dirt area was gathered as in the method described in Section \ref{sec:training-data-collection} and used to train an RDF in the method described in Section \ref{sec:rdf_train_verify}. }
+		{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:area_example}). Features from each arc were extracted and the arc was classified (Figure \ref{fig:range_raw_results_example}). Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road was being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some miss-classification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap (Fig. \ref{fig:dirt_v_gravel2}). Training a terrain classification algorithm to re-classify any gravel classification as either "unknown" or "gravel" was explored. Training data from the dirt area was gathered as in the method described in Section \ref{sec:training-data-collection} and used to train an RDF in the method described in Section \ref{sec:rdf_train_verify}. Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored. Confidence scores were examined to determine if road surfaces may be more easily discovered by eliminating data based on a threshold (Figure \ref{fig:conf_results}). }
 		
 		% RANGE
 		\begin{figure}[H]
@@ -855,6 +915,26 @@
 			\end{subfigure}
 			\caption[Raw Result Example - RANGE Spatial Reference Point]{Two examples of raw classification results using an algorithm that used the range from LiDAR point of origin as the spatial reference point. }
 			\label{fig:range_raw_results_example}
+		\end{figure}
+		
+
+		\begin{figure}[H]
+			\centering
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/range_db_4_conf_size_example}
+				\caption{}
+				\label{fig:range_db_4_conf_size_example}
+			\end{subfigure}
+			\vspace{1cm} % Adjust the vertical space between the subfigures
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\includegraphics[width=0.9\textwidth]{Defense_Images/range_db_4_conf_trim_example}
+				\caption{}
+				\label{fig:range_db_4_conf_trim_example}
+			\end{subfigure}
+			\caption[]{Classification confidence scores were examined to determine if road surfaces may be more easily discovered. Increased confidence results in a larger marker size (a). Classification results with a confidence level below a threshold was eliminated (b).}
+			\label{fig:conf_results}
 		\end{figure}
 		
 	} % Classifying Consecutive Scanning LiDAR
@@ -972,12 +1052,15 @@
 	
 	
 	\section{Visual Detection of Unmarked Road Surfaces}{
-	
-		% FIGURES NEEDED FOR THIS SECTION:
-		% 5 drive bys overlap results
-		% Table
 		
-		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Figures \ref{fig:range_example_vis_score} \ref{fig:ransac_example_vis_score} \ref{fig:mls_example_vis_score}). Driveways $1$ and $2$ were detected in all five drive-bys and $3$ was detected in four of the five, leading to an 87.17\% accuracy in intercepting gravel road detection using the \textbf{RANGE} algorithm (Table \ref{tab:road_area_overlap_score}). It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drive-bys. In all drive-bys the asphalt road was consistently visually detected, however there were gravel areas that were consistently found in front of the gravel areas (Figure \ref{fig:gravel_on_asphalt}). Out of all drivebys using \textbf{RANGE}, only a single asphalt area contained less than a 50\% distribution of asphalt areas, all others being at or near 100\% asphalt, indicating the algorithm is sufficient at detecting unmarked asphalt roads. True-positive gravel road detection rates using \textbf{MLS} and \textbf{RANSAC} were similar and significantly lower than that of \textbf{RANGE} while also having a similar and significantly higher false-positive gravel road detection rate (Table \ref{tab:road_area_overlap_score}). Due to the similar performances between \textbf{RANSAC} and \textbf{MLS} in both visual detection unmarked road identification as well as per-area distribution scores (Section \ref{sec:consec_class_scoring}), it is indicated that using a projected plane on as a reference point may not be beneficial to terrain classification.}
+		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Figures \ref{fig:range_example_vis_score} \ref{fig:ransac_example_vis_score} \ref{fig:mls_example_vis_score}). Guessed areas that partially overlayed truth areas were given a score of 0.5, while guessed areas that fully overlayed truth areas were given a score of 1. Driveways $1$ and $2$ were detected in all five drive-bys and $3$ was detected in four of the five, leading to an 89.17\% accuracy in intercepting gravel road detection using the \textbf{RANGE} algorithm (Table \ref{tab:road_area_overlap_score}). It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drive-bys. In all drive-bys the asphalt road was consistently visually detected, however there were gravel areas that were consistently found in front of the gravel areas (Figure \ref{fig:gravel_on_asphalt}). Out of all drivebys using \textbf{RANGE}, only a single asphalt area contained less than a 50\% distribution of asphalt areas, all others being at or near 100\% asphalt, indicating the algorithm is sufficient at detecting unmarked asphalt roads. True-positive gravel road detection rates using \textbf{MLS} and \textbf{RANSAC} were similar and significantly lower than that of \textbf{RANGE} while also having a similar and significantly higher false-positive gravel road detection rate (Table \ref{tab:road_area_overlap_score}). Due to the similar performances between \textbf{RANSAC} and \textbf{MLS} in both visual detection unmarked road identification as well as per-area distribution scores (Section \ref{sec:consec_class_scoring}), it is indicated that using a projected plane on as a reference point may not be beneficial to terrain classification.}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/pre_guess}
+			\caption[Visual Scores: RANGE Source]{Close-up of example classified point cloud that has a trend of road surface classes across three channels. Road surface areas were then guessed and projected onto the classified results (Figure \ref{fig:range_example_vis_score}).}
+			\label{fig:pre_guess}
+		\end{figure}
 		
 		\begin{figure}[H]
 			\centering
@@ -988,14 +1071,14 @@
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.95\linewidth]{Defense_Images/ransac_db_6_overlap_2}
+			\includegraphics[width=0.5\linewidth]{Defense_Images/ransac_db_6_overlap_2}
 			\caption[Visual Scores: RANSAC]{Example of visual road surface detection using the \textbf{RANSAC} algorithm showing gravel driveway $3$ being visually detected.}
 			\label{fig:ransac_example_vis_score}
 		\end{figure}
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.95\linewidth]{Defense_Images/mls_db_6_overlap_2}
+			\includegraphics[width=0.5\linewidth]{Defense_Images/mls_db_6_overlap_2}
 			\caption[Visual Scores: MLS]{Example of visual road surface detection using the \textbf{MLS} algorithm showing gravel driveway $3$ being visually detected.}
 			\label{fig:mls_example_vis_score}
 		\end{figure}
@@ -1005,7 +1088,7 @@
 			\begin{tabular}{l|c|c}
 									& Grav Road Det. \% 	& Avg Grav False Pos\footnotemark	\\
 				\hline
-				\textbf{RANGE}  	& 87.17       			& 0.60	\\[-4pt]
+				\textbf{RANGE}  	& 89.17       			& 0.60	\\[-4pt]
 				\textbf{RANSAC} 	& 56.67       			& 2.40	\\[-4pt]
 				\textbf{MLS}    	& 76.67 				& 2.60		
 			\end{tabular}
@@ -1022,6 +1105,41 @@
 		\end{figure}
 		
 	
+	}
+	
+	\section{Automated Detection of Unmarked Road Surfaces}{
+		
+		
+		{Automated detection of unmarked road was explored in a post-processing step in order to determine if visual detection results may be repeated. \textbf{RANGE} results were analyzed, as this algorithm provided the best results. Center, left, and right areas were used to isolate per-channel classification results. Trends across classified arcs were exploited to determine the best guess at area terrain type. Guessed areas were aggregated into a larger map then compared to truth areas (Figure \ref{fig:agreggated_auto_guess}). It was found that while the true-positive gravel road rate remained nearly the same with 89.17\% vs 83.33\% for visual and automated road surface detection respectively (Figure \ref{fig:guess_grav_intersect}), the number of false positives was much higher with 0.6 vs 2.2 average number of false positives per drive-by. This is partially due to the simplicity of the automated guessing method and the over-reliance on the raw classification results (Figure \ref{fig:6range_guess_unkn_misclass}). Most false-positives were a result of the RDF incorrectly classifying the terrain shown in Figure \ref{fig:here_be_side_of_road_dirt2} as gravel. Visual identification of unmarked road surfaces used spatial distribution of classification results that was not perfectly replicated in the automated plotting algorithm. Further work may be done in the future to lower the rate of false-positives, however, current work suffices as proof of concept. Rate of processing classified results took under one second, making real-time implementation of a similar model a future possibility. }
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/agreggated_auto_guess}
+			\caption[Aggregated Automated Road Surface Detection]{Results from automated road detection were aggregated.}
+			\label{fig:agreggated_auto_guess}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/guess_grav_intersect}
+			\caption[Aggregated Automated Road Surface Detection]{Aggregated automated road surface detection was compared to truth areas. }
+			\label{fig:guess_grav_intersect}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/6range_guess_unkn_misclass}
+			\caption[Automated Road Surface False Positive]{}
+			\label{fig:6range_guess_unkn_misclass}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{Defense_Images/here_be_side_of_road_dirt2}
+			\caption[Blackburn Road Side of Road]{}
+			\label{fig:here_be_side_of_road_dirt2}
+		\end{figure}
+		
 	}
 
 
@@ -1050,6 +1168,7 @@
 
 
 \chapter{Conclusion}
+
 {
 	
 	{The proposed work addresses the problem of road surface detection on unmarked gravel and chipseal roads. Current LiDAR and Camera based detection models are insufficient due to lack of distinct features typical of urban roads, such as painted line markings or curbs, or have excessive computational or storage requirements. The completed work balanced accuracy and efficiency by using less intensive analysis techniques of smaller point cloud data sets. The first objective was to determine a method of detecting an unmarked gravel road. The second objective was to evaluate performance of road detection along stretches of unmarked gravel and chipseal roads. The final deliverable of the completed work was a method of detecting physical unmarked gravel and chipseal roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using LiDAR may be able to detect gravel road surfaces in real time, allowing autonomous operations on 1.5 million miles of previously undetected rural roads.}

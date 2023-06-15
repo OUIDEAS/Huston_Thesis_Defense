@@ -9,7 +9,8 @@ Y.~S. Malik and B.~Lal, ``Basic road statistics of india [2016-2017],'' Mar
   2019.
 
 \bibitem{noauthor_gpsgov_nodate}
-``{GPS}.gov: {GPS} {Accuracy}.''
+{Corporate Creators: United States Department of Defense}, ``Global positioning
+  system standard positioning service performance standard.''
 
 \bibitem{skorseth_gravel_nodate}
 K.~Skorseth and A.~A. Selim, ``Gravel {Roads}: {Maintenance} and {Design}
@@ -355,7 +356,7 @@ L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
   Oct. 2001.
 
 \bibitem{vlp_32c}
-``Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.''
+Velodyne, ``{Ultra Puck Surround View LiDAR Sensor},'' Jan. 2022.
 
 \bibitem{wang_two-stage_2018}
 S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
