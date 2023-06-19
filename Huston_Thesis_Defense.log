@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  15 JUN 2023 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  19 JUN 2023 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,12 +1261,12 @@ Package pdftex.def Info: Defense_Images/gravel_training_lot.jpg  used on input
 line 410.
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
  [26 <./Defense_Images/Mako_Camera.jpg>]
-<Defense_Images/three_driveways_sat.png, id=606, 1187.43625pt x 545.03625pt>
+<Defense_Images/three_driveways_sat.png, id=606, 965.6075pt x 435.6275pt>
 File: Defense_Images/three_driveways_sat.png Graphic file (type png)
 <use Defense_Images/three_driveways_sat.png>
 Package pdftex.def Info: Defense_Images/three_driveways_sat.png  used on input 
 line 417.
-(pdftex.def)             Requested size: 352.31625pt x 161.71576pt.
+(pdftex.def)             Requested size: 352.31625pt x 158.94621pt.
 <Defense_Images/training_gravel.jpg, id=607, 4673.46pt x 3505.095pt>
 File: Defense_Images/training_gravel.jpg Graphic file (type jpg)
 <use Defense_Images/training_gravel.jpg>
@@ -1745,13 +1745,13 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Huston_Thesis_Defense.out' has not changed.
-(rerunfilecheck)             Checksum: 65926CDB8C8B7131150B1F9507FFEE30;5088.
+(rerunfilecheck)             Checksum: 6C19EF4F1C89D4C40C40762FDE2B1D1A;5103.
  ) 
 Here is how much of TeX's memory you used:
- 20165 strings out of 478583
- 340480 string characters out of 2847216
- 626547 words of memory out of 3000000
- 37656 multiletter control sequences out of 15000+600000
+ 20167 strings out of 478583
+ 340507 string characters out of 2847216
+ 626821 words of memory out of 3000000
+ 37658 multiletter control sequences out of 15000+600000
  521343 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,14n,77p,2516b,1571s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1773,7 +1773,7 @@ u/.miktex/texmfs/install/fonts/type1/public/txfonts/txsy.pfb></home/autobuntu/.
 miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/autobuntu/.miktex
 /texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/texmf
 s/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Thesis_Defense.pdf (81 pages, 69541350 bytes).
+Output written on Huston_Thesis_Defense.pdf (81 pages, 68954278 bytes).
 PDF statistics:
  1114 PDF objects out of 1200 (max. 8388607)
  279 named destinations out of 1000 (max. 500000)

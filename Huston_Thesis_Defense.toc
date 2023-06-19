@@ -45,6 +45,6 @@
 \contentsline {section}{\numberline {5.3}Classifying Consecutive Scanning LiDAR}{55}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Consecutive Scanning LiDAR Classification Scoring}{57}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Visual Detection of Unmarked Road Surfaces}{63}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Visual Detection of Unmarked Road Surfaces}{67}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Automated Detection of Unmarked Road Surfaces}{67}{section.5.6}%
 \contentsline {section}{\numberline {5.7}Rate of Classification}{70}{section.5.7}%
 \contentsline {chapter}{\numberline {6}Conclusion}{72}{chapter.6}%
