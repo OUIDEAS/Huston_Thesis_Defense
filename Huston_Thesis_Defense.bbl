@@ -204,6 +204,11 @@ M.~Yadav, A.~Husain, A.~Singh, and B.~Lohani, ``{POLE}-{SHAPED} {OBJECT}
   {ENVIRONMENTS},'' {\em ISPRS Annals of Photogrammetry, Remote Sensing and
   Spatial Information Sciences}, vol.~II-3/W5, pp.~11--16, Aug. 2015.
 
+\bibitem{xu_real-time_2019}
+F.~Xu, L.~Chen, J.~Lou, and M.~Ren, ``A real-time road detection method based
+  on reorganized lidar data,'' {\em PLOS ONE}, vol.~14, p.~e0215159, Apr. 2019.
+\newblock Publisher: Public Library of Science.
+
 \bibitem{laible_3d_2012}
 S.~Laible, Y.~N. Khan, K.~Bohlmann, and A.~Zell, ``{3D} {LIDAR}- and
   {Camera}-{Based} {Terrain} {Classification} {Under} {Different} {Lighting}
@@ -373,9 +378,6 @@ Z.~Gojcic, C.~Zhou, J.~D. Wegner, and A.~Wieser, ``The {Perfect} {Match}: {3D}
   {Point} {Cloud} {Matching} {With} {Smoothed} {Densities},'' in {\em 2019
   {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}
   ({CVPR})}, (Long Beach, CA, USA), pp.~5540--5549, IEEE, June 2019.
-
-\bibitem{noauthor_object-oriented_nodate}
-``Object-oriented tools for fitting conics and quadrics.''
 
 \bibitem{derpanis_overview_nodate}
 K.~G. Derpanis, ``Overview of the {RANSAC} {Algorithm},'' p.~2.

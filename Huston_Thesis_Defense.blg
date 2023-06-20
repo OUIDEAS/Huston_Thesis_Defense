@@ -38,6 +38,14 @@ Repeated entry---line 2872 of file resources.bib
  : @inproceedings{dupont_online_2008
  :                                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2964 of file resources.bib
+ : @article{wietrzykowski_boosting_2014
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2977 of file resources.bib
+ : @article{xu_real-time_2019
+ :                           ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in skorseth_gravel_nodate
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
@@ -64,43 +72,43 @@ Warning--empty journal in cantzler_random_nodate
 Warning--empty year in cantzler_random_nodate
 You've used 79 entries,
             1876 wiz_defined-function locations,
-            902 strings with 19800 characters,
-and the built_in function-call counts, 22786 in all, are:
-= -- 2269
-> -- 852
+            907 strings with 19911 characters,
+and the built_in function-call counts, 23054 in all, are:
+= -- 2303
+> -- 865
 < -- 0
-+ -- 313
-- -- 234
-* -- 1664
-:= -- 3080
-add.period$ -- 98
++ -- 317
+- -- 238
+* -- 1682
+:= -- 3118
+add.period$ -- 100
 call.type$ -- 79
 change.case$ -- 79
 chr.to.int$ -- 0
 cite$ -- 103
-duplicate$ -- 1154
-empty$ -- 2149
-format.name$ -- 234
-if$ -- 5554
+duplicate$ -- 1174
+empty$ -- 2155
+format.name$ -- 238
+if$ -- 5621
 int.to.chr$ -- 0
 int.to.str$ -- 79
-missing$ -- 69
-newline$ -- 264
-num.names$ -- 83
-pop$ -- 321
+missing$ -- 70
+newline$ -- 265
+num.names$ -- 84
+pop$ -- 316
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 894
+skip$ -- 912
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 485
+substring$ -- 1648
+swap$ -- 502
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 24
-while$ -- 241
+while$ -- 243
 width$ -- 81
-write$ -- 750
-(There were 8 error messages)
+write$ -- 757
+(There were 10 error messages)
