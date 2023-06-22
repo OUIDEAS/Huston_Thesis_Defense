@@ -331,11 +331,6 @@ W.~Walch, M.~J. Eder, G.~Steinbauer-Wagner, and K.~Mautner-Lassnig, ``Offroad
   {Workshop} 2022,'' {\em Proceedings of the Austrian Robotics Workshop 2022},
   pp.~6--11, 2022.
 
-\bibitem{mijakovska_generating_2014}
-S.~Mijakovska, I.~Nedelkovski, and F.~Popovski, ``Generating {3D} {Model} from
-  {Video},'' {\em Advanced Computing: An International Journal}, vol.~5,
-  pp.~13--19, Dec. 2014.
-
 \bibitem{chellappa_classification_1985}
 R.~Chellappa and S.~Chatterjee, ``Classification of textures using {Gaussian}
   {Markov} random fields,'' {\em IEEE Transactions on Acoustics, Speech, and
@@ -355,13 +350,6 @@ M.~Häselich, M.~Arends, D.~Lang, and D.~Paulus, ``Terrain {Classification}
 G.~Zhao, X.~Xiao, J.~Yuan, and G.-W. Ng, ``Fusion of {3D}-{LIDAR} and camera
   data for scene parsing,'' {\em Journal of Visual Communication and Image
   Representation}, vol.~25, pp.~165--183, Jan. 2014.
-
-\bibitem{breiman_random_2001}
-L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
-  Oct. 2001.
-
-\bibitem{vlp_32c}
-Velodyne, ``{Ultra Puck Surround View LiDAR Sensor},'' Jan. 2022.
 
 \bibitem{wang_two-stage_2018}
 S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
@@ -405,6 +393,10 @@ T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
   {International} {Conference} on {Document} {Analysis} and {Recognition}},
   vol.~1, pp.~278--282 vol.1, Aug. 1995.
 
+\bibitem{breiman_random_2001}
+L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
+  Oct. 2001.
+
 \bibitem{khan_high_2011}
 Y.~N. Khan, P.~Komma, and A.~Zell, ``High resolution visual terrain
   classification for outdoor robots,'' in {\em 2011 {IEEE} {International}
@@ -425,5 +417,8 @@ J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
 J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
   of {Machine} {Learning} {Algorithms},'' Aug. 2012.
 \newblock arXiv:1206.2944 [cs, stat].
+
+\bibitem{vlp_32c}
+Velodyne, ``{Ultra Puck Surround View LiDAR Sensor},'' Jan. 2022.
 
 \end{thebibliography}

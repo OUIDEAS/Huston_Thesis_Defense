@@ -70,45 +70,45 @@ Warning--empty journal in derpanis_overview_nodate
 Warning--empty year in derpanis_overview_nodate
 Warning--empty journal in cantzler_random_nodate
 Warning--empty year in cantzler_random_nodate
-You've used 79 entries,
+You've used 78 entries,
             1876 wiz_defined-function locations,
-            907 strings with 19911 characters,
-and the built_in function-call counts, 23054 in all, are:
-= -- 2303
-> -- 865
+            902 strings with 19737 characters,
+and the built_in function-call counts, 22755 in all, are:
+= -- 2271
+> -- 854
 < -- 0
-+ -- 317
-- -- 238
-* -- 1682
-:= -- 3118
-add.period$ -- 100
-call.type$ -- 79
-change.case$ -- 79
++ -- 313
+- -- 235
+* -- 1658
+:= -- 3076
+add.period$ -- 99
+call.type$ -- 78
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 1174
-empty$ -- 2155
-format.name$ -- 238
-if$ -- 5621
+cite$ -- 102
+duplicate$ -- 1160
+empty$ -- 2130
+format.name$ -- 235
+if$ -- 5549
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 70
-newline$ -- 265
-num.names$ -- 84
-pop$ -- 316
+int.to.str$ -- 78
+missing$ -- 69
+newline$ -- 262
+num.names$ -- 83
+pop$ -- 315
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 912
+skip$ -- 900
 stack$ -- 0
-substring$ -- 1648
-swap$ -- 502
+substring$ -- 1624
+swap$ -- 495
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 24
-while$ -- 243
-width$ -- 81
-write$ -- 757
+while$ -- 239
+width$ -- 80
+write$ -- 747
 (There were 10 error messages)
