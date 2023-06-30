@@ -3,13 +3,17 @@
 \addvspace {\@lineskip }
 \addvspace {\@lineskip }
 \addvspace {\@lineskip }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Training Data Input Argument Example}}{33}{table.caption.20}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Training Data Input Argument Example}}{33}{table.caption.19}%
 \addvspace {\@lineskip }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Example LiDAR Data}}{50}{table.caption.42}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Example GPS Data}}{50}{table.caption.43}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Example IMU Data}}{51}{table.caption.44}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Averaged Area Score Results}}{68}{table.caption.65}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Adjusted Averaged Gravel Area Score}}{70}{table.caption.69}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces RANGE vs RANGELCR}}{73}{table.caption.71}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Road Area Detection Score}}{77}{table.caption.76}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Example LiDAR Data}}{51}{table.caption.41}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Example GPS Data}}{51}{table.caption.42}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Example IMU Data}}{52}{table.caption.43}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Example Lat/Lon to Local Data}}{53}{table.caption.45}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Averaged Area Score Results}}{75}{table.caption.71}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Adjusted Averaged Gravel Area Score}}{77}{table.caption.75}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces RANGE vs RANGELCR}}{79}{table.caption.77}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Overlap Scoring Table}}{82}{table.caption.80}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Road Area Detection Score}}{82}{table.caption.81}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Overlap Scoring Table - Auto with No Classification Filter}}{86}{table.caption.87}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Overlap Scoring Table - Auto with Classification Filter}}{87}{table.caption.88}%
 \addvspace {\@lineskip }

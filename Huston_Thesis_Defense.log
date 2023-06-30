@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  22 JUN 2023 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  29 JUN 2023 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,7 +1193,7 @@ Chapter 3.
 [12
 
 ] [13] [14]
-<Defense_Images/Method_Least_Squares_Plane_Proj.png, id=550, 1205.2528pt x 603.
+<Defense_Images/Method_Least_Squares_Plane_Proj.png, id=568, 1205.2528pt x 603.
 0028pt>
 File: Defense_Images/Method_Least_Squares_Plane_Proj.png Graphic file (type png
 )
@@ -1202,13 +1202,13 @@ Package pdftex.def Info: Defense_Images/Method_Least_Squares_Plane_Proj.png  us
 ed on input line 239.
 (pdftex.def)             Requested size: 328.82707pt x 164.51512pt.
  [15 <./Defense_Images/Method_Least_Squares_Plane_Proj.png>]
-<Defense_Images/RANSAC_good_and_bad.png, id=570, 567.11874pt x 225.84375pt>
+<Defense_Images/RANSAC_good_and_bad.png, id=586, 567.11874pt x 225.84375pt>
 File: Defense_Images/RANSAC_good_and_bad.png Graphic file (type png)
 <use Defense_Images/RANSAC_good_and_bad.png>
 Package pdftex.def Info: Defense_Images/RANSAC_good_and_bad.png  used on input 
 line 252.
 (pdftex.def)             Requested size: 328.82707pt x 130.95155pt.
-<Defense_Images/RANSAC_example_proj.png, id=575, 1445.4pt x 743.77875pt>
+<Defense_Images/RANSAC_example_proj.png, id=591, 1445.4pt x 743.77875pt>
 File: Defense_Images/RANSAC_example_proj.png Graphic file (type png)
 <use Defense_Images/RANSAC_example_proj.png>
 Package pdftex.def Info: Defense_Images/RANSAC_example_proj.png  used on input 
@@ -1216,231 +1216,219 @@ line 263.
 (pdftex.def)             Requested size: 328.82707pt x 169.20425pt.
 
 [16 <./Defense_Images/RANSAC_good_and_bad.png>] [17 <./Defense_Images/RANSAC_ex
-ample_proj.png (PNG copy)>] [18]
+ample_proj.png (PNG copy)>] [18] [19]
 Chapter 4.
-<Defense_Images/flowz_7.png, id=611, 1077.02374pt x 539.01375pt>
+<Defense_Images/flowz_7.png, id=634, 1077.02374pt x 539.01375pt>
 File: Defense_Images/flowz_7.png Graphic file (type png)
 <use Defense_Images/flowz_7.png>
 Package pdftex.def Info: Defense_Images/flowz_7.png  used on input line 298.
 (pdftex.def)             Requested size: 422.77664pt x 211.58803pt.
-[19
+[20
 
- <./Defense_Images/flowz_7.png>] [20]
-<Defense_Images/van_on_van.jpg, id=638, 4673.46pt x 3505.095pt>
+ <./Defense_Images/flowz_7.png>] [21]
+<Defense_Images/van_on_van.jpg, id=659, 4673.46pt x 3505.095pt>
 File: Defense_Images/van_on_van.jpg Graphic file (type jpg)
 <use Defense_Images/van_on_van.jpg>
-Package pdftex.def Info: Defense_Images/van_on_van.jpg  used on input line 317.
+Package pdftex.def Info: Defense_Images/van_on_van.jpg  used on input line 319.
 
 (pdftex.def)             Requested size: 328.82707pt x 246.61183pt.
- [21]
-<Defense_Images/vlp_32_mount_2.jpg, id=644, 3167.835pt x 2196.205pt>
+<Defense_Images/vlp_32_mount_2.jpg, id=660, 3167.835pt x 2196.205pt>
 File: Defense_Images/vlp_32_mount_2.jpg Graphic file (type jpg)
 <use Defense_Images/vlp_32_mount_2.jpg>
 Package pdftex.def Info: Defense_Images/vlp_32_mount_2.jpg  used on input line 
-324.
+326.
 (pdftex.def)             Requested size: 328.82707pt x 227.94418pt.
-<Defense_Images/Mako_Camera.jpg, id=645, 4673.46pt x 3505.095pt>
-File: Defense_Images/Mako_Camera.jpg Graphic file (type jpg)
-<use Defense_Images/Mako_Camera.jpg>
-Package pdftex.def Info: Defense_Images/Mako_Camera.jpg  used on input line 331
-.
-(pdftex.def)             Requested size: 328.82707pt x 246.61183pt.
- [22 <./Defense_Images/van_on_van.jpg> <./Defense_Images/vlp_32_mount_2.jpg>]
-<Defense_Images/gravel_training_lot.jpg, id=653, 4673.46pt x 3505.095pt>
+ [22 <./Defense_Images/van_on_van.jpg>]
+<Defense_Images/gravel_training_lot.jpg, id=669, 4673.46pt x 3505.095pt>
 File: Defense_Images/gravel_training_lot.jpg Graphic file (type jpg)
 <use Defense_Images/gravel_training_lot.jpg>
 Package pdftex.def Info: Defense_Images/gravel_training_lot.jpg  used on input 
-line 345.
+line 340.
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
- [23 <./Defense_Images/Mako_Camera.jpg>]
-<Defense_Images/three_driveways_sat.png, id=658, 965.6075pt x 435.6275pt>
+[23 <./Defense_Images/vlp_32_mount_2.jpg>]
+<Defense_Images/three_driveways_sat.png, id=674, 965.6075pt x 435.6275pt>
 File: Defense_Images/three_driveways_sat.png Graphic file (type png)
 <use Defense_Images/three_driveways_sat.png>
 Package pdftex.def Info: Defense_Images/three_driveways_sat.png  used on input 
-line 352.
+line 347.
 (pdftex.def)             Requested size: 352.31625pt x 158.94621pt.
-<Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png, id=659, 2071.74pt x 1024.8
+<Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png, id=675, 2071.74pt x 1024.8
 2875pt>
 File: Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png
 )
 <use Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png  us
-ed on input line 360.
+ed on input line 355.
 (pdftex.def)             Requested size: 352.31625pt x 174.28113pt.
  [24 <./Defense_Images/gravel_training_lot.jpg> <./Defense_Images/three_drivewa
 ys_sat.png>] [25 <./Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png>]
-<Defense_Images/pc_example.png, id=671, 1551.7975pt x 666.49pt>
-File: Defense_Images/pc_example.png Graphic file (type png)
-<use Defense_Images/pc_example.png>
-Package pdftex.def Info: Defense_Images/pc_example.png  used on input line 385.
-
-(pdftex.def)             Requested size: 422.77664pt x 181.58186pt.
-<Defense_Images/pre_select_area.png, id=674, 636.73674pt x 724.22147pt>
-File: Defense_Images/pre_select_area.png Graphic file (type png)
-<use Defense_Images/pre_select_area.png>
-Package pdftex.def Info: Defense_Images/pre_select_area.png  used on input line
- 400.
-(pdftex.def)             Requested size: 211.38832pt x 240.4304pt.
-<Defense_Images/area_selected.png, id=675, 636.73674pt x 723.46074pt>
-File: Defense_Images/area_selected.png Graphic file (type png)
-<use Defense_Images/area_selected.png>
-Package pdftex.def Info: Defense_Images/area_selected.png  used on input line 4
-06.
-(pdftex.def)             Requested size: 211.38832pt x 240.17787pt.
-
-[26 <./Defense_Images/pc_example.png>]
-<Defense_Images/test_vs_train_areas_hatch.png, id=683, 898.4302pt x 705.20305pt
+<Defense_Images/combined_pcd_example.png, id=689, 1150.2341pt x 654.99442pt>
+File: Defense_Images/combined_pcd_example.png Graphic file (type png)
+<use Defense_Images/combined_pcd_example.png>
+Package pdftex.def Info: Defense_Images/combined_pcd_example.png  used on input
+ line 380.
+(pdftex.def)             Requested size: 422.77664pt x 240.74503pt.
+ [26 <./Defense_Images/combined_pcd_example.png (PNG copy)>]
+<Defense_Images/pre_area_select.png, id=698, 998.08673pt x 909.08052pt>
+File: Defense_Images/pre_area_select.png Graphic file (type png)
+<use Defense_Images/pre_area_select.png>
+Package pdftex.def Info: Defense_Images/pre_area_select.png  used on input line
+ 395.
+(pdftex.def)             Requested size: 211.38832pt x 192.53549pt.
+<Defense_Images/post_area_select.png, id=699, 998.08673pt x 909.08052pt>
+File: Defense_Images/post_area_select.png Graphic file (type png)
+<use Defense_Images/post_area_select.png>
+Package pdftex.def Info: Defense_Images/post_area_select.png  used on input lin
+e 401.
+(pdftex.def)             Requested size: 211.38832pt x 192.53549pt.
+<Defense_Images/test_vs_train_areas_hatch.png, id=702, 898.4302pt x 705.20305pt
 >
 File: Defense_Images/test_vs_train_areas_hatch.png Graphic file (type png)
 <use Defense_Images/test_vs_train_areas_hatch.png>
 Package pdftex.def Info: Defense_Images/test_vs_train_areas_hatch.png  used on 
-input line 418.
+input line 413.
 (pdftex.def)             Requested size: 446.26582pt x 350.28714pt.
- [27 <./Defense_Images/pre_select_area.png (PNG copy)> <./Defense_Images/area_s
-elected.png (PNG copy)>]
-<Defense_Images/area_example.png, id=688, 379.6584pt x 343.0416pt>
+ [27 <./Defense_Images/pre_area_select.png (PNG copy)> <./Defense_Images/post_a
+rea_select.png (PNG copy)>]
+<Defense_Images/area_example.png, id=707, 379.6584pt x 343.0416pt>
 File: Defense_Images/area_example.png Graphic file (type png)
 <use Defense_Images/area_example.png>
 Package pdftex.def Info: Defense_Images/area_example.png  used on input line 42
-5.
+0.
 (pdftex.def)             Requested size: 117.43875pt x 106.11147pt.
  [28 <./Defense_Images/test_vs_train_areas_hatch.png> <./Defense_Images/area_ex
 ample.png>]
-<Defense_Images/xy_vs_range.png, id=697, 1260.54095pt x 861.1541pt>
+<Defense_Images/xy_vs_range.png, id=716, 1260.54095pt x 861.1541pt>
 File: Defense_Images/xy_vs_range.png Graphic file (type png)
 <use Defense_Images/xy_vs_range.png>
-Package pdftex.def Info: Defense_Images/xy_vs_range.png  used on input line 464
+Package pdftex.def Info: Defense_Images/xy_vs_range.png  used on input line 459
 .
 (pdftex.def)             Requested size: 469.75502pt x 320.90842pt.
-
-[29]
-<Defense_Images/training_data_cluster_3.png, id=703, 1310.74957pt x 1001.89043p
+ [29]
+<Defense_Images/training_data_cluster_3.png, id=722, 1310.74957pt x 1001.89043p
 t>
 File: Defense_Images/training_data_cluster_3.png Graphic file (type png)
 <use Defense_Images/training_data_cluster_3.png>
 Package pdftex.def Info: Defense_Images/training_data_cluster_3.png  used on in
-put line 473.
+put line 468.
 (pdftex.def)             Requested size: 352.31625pt x 269.29102pt.
  [30 <./Defense_Images/xy_vs_range.png>] [31 <./Defense_Images/training_data_cl
 uster_3.png (PNG copy)>]
-<Defense_Images/c2_bayesian_range.png, id=715, 975.26463pt x 686.18463pt>
+<Defense_Images/c2_bayesian_range.png, id=734, 975.26463pt x 686.18463pt>
 File: Defense_Images/c2_bayesian_range.png Graphic file (type png)
 <use Defense_Images/c2_bayesian_range.png>
 Package pdftex.def Info: Defense_Images/c2_bayesian_range.png  used on input li
-ne 488.
+ne 483.
 (pdftex.def)             Requested size: 234.8775pt x 165.25307pt.
-<Defense_Images/chan_2c_conf_OOB_mat222.png, id=716, 1295.53484pt x 1001.89043p
+<Defense_Images/chan_2c_conf_OOB_mat222.png, id=735, 1295.53484pt x 1001.89043p
 t>
 File: Defense_Images/chan_2c_conf_OOB_mat222.png Graphic file (type png)
 <use Defense_Images/chan_2c_conf_OOB_mat222.png>
 Package pdftex.def Info: Defense_Images/chan_2c_conf_OOB_mat222.png  used on in
-put line 495.
+put line 490.
 (pdftex.def)             Requested size: 305.33789pt x 236.11693pt.
  [32 <./Defense_Images/c2_bayesian_range.png (PNG copy)>] [33 <./Defense_Images
 /chan_2c_conf_OOB_mat222.png (PNG copy)>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 515.
-LaTeX Font Info:    Trying to load font information for OT1+fvm on input line 5
-15.
-LaTeX Font Info:    No file OT1fvm.fd. on input line 515.
-
-
-LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 515.
-
-(y_fit_example.m)
-<Defense_Images/chan_2c_conf_VALIDATION_mat222.png, id=728, 1295.53484pt x 1001
+<Defense_Images/chan_2c_conf_VALIDATION_mat222.png, id=747, 1295.53484pt x 1001
 .89043pt>
 File: Defense_Images/chan_2c_conf_VALIDATION_mat222.png Graphic file (type png)
 
 <use Defense_Images/chan_2c_conf_VALIDATION_mat222.png>
 Package pdftex.def Info: Defense_Images/chan_2c_conf_VALIDATION_mat222.png  use
-d on input line 529.
+d on input line 522.
 (pdftex.def)             Requested size: 305.33789pt x 236.11693pt.
- [34]
-<Defense_Images/train_vs_valid_overfit_test2.png, id=736, 884.73695pt x 497.521
+<Defense_Images/train_vs_valid_overfit_test2.png, id=748, 884.73695pt x 497.521
 9pt>
 File: Defense_Images/train_vs_valid_overfit_test2.png Graphic file (type png)
 <use Defense_Images/train_vs_valid_overfit_test2.png>
 Package pdftex.def Info: Defense_Images/train_vs_valid_overfit_test2.png  used 
-on input line 536.
+on input line 529.
 (pdftex.def)             Requested size: 352.31625pt x 198.1246pt.
- [35 <./Defense_Images/chan_2c_conf_VALIDATION_mat222.png (PNG copy)> <./Defens
-e_Images/train_vs_valid_overfit_test2.png (PNG copy)>]
-<Defense_Images/db_1_all_points_example_withvan.png, id=746, 2590.30894pt x 100
+ [34 <./Defense_Images/chan_2c_conf_VALIDATION_mat222.png (PNG copy)>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 544.
+ [35 <./Defense_Images/train_vs_valid_overfit_test2.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for OT1+fvm on input line 5
+44.
+LaTeX Font Info:    No file OT1fvm.fd. on input line 544.
+
+
+LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 544.
+
+(y_fit_example.m)
+<Defense_Images/db_1_all_points_example_withvan.png, id=762, 2590.30894pt x 100
 1.89043pt>
 File: Defense_Images/db_1_all_points_example_withvan.png Graphic file (type png
 )
 <use Defense_Images/db_1_all_points_example_withvan.png>
 Package pdftex.def Info: Defense_Images/db_1_all_points_example_withvan.png  us
-ed on input line 553.
+ed on input line 550.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<Defense_Images/all_points_example_withvan.png, id=747, 1294.77411pt x 1001.890
+<Defense_Images/all_points_example_withvan.png, id=763, 1294.77411pt x 1001.890
 43pt>
 File: Defense_Images/all_points_example_withvan.png Graphic file (type png)
 <use Defense_Images/all_points_example_withvan.png>
 Package pdftex.def Info: Defense_Images/all_points_example_withvan.png  used on
- input line 562.
+ input line 559.
 (pdftex.def)             Requested size: 211.38832pt x 163.562pt.
-<Defense_Images/avg_points_example_withvan.png, id=748, 1295.53484pt x 1001.890
+<Defense_Images/avg_points_example_withvan.png, id=764, 1295.53484pt x 1001.890
 43pt>
 File: Defense_Images/avg_points_example_withvan.png Graphic file (type png)
 <use Defense_Images/avg_points_example_withvan.png>
 Package pdftex.def Info: Defense_Images/avg_points_example_withvan.png  used on
- input line 568.
+ input line 565.
 (pdftex.def)             Requested size: 211.38832pt x 163.47028pt.
-
-[36 <./Defense_Images/db_1_all_points_example_withvan.png (PNG copy)>]
-<Defense_Images/db_1_avg_points_example_withvan.png, id=753, 2590.30894pt x 100
+ [36 <./Defense_Images/db_1_all_points_example_withvan.png (PNG copy)>]
+<Defense_Images/db_1_avg_points_example_withvan.png, id=772, 2590.30894pt x 100
 1.89043pt>
 File: Defense_Images/db_1_avg_points_example_withvan.png Graphic file (type png
 )
 <use Defense_Images/db_1_avg_points_example_withvan.png>
 Package pdftex.def Info: Defense_Images/db_1_avg_points_example_withvan.png  us
-ed on input line 578.
+ed on input line 575.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
  [37 <./Defense_Images/all_points_example_withvan.png> <./Defense_Images/avg_po
 ints_example_withvan.png> <./Defense_Images/db_1_avg_points_example_withvan.png
  (PNG copy)>]
-<Defense_Images/rm_db_1_area_score.png, id=763, 2590.30894pt x 1001.89043pt>
+<Defense_Images/rm_db_1_area_score.png, id=782, 2590.30894pt x 1001.89043pt>
 File: Defense_Images/rm_db_1_area_score.png Graphic file (type png)
 <use Defense_Images/rm_db_1_area_score.png>
 Package pdftex.def Info: Defense_Images/rm_db_1_area_score.png  used on input l
-ine 593.
+ine 590.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
  [38 <./Defense_Images/rm_db_1_area_score.png (PNG copy)>]
-<Defense_Images/rm_db_6_overlap_2.png, id=769, 1295.53484pt x 1001.89043pt>
+<Defense_Images/rm_db_6_overlap_2.png, id=788, 1295.53484pt x 1001.89043pt>
 File: Defense_Images/rm_db_6_overlap_2.png Graphic file (type png)
 <use Defense_Images/rm_db_6_overlap_2.png>
 Package pdftex.def Info: Defense_Images/rm_db_6_overlap_2.png  used on input li
-ne 607.
+ne 604.
 (pdftex.def)             Requested size: 422.77664pt x 326.94055pt.
  [39 <./Defense_Images/rm_db_6_overlap_2.png (PNG copy)>]
-<Defense_Images/auto_area_guess.png, id=777, 911.36273pt x 750.84726pt>
+<Defense_Images/auto_area_guess.png, id=795, 911.36273pt x 750.84726pt>
 File: Defense_Images/auto_area_guess.png Graphic file (type png)
 <use Defense_Images/auto_area_guess.png>
 Package pdftex.def Info: Defense_Images/auto_area_guess.png  used on input line
- 620.
+ 617.
 (pdftex.def)             Requested size: 422.77664pt x 348.31546pt.
-<Defense_Images/auto_guess_v_truth.png, id=778, 1700.24684pt x 745.52211pt>
+<Defense_Images/auto_guess_v_truth.png, id=796, 1700.24684pt x 745.52211pt>
 File: Defense_Images/auto_guess_v_truth.png Graphic file (type png)
 <use Defense_Images/auto_guess_v_truth.png>
 Package pdftex.def Info: Defense_Images/auto_guess_v_truth.png  used on input l
-ine 627.
+ine 624.
 (pdftex.def)             Requested size: 422.77664pt x 185.379pt.
- [40 <./Defense_Images/auto_area_guess.png (PNG copy)>] [41 <./Defense_Images/a
-uto_guess_v_truth.png (PNG copy)>]
-[42]
+ [40 <./Defense_Images/auto_area_guess.png>] [41 <./Defense_Images/auto_guess_v
+_truth.png (PNG copy)>] [42]
 Chapter 5.
-<Defense_Images/flowz_gather_data.png, id=791, 1069.9975pt x 507.8975pt>
+<Defense_Images/flowz_gather_data.png, id=810, 1069.9975pt x 507.8975pt>
 File: Defense_Images/flowz_gather_data.png Graphic file (type png)
 <use Defense_Images/flowz_gather_data.png>
 Package pdftex.def Info: Defense_Images/flowz_gather_data.png  used on input li
-ne 655.
+ne 652.
 (pdftex.def)             Requested size: 422.77664pt x 200.68318pt.
 File: Defense_Images/van_on_van.jpg Graphic file (type jpg)
 <use Defense_Images/van_on_van.jpg>
-Package pdftex.def Info: Defense_Images/van_on_van.jpg  used on input line 668.
+Package pdftex.def Info: Defense_Images/van_on_van.jpg  used on input line 665.
 
 (pdftex.def)             Requested size: 328.82707pt x 246.61183pt.
 [43
@@ -1449,403 +1437,453 @@ Package pdftex.def Info: Defense_Images/van_on_van.jpg  used on input line 668.
 File: Defense_Images/three_driveways_sat.png Graphic file (type png)
 <use Defense_Images/three_driveways_sat.png>
 Package pdftex.def Info: Defense_Images/three_driveways_sat.png  used on input 
-line 675.
+line 672.
 (pdftex.def)             Requested size: 305.33789pt x 137.7485pt.
 File: Defense_Images/gravel_training_lot.jpg Graphic file (type jpg)
 <use Defense_Images/gravel_training_lot.jpg>
 Package pdftex.def Info: Defense_Images/gravel_training_lot.jpg  used on input 
-line 682.
+line 679.
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
  [44]
-<Defense_Images/training_gravel.jpg, id=812, 4673.46pt x 3505.095pt>
+<Defense_Images/training_gravel.jpg, id=831, 4673.46pt x 3505.095pt>
 File: Defense_Images/training_gravel.jpg Graphic file (type jpg)
 <use Defense_Images/training_gravel.jpg>
 Package pdftex.def Info: Defense_Images/training_gravel.jpg  used on input line
- 689.
+ 686.
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
-<Defense_Images/driveway_2.jpg, id=813, 4673.46pt x 3505.095pt>
+ [45]
+<Defense_Images/driveway_2.jpg, id=836, 4673.46pt x 3505.095pt>
 File: Defense_Images/driveway_2.jpg Graphic file (type jpg)
 <use Defense_Images/driveway_2.jpg>
-Package pdftex.def Info: Defense_Images/driveway_2.jpg  used on input line 696.
+Package pdftex.def Info: Defense_Images/driveway_2.jpg  used on input line 693.
 
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
- [45 <./Defense_Images/training_gravel.jpg>]
-<Defense_Images/driveway_1.jpg, id=818, 4673.46pt x 3505.095pt>
+<Defense_Images/driveway_1.jpg, id=837, 4673.46pt x 3505.095pt>
 File: Defense_Images/driveway_1.jpg Graphic file (type jpg)
 <use Defense_Images/driveway_1.jpg>
-Package pdftex.def Info: Defense_Images/driveway_1.jpg  used on input line 703.
+Package pdftex.def Info: Defense_Images/driveway_1.jpg  used on input line 700.
 
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
+ [46 <./Defense_Images/training_gravel.jpg> <./Defense_Images/driveway_2.jpg>]
 File: Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png
 )
 <use Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: Defense_Images/vlcsnap-2023-04-20-08h48m17s447.png  us
-ed on input line 710.
+ed on input line 707.
 (pdftex.def)             Requested size: 352.31625pt x 174.28113pt.
- [46 <./Defense_Images/driveway_2.jpg> <./Defense_Images/driveway_1.jpg>]
-<Defense_Images/here_be_dirt.jpg, id=823, 4673.46pt x 3505.095pt>
+<Defense_Images/here_be_dirt.jpg, id=842, 4673.46pt x 3505.095pt>
 File: Defense_Images/here_be_dirt.jpg Graphic file (type jpg)
 <use Defense_Images/here_be_dirt.jpg>
 Package pdftex.def Info: Defense_Images/here_be_dirt.jpg  used on input line 71
-7.
+4.
 (pdftex.def)             Requested size: 305.33789pt x 228.96233pt.
-<Defense_Images/here_be_side_of_road_dirt.jpg, id=824, 4673.46pt x 3505.095pt>
+ [47 <./Defense_Images/driveway_1.jpg>]
+<Defense_Images/here_be_side_of_road_dirt.jpg, id=847, 4673.46pt x 3505.095pt>
 File: Defense_Images/here_be_side_of_road_dirt.jpg Graphic file (type jpg)
 <use Defense_Images/here_be_side_of_road_dirt.jpg>
 Package pdftex.def Info: Defense_Images/here_be_side_of_road_dirt.jpg  used on 
-input line 724.
+input line 721.
 (pdftex.def)             Requested size: 305.33789pt x 228.96233pt.
- [47 <./Defense_Images/here_be_dirt.jpg>]
-<Defense_Images/flowz_parse_data.png, id=829, 1065.9825pt x 501.875pt>
+<Defense_Images/flowz_parse_data.png, id=848, 1065.9825pt x 501.875pt>
 File: Defense_Images/flowz_parse_data.png Graphic file (type png)
 <use Defense_Images/flowz_parse_data.png>
 Package pdftex.def Info: Defense_Images/flowz_parse_data.png  used on input lin
-e 738.
+e 735.
 (pdftex.def)             Requested size: 422.77664pt x 199.04636pt.
- [48 <./Defense_Images/here_be_side_of_road_dirt.jpg> <./Defense_Images/flowz_p
-arse_data.png>]
-<Defense_Images/pcd_example_with_van.png, id=839, 963.09285pt x 819.31358pt>
+ [48 <./Defense_Images/here_be_dirt.jpg> <./Defense_Images/here_be_side_of_road
+_dirt.jpg>]
+<Defense_Images/pcd_example_with_van.png, id=857, 963.09285pt x 819.31358pt>
 File: Defense_Images/pcd_example_with_van.png Graphic file (type png)
 <use Defense_Images/pcd_example_with_van.png>
 Package pdftex.def Info: Defense_Images/pcd_example_with_van.png  used on input
- line 752.
+ line 749.
 (pdftex.def)             Requested size: 446.26582pt x 379.6517pt.
- [49 <./Defense_Images/pcd_example_with_van.png (PNG copy)>] [50]
-<Defense_Images/flowz_point_cloud.png, id=849, 1066.98625pt x 505.89pt>
+ [49 <./Defense_Images/flowz_parse_data.png>] [50 <./Defense_Images/pcd_example
+_with_van.png (PNG copy)>] [51]
+<Defense_Images/flowz_point_cloud.png, id=872, 1066.98625pt x 505.89pt>
 File: Defense_Images/flowz_point_cloud.png Graphic file (type png)
 <use Defense_Images/flowz_point_cloud.png>
 Package pdftex.def Info: Defense_Images/flowz_point_cloud.png  used on input li
-ne 828.
+ne 825.
 (pdftex.def)             Requested size: 422.77664pt x 200.45348pt.
- [51 <./Defense_Images/flowz_point_cloud.png>]
-<Defense_Images/combined_pcd_example.png, id=858, 1150.2341pt x 654.99442pt>
+ [52 <./Defense_Images/flowz_point_cloud.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbh') on input line 832.
+
 File: Defense_Images/combined_pcd_example.png Graphic file (type png)
 <use Defense_Images/combined_pcd_example.png>
 Package pdftex.def Info: Defense_Images/combined_pcd_example.png  used on input
- line 837.
+ line 849.
 (pdftex.def)             Requested size: 446.26582pt x 254.11754pt.
-<Defense_Images/combined_gravel_pcd_example.png, id=859, 1150.2341pt x 1001.890
+[53]
+<Defense_Images/combined_gravel_pcd_example.png, id=886, 1150.2341pt x 1001.890
 43pt>
 File: Defense_Images/combined_gravel_pcd_example.png Graphic file (type png)
 <use Defense_Images/combined_gravel_pcd_example.png>
 Package pdftex.def Info: Defense_Images/combined_gravel_pcd_example.png  used o
-n input line 844.
+n input line 856.
 (pdftex.def)             Requested size: 446.26582pt x 388.70244pt.
- [52 <./Defense_Images/combined_pcd_example.png (PNG copy)>]
-<Defense_Images/flowz_define_areas.png, id=864, 1065.9825pt x 504.88625pt>
+ [54]
+<Defense_Images/flowz_define_areas.png, id=891, 1065.9825pt x 504.88625pt>
 File: Defense_Images/flowz_define_areas.png Graphic file (type png)
 <use Defense_Images/flowz_define_areas.png>
 Package pdftex.def Info: Defense_Images/flowz_define_areas.png  used on input l
-ine 855.
+ine 867.
 (pdftex.def)             Requested size: 422.77664pt x 200.24063pt.
+ [55 <./Defense_Images/combined_gravel_pcd_example.png (PNG copy)>]
+File: Defense_Images/pre_area_select.png Graphic file (type png)
+<use Defense_Images/pre_area_select.png>
+Package pdftex.def Info: Defense_Images/pre_area_select.png  used on input line
+ 880.
+(pdftex.def)             Requested size: 211.38832pt x 192.53549pt.
+File: Defense_Images/post_area_select.png Graphic file (type png)
+<use Defense_Images/post_area_select.png>
+Package pdftex.def Info: Defense_Images/post_area_select.png  used on input lin
+e 886.
+(pdftex.def)             Requested size: 211.38832pt x 192.53549pt.
 
-[53 <./Defense_Images/combined_gravel_pcd_example.png (PNG copy)>]
-File: Defense_Images/pre_select_area.png Graphic file (type png)
-<use Defense_Images/pre_select_area.png>
-Package pdftex.def Info: Defense_Images/pre_select_area.png  used on input line
- 868.
-(pdftex.def)             Requested size: 211.38832pt x 240.4304pt.
-File: Defense_Images/area_selected.png Graphic file (type png)
-<use Defense_Images/area_selected.png>
-Package pdftex.def Info: Defense_Images/area_selected.png  used on input line 8
-74.
-(pdftex.def)             Requested size: 211.38832pt x 240.17787pt.
- [54 <./Defense_Images/flowz_define_areas.png>]
+[56 <./Defense_Images/flowz_define_areas.png>]
 File: Defense_Images/test_vs_train_areas_hatch.png Graphic file (type png)
 <use Defense_Images/test_vs_train_areas_hatch.png>
 Package pdftex.def Info: Defense_Images/test_vs_train_areas_hatch.png  used on 
-input line 884.
+input line 896.
 (pdftex.def)             Requested size: 446.26582pt x 350.28714pt.
- [55]
-<Defense_Images/flowz_train_data_extract.png, id=880, 1066.98625pt x 503.8825pt
+ [57]
+<Defense_Images/flowz_train_data_extract.png, id=907, 1066.98625pt x 503.8825pt
 >
 File: Defense_Images/flowz_train_data_extract.png Graphic file (type png)
 <use Defense_Images/flowz_train_data_extract.png>
 Package pdftex.def Info: Defense_Images/flowz_train_data_extract.png  used on i
-nput line 900.
+nput line 912.
 (pdftex.def)             Requested size: 422.77664pt x 199.65802pt.
- [56]
-<Defense_Images/arc_in_mca_or_not.png, id=886, 482.30716pt x 727.26442pt>
-File: Defense_Images/arc_in_mca_or_not.png Graphic file (type png)
-<use Defense_Images/arc_in_mca_or_not.png>
-Package pdftex.def Info: Defense_Images/arc_in_mca_or_not.png  used on input li
-ne 909.
-(pdftex.def)             Requested size: 234.8775pt x 354.16545pt.
- [57 <./Defense_Images/flowz_train_data_extract.png>] [58 <./Defense_Images/arc
-_in_mca_or_not.png (PNG copy)>]
-<Defense_Images/ransac_training_data_cluster.png, id=901, 1295.53484pt x 1001.8
-9043pt>
-File: Defense_Images/ransac_training_data_cluster.png Graphic file (type png)
-<use Defense_Images/ransac_training_data_cluster.png>
-Package pdftex.def Info: Defense_Images/ransac_training_data_cluster.png  used 
-on input line 920.
-(pdftex.def)             Requested size: 305.33789pt x 236.11693pt.
-<Defense_Images/mls_training_data_cluster.png, id=902, 1295.53484pt x 1001.8904
+ [58]
+<Defense_Images/inside_outside_point_example.png, id=913, 535.55873pt x 610.871
+69pt>
+File: Defense_Images/inside_outside_point_example.png Graphic file (type png)
+<use Defense_Images/inside_outside_point_example.png>
+Package pdftex.def Info: Defense_Images/inside_outside_point_example.png  used 
+on input line 921.
+(pdftex.def)             Requested size: 234.8775pt x 267.90819pt.
+ [59 <./Defense_Images/flowz_train_data_extract.png>] [60 <./Defense_Images/ins
+ide_outside_point_example.png (PNG copy)>]
+File: Defense_Images/training_data_cluster_3.png Graphic file (type png)
+<use Defense_Images/training_data_cluster_3.png>
+Package pdftex.def Info: Defense_Images/training_data_cluster_3.png  used on in
+put line 932.
+(pdftex.def)             Requested size: 352.31625pt x 269.29102pt.
+<Defense_Images/MLS_MeanInt_StandDevRange.png, id=928, 1295.53484pt x 1001.8904
 3pt>
-File: Defense_Images/mls_training_data_cluster.png Graphic file (type png)
-<use Defense_Images/mls_training_data_cluster.png>
-Package pdftex.def Info: Defense_Images/mls_training_data_cluster.png  used on 
-input line 927.
-(pdftex.def)             Requested size: 305.33789pt x 236.11693pt.
-
-[59 <./Defense_Images/ransac_training_data_cluster.png (PNG copy)>]
-<Defense_Images/Ransac_Histogram_example_1.png, id=907, 1073.39969pt x 885.4976
+File: Defense_Images/MLS_MeanInt_StandDevRange.png Graphic file (type png)
+<use Defense_Images/MLS_MeanInt_StandDevRange.png>
+Package pdftex.def Info: Defense_Images/MLS_MeanInt_StandDevRange.png  used on 
+input line 955.
+(pdftex.def)             Requested size: 223.13649pt x 172.5511pt.
+<Defense_Images/Ransac_MeanInt_StandDevRange.png, id=929, 1295.53484pt x 1001.8
+9043pt>
+File: Defense_Images/Ransac_MeanInt_StandDevRange.png Graphic file (type png)
+<use Defense_Images/Ransac_MeanInt_StandDevRange.png>
+Package pdftex.def Info: Defense_Images/Ransac_MeanInt_StandDevRange.png  used 
+on input line 961.
+(pdftex.def)             Requested size: 223.13649pt x 172.5511pt.
+ [61]
+<Defense_Images/Ransac_Histogram_example_1.png, id=935, 1073.39969pt x 885.4976
 8pt>
 File: Defense_Images/Ransac_Histogram_example_1.png Graphic file (type png)
 <use Defense_Images/Ransac_Histogram_example_1.png>
 Package pdftex.def Info: Defense_Images/Ransac_Histogram_example_1.png  used on
- input line 936.
+ input line 973.
 (pdftex.def)             Requested size: 211.38832pt x 174.38057pt.
-<Defense_Images/Ransac_Histogram_example_2.png, id=908, 1073.39969pt x 889.3013
+<Defense_Images/Ransac_Histogram_example_2.png, id=936, 1073.39969pt x 889.3013
 6pt>
 File: Defense_Images/Ransac_Histogram_example_2.png Graphic file (type png)
 <use Defense_Images/Ransac_Histogram_example_2.png>
 Package pdftex.def Info: Defense_Images/Ransac_Histogram_example_2.png  used on
- input line 942.
+ input line 979.
 (pdftex.def)             Requested size: 211.38832pt x 175.12962pt.
-<Defense_Images/dirt_v_gravel2.png, id=909, 1295.53484pt x 1001.89043pt>
+<Defense_Images/dirt_v_gravel2.png, id=937, 1295.53484pt x 1001.89043pt>
 File: Defense_Images/dirt_v_gravel2.png Graphic file (type png)
 <use Defense_Images/dirt_v_gravel2.png>
 Package pdftex.def Info: Defense_Images/dirt_v_gravel2.png  used on input line 
-952.
+989.
 (pdftex.def)             Requested size: 305.33789pt x 236.11693pt.
- [60 <./Defense_Images/mls_training_data_cluster.png (PNG copy)> <./Defense_Ima
-ges/Ransac_Histogram_example_1.png> <./Defense_Images/Ransac_Histogram_example_
-2.png>]
-<Defense_Images/flowz_rdf_train.png, id=914, 1067.99pt x 502.87875pt>
+ [62 <./Defense_Images/MLS_MeanInt_StandDevRange.png (PNG copy)> <./Defense_Ima
+ges/Ransac_MeanInt_StandDevRange.png (PNG copy)> <./Defense_Images/Ransac_Histo
+gram_example_1.png> <./Defense_Images/Ransac_Histogram_example_2.png>]
+<Defense_Images/flowz_rdf_train.png, id=942, 1067.99pt x 502.87875pt>
 File: Defense_Images/flowz_rdf_train.png Graphic file (type png)
 <use Defense_Images/flowz_rdf_train.png>
 Package pdftex.def Info: Defense_Images/flowz_rdf_train.png  used on input line
- 964.
+ 1001.
 (pdftex.def)             Requested size: 422.77664pt x 199.06847pt.
-
-[61 <./Defense_Images/dirt_v_gravel2.png (PNG copy)> <./Defense_Images/flowz_rd
-f_train.png>]
-<Defense_Images/classifier_app_2.png, id=932, 1451.4225pt x 919.435pt>
+ [63 <./Defense_Images/dirt_v_gravel2.png (PNG copy)> <./Defense_Images/flowz_r
+df_train.png>]
+<Defense_Images/classifier_app_2.png, id=959, 1451.4225pt x 919.435pt>
 File: Defense_Images/classifier_app_2.png Graphic file (type png)
 <use Defense_Images/classifier_app_2.png>
 Package pdftex.def Info: Defense_Images/classifier_app_2.png  used on input lin
-e 973.
+e 1010.
 (pdftex.def)             Requested size: 422.77664pt x 267.80779pt.
-<Defense_Images/c2_bayesian_ransac.png, id=933, 1295.53484pt x 1001.89043pt>
+<Defense_Images/c2_bayesian_ransac.png, id=960, 1295.53484pt x 1001.89043pt>
 File: Defense_Images/c2_bayesian_ransac.png Graphic file (type png)
 <use Defense_Images/c2_bayesian_ransac.png>
 Package pdftex.def Info: Defense_Images/c2_bayesian_ransac.png  used on input l
-ine 982.
+ine 1019.
 (pdftex.def)             Requested size: 211.38832pt x 163.47028pt.
-<Defense_Images/c2_bayesian_mls.png, id=934, 702.92084pt x 554.57716pt>
+<Defense_Images/c2_bayesian_mls.png, id=961, 702.92084pt x 554.57716pt>
 File: Defense_Images/c2_bayesian_mls.png Graphic file (type png)
 <use Defense_Images/c2_bayesian_mls.png>
 Package pdftex.def Info: Defense_Images/c2_bayesian_mls.png  used on input line
- 988.
+ 1025.
 (pdftex.def)             Requested size: 211.38832pt x 166.77214pt.
- [62 <./Defense_Images/classifier_app_2.png>]
-<Defense_Images/train_vs_vali_ransac.png, id=940, 1295.53484pt x 1001.89043pt>
+ [64 <./Defense_Images/classifier_app_2.png>]
+<Defense_Images/train_vs_vali_ransac.png, id=967, 1295.53484pt x 1001.89043pt>
 File: Defense_Images/train_vs_vali_ransac.png Graphic file (type png)
 <use Defense_Images/train_vs_vali_ransac.png>
 Package pdftex.def Info: Defense_Images/train_vs_vali_ransac.png  used on input
- line 1000.
+ line 1037.
 (pdftex.def)             Requested size: 211.38832pt x 163.47028pt.
-<Defense_Images/train_vs_vali_mls.png, id=941, 1295.53484pt x 1001.89043pt>
+<Defense_Images/train_vs_vali_mls.png, id=968, 1295.53484pt x 1001.89043pt>
 File: Defense_Images/train_vs_vali_mls.png Graphic file (type png)
 <use Defense_Images/train_vs_vali_mls.png>
 Package pdftex.def Info: Defense_Images/train_vs_vali_mls.png  used on input li
-ne 1006.
+ne 1043.
 (pdftex.def)             Requested size: 211.38832pt x 163.47028pt.
-<Defense_Images/c2_vali_conf_ransac.png, id=942, 616.19684pt x 451.87769pt>
+<Defense_Images/c2_vali_conf_ransac.png, id=969, 616.19684pt x 451.87769pt>
 File: Defense_Images/c2_vali_conf_ransac.png Graphic file (type png)
 <use Defense_Images/c2_vali_conf_ransac.png>
 Package pdftex.def Info: Defense_Images/c2_vali_conf_ransac.png  used on input 
-line 1018.
+line 1055.
 (pdftex.def)             Requested size: 211.38832pt x 155.0154pt.
-<Defense_Images/c2_vali_confmat_mls.png, id=943, 616.19684pt x 451.87769pt>
+<Defense_Images/c2_vali_confmat_mls.png, id=970, 616.19684pt x 451.87769pt>
 File: Defense_Images/c2_vali_confmat_mls.png Graphic file (type png)
 <use Defense_Images/c2_vali_confmat_mls.png>
 Package pdftex.def Info: Defense_Images/c2_vali_confmat_mls.png  used on input 
-line 1024.
+line 1061.
 (pdftex.def)             Requested size: 211.38832pt x 155.0154pt.
 
-Underfull \hbox (badness 1796) in paragraph at lines 1028--1028
+Underfull \hbox (badness 1796) in paragraph at lines 1065--1065
 []\OT1/ptm/m/n/12 Figure 5.29: |Confusion matrices provide visual representatio
 n on the validation dataset
  []
 
-[63 <./Defense_Images/c2_bayesian_ransac.png (PNG copy)> <./Defense_Images/c2_b
+[65 <./Defense_Images/c2_bayesian_ransac.png (PNG copy)> <./Defense_Images/c2_b
 ayesian_mls.png (PNG copy)> <./Defense_Images/train_vs_vali_ransac.png (PNG cop
 y)> <./Defense_Images/train_vs_vali_mls.png (PNG copy)>]
-<Defense_Images/test_2.png, id=948, 1062.97125pt x 502.87875pt>
+<Defense_Images/test_2.png, id=975, 1062.97125pt x 502.87875pt>
 File: Defense_Images/test_2.png Graphic file (type png)
 <use Defense_Images/test_2.png>
-Package pdftex.def Info: Defense_Images/test_2.png  used on input line 1038.
+Package pdftex.def Info: Defense_Images/test_2.png  used on input line 1075.
 (pdftex.def)             Requested size: 446.26582pt x 211.12323pt.
- [64 <./Defense_Images/c2_vali_conf_ransac.png (PNG copy)> <./Defense_Images/c2
+ [66 <./Defense_Images/c2_vali_conf_ransac.png (PNG copy)> <./Defense_Images/c2
 _vali_confmat_mls.png (PNG copy)> <./Defense_Images/test_2.png>]
-<Defense_Images/db_4_raw_range.png, id=960, 2590.30894pt x 1001.89043pt>
-File: Defense_Images/db_4_raw_range.png Graphic file (type png)
-<use Defense_Images/db_4_raw_range.png>
-Package pdftex.def Info: Defense_Images/db_4_raw_range.png  used on input line 
-1050.
-(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<Defense_Images/db_6_raw_range.png, id=961, 2590.30894pt x 1001.89043pt>
-File: Defense_Images/db_6_raw_range.png Graphic file (type png)
-<use Defense_Images/db_6_raw_range.png>
-Package pdftex.def Info: Defense_Images/db_6_raw_range.png  used on input line 
-1057.
-(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
- [65]
-<Defense_Images/range_db_4_conf_size_example.png, id=967, 2590.30894pt x 1001.8
-9043pt>
-File: Defense_Images/range_db_4_conf_size_example.png Graphic file (type png)
-<use Defense_Images/range_db_4_conf_size_example.png>
-Package pdftex.def Info: Defense_Images/range_db_4_conf_size_example.png  used 
-on input line 1070.
-(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<Defense_Images/range_db_4_conf_trim_example.png, id=968, 2590.30894pt x 1001.8
-9043pt>
-File: Defense_Images/range_db_4_conf_trim_example.png Graphic file (type png)
-<use Defense_Images/range_db_4_conf_trim_example.png>
-Package pdftex.def Info: Defense_Images/range_db_4_conf_trim_example.png  used 
-on input line 1077.
-(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
- [66 <./Defense_Images/db_4_raw_range.png (PNG copy)> <./Defense_Images/db_6_ra
-w_range.png (PNG copy)>]
+<Defense_Images/db1range.png, id=990, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db1range.png Graphic file (type png)
+<use Defense_Images/db1range.png>
+Package pdftex.def Info: Defense_Images/db1range.png  used on input line 1089.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+<Defense_Images/db2range.png, id=991, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db2range.png Graphic file (type png)
+<use Defense_Images/db2range.png>
+Package pdftex.def Info: Defense_Images/db2range.png  used on input line 1096.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+ [67]
+<Defense_Images/db1ransac.png, id=998, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db1ransac.png Graphic file (type png)
+<use Defense_Images/db1ransac.png>
+Package pdftex.def Info: Defense_Images/db1ransac.png  used on input line 1109.
 
-LaTeX Warning: Reference `fig:rm_db_4_toc' on page 67 undefined on input line 1
-090.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+<Defense_Images/db2ransac.png, id=999, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db2ransac.png Graphic file (type png)
+<use Defense_Images/db2ransac.png>
+Package pdftex.def Info: Defense_Images/db2ransac.png  used on input line 1116.
 
-[67 <./Defense_Images/range_db_4_conf_size_example.png (PNG copy)> <./Defense_I
-mages/range_db_4_conf_trim_example.png (PNG copy)>]
-<Defense_Images/range_actual_rm_db_4_area_score.png, id=983, 2590.30894pt x 100
-1.89043pt>
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+ [68 <./Defense_Images/db1range.png (PNG copy)> <./Defense_Images/db2range.png 
+(PNG copy)>]
+<Defense_Images/db1mls.png, id=1004, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db1mls.png Graphic file (type png)
+<use Defense_Images/db1mls.png>
+Package pdftex.def Info: Defense_Images/db1mls.png  used on input line 1129.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+<Defense_Images/db2mls.png, id=1005, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db2mls.png Graphic file (type png)
+<use Defense_Images/db2mls.png>
+Package pdftex.def Info: Defense_Images/db2mls.png  used on input line 1136.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+ [69 <./Defense_Images/db1ransac.png (PNG copy)> <./Defense_Images/db2ransac.pn
+g (PNG copy)>]
+File: Defense_Images/db1range.png Graphic file (type png)
+<use Defense_Images/db1range.png>
+Package pdftex.def Info: Defense_Images/db1range.png  used on input line 1149.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+<Defense_Images/db1rangeDVG.png, id=1010, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/db1rangeDVG.png Graphic file (type png)
+<use Defense_Images/db1rangeDVG.png>
+Package pdftex.def Info: Defense_Images/db1rangeDVG.png  used on input line 115
+6.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+
+[70 <./Defense_Images/db1mls.png (PNG copy)> <./Defense_Images/db2mls.png (PNG 
+copy)>]
+<Defense_Images/conf_elim_example.png, id=1015, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/conf_elim_example.png Graphic file (type png)
+<use Defense_Images/conf_elim_example.png>
+Package pdftex.def Info: Defense_Images/conf_elim_example.png  used on input li
+ne 1192.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+ [71 <./Defense_Images/db1rangeDVG.png (PNG copy)>]
+<Defense_Images/flowz_score_classification.png, id=1020, 1064.97874pt x 501.875
+pt>
+File: Defense_Images/flowz_score_classification.png Graphic file (type png)
+<use Defense_Images/flowz_score_classification.png>
+Package pdftex.def Info: Defense_Images/flowz_score_classification.png  used on
+ input line 1204.
+(pdftex.def)             Requested size: 446.26582pt x 210.3036pt.
+ [72 <./Defense_Images/conf_elim_example.png> <./Defense_Images/flowz_score_cla
+ssification.png>]
+<Defense_Images/classify_with_mca.png, id=1034, 2590.30894pt x 1001.89043pt>
+File: Defense_Images/classify_with_mca.png Graphic file (type png)
+<use Defense_Images/classify_with_mca.png>
+Package pdftex.def Info: Defense_Images/classify_with_mca.png  used on input li
+ne 1215.
+(pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
+<Defense_Images/classify_with_mca_closeup.png, id=1035, 1295.53484pt x 1001.890
+43pt>
+File: Defense_Images/classify_with_mca_closeup.png Graphic file (type png)
+<use Defense_Images/classify_with_mca_closeup.png>
+Package pdftex.def Info: Defense_Images/classify_with_mca_closeup.png  used on 
+input line 1222.
+(pdftex.def)             Requested size: 446.26582pt x 345.10222pt.
+
+[73 <./Defense_Images/classify_with_mca.png>] [74 <./Defense_Images/classify_wi
+th_mca_closeup.png (PNG copy)>]
+<Defense_Images/range_actual_rm_db_4_area_score.png, id=1047, 2590.30894pt x 10
+01.89043pt>
 File: Defense_Images/range_actual_rm_db_4_area_score.png Graphic file (type png
 )
 <use Defense_Images/range_actual_rm_db_4_area_score.png>
 Package pdftex.def Info: Defense_Images/range_actual_rm_db_4_area_score.png  us
-ed on input line 1117.
+ed on input line 1250.
 (pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
- [68]
-<Defense_Images/ransac_actual_db_4_area_score.png, id=989, 2590.30894pt x 1001.
-89043pt>
+<Defense_Images/ransac_actual_db_4_area_score.png, id=1048, 2590.30894pt x 1001
+.89043pt>
 File: Defense_Images/ransac_actual_db_4_area_score.png Graphic file (type png)
 <use Defense_Images/ransac_actual_db_4_area_score.png>
 Package pdftex.def Info: Defense_Images/ransac_actual_db_4_area_score.png  used
- on input line 1124.
+ on input line 1257.
 (pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
-<Defense_Images/mls_db_4_area_scores.png, id=990, 2590.30894pt x 1001.89043pt>
+ [75 <./Defense_Images/range_actual_rm_db_4_area_score.png (PNG copy)>]
+<Defense_Images/mls_db_4_area_scores.png, id=1053, 2590.30894pt x 1001.89043pt>
+
 File: Defense_Images/mls_db_4_area_scores.png Graphic file (type png)
 <use Defense_Images/mls_db_4_area_scores.png>
 Package pdftex.def Info: Defense_Images/mls_db_4_area_scores.png  used on input
- line 1131.
+ line 1264.
 (pdftex.def)             Requested size: 446.26582pt x 172.59697pt.
- [69 <./Defense_Images/range_actual_rm_db_4_area_score.png (PNG copy)> <./Defen
-se_Images/ransac_actual_db_4_area_score.png (PNG copy)>] [70 <./Defense_Images/
-mls_db_4_area_scores.png (PNG copy)>]
+ [76 <./Defense_Images/ransac_actual_db_4_area_score.png (PNG copy)> <./Defense
+_Images/mls_db_4_area_scores.png (PNG copy)>]
 File: Defense_Images/range_actual_rm_db_4_area_score.png Graphic file (type png
 )
 <use Defense_Images/range_actual_rm_db_4_area_score.png>
 Package pdftex.def Info: Defense_Images/range_actual_rm_db_4_area_score.png  us
-ed on input line 1159.
+ed on input line 1292.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<Defense_Images/dvg_example.png, id=1005, 2590.30894pt x 1001.89043pt>
+<Defense_Images/dvg_example.png, id=1064, 2590.30894pt x 1001.89043pt>
 File: Defense_Images/dvg_example.png Graphic file (type png)
 <use Defense_Images/dvg_example.png>
-Package pdftex.def Info: Defense_Images/dvg_example.png  used on input line 116
-6.
+Package pdftex.def Info: Defense_Images/dvg_example.png  used on input line 129
+9.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
- [71] [72 <./Defense_Images/dvg_example.png (PNG copy)>]
-Overfull \vbox (3.87038pt too high) detected at line 1186
+ [77]
+[78 <./Defense_Images/dvg_example.png (PNG copy)>]
+Overfull \vbox (3.87038pt too high) detected at line 1319
  []
 
-[73]
-<Defense_Images/pre_guess.png, id=1027, 1295.53484pt x 1001.89043pt>
-File: Defense_Images/pre_guess.png Graphic file (type png)
-<use Defense_Images/pre_guess.png>
-Package pdftex.def Info: Defense_Images/pre_guess.png  used on input line 1205.
-
-(pdftex.def)             Requested size: 446.26582pt x 345.10222pt.
-<Defense_Images/range_db_6_overlap_2.png, id=1030, 1295.53484pt x 1001.89043pt>
+<Defense_Images/flowz_examine_road_and_score.png, id=1074, 1067.99pt x 503.8825
+pt>
+File: Defense_Images/flowz_examine_road_and_score.png Graphic file (type png)
+<use Defense_Images/flowz_examine_road_and_score.png>
+Package pdftex.def Info: Defense_Images/flowz_examine_road_and_score.png  used 
+on input line 1336.
+(pdftex.def)             Requested size: 446.26582pt x 210.5528pt.
+[79 <./Defense_Images/flowz_examine_road_and_score.png>]
+<Defense_Images/range_db_6_overlap_2.png, id=1088, 1295.53484pt x 1001.89043pt>
 
 File: Defense_Images/range_db_6_overlap_2.png Graphic file (type png)
 <use Defense_Images/range_db_6_overlap_2.png>
 Package pdftex.def Info: Defense_Images/range_db_6_overlap_2.png  used on input
- line 1212.
+ line 1352.
 (pdftex.def)             Requested size: 446.26582pt x 345.10222pt.
- [74 <./Defense_Images/pre_guess.png (PNG copy)>]
-<Defense_Images/ransac_db_6_overlap_2.png, id=1035, 1295.53484pt x 1001.89043pt
->
-File: Defense_Images/ransac_db_6_overlap_2.png Graphic file (type png)
-<use Defense_Images/ransac_db_6_overlap_2.png>
-Package pdftex.def Info: Defense_Images/ransac_db_6_overlap_2.png  used on inpu
-t line 1219.
-(pdftex.def)             Requested size: 234.8775pt x 181.63194pt.
- [75 <./Defense_Images/range_db_6_overlap_2.png>]
-<Defense_Images/mls_db_6_overlap_2.png, id=1040, 1295.53484pt x 1001.89043pt>
-File: Defense_Images/mls_db_6_overlap_2.png Graphic file (type png)
-<use Defense_Images/mls_db_6_overlap_2.png>
-Package pdftex.def Info: Defense_Images/mls_db_6_overlap_2.png  used on input l
-ine 1226.
-(pdftex.def)             Requested size: 234.8775pt x 181.63194pt.
- [76 <./Defense_Images/ransac_db_6_overlap_2.png> <./Defense_Images/mls_db_6_ov
-erlap_2.png>]
-<Defense_Images/gravel_on_asphalt.png, id=1046, 1588.93625pt x 523.9575pt>
+ [80] [81 <./Defense_Images/range_db_6_overlap_2.png>]
+<Defense_Images/gravel_on_asphalt.png, id=1102, 1588.93625pt x 523.9575pt>
 File: Defense_Images/gravel_on_asphalt.png Graphic file (type png)
 <use Defense_Images/gravel_on_asphalt.png>
 Package pdftex.def Info: Defense_Images/gravel_on_asphalt.png  used on input li
-ne 1247.
+ne 1421.
 (pdftex.def)             Requested size: 446.26582pt x 147.15482pt.
- [77 <./Defense_Images/gravel_on_asphalt.png>]
-<Defense_Images/agreggated_auto_guess.png, id=1059, 1716.22232pt x 789.64484pt>
-
-File: Defense_Images/agreggated_auto_guess.png Graphic file (type png)
-<use Defense_Images/agreggated_auto_guess.png>
-Package pdftex.def Info: Defense_Images/agreggated_auto_guess.png  used on inpu
-t line 1262.
-(pdftex.def)             Requested size: 446.26582pt x 205.3269pt.
-<Defense_Images/guess_grav_intersect.png, id=1060, 1698.72537pt x 817.03137pt>
-File: Defense_Images/guess_grav_intersect.png Graphic file (type png)
-<use Defense_Images/guess_grav_intersect.png>
-Package pdftex.def Info: Defense_Images/guess_grav_intersect.png  used on input
- line 1269.
-(pdftex.def)             Requested size: 446.26582pt x 214.62978pt.
- [78 <./Defense_Images/agreggated_auto_guess.png>]
-<Defense_Images/6range_guess_unkn_misclass.png, id=1065, 1638.62715pt x 776.712
-31pt>
-File: Defense_Images/6range_guess_unkn_misclass.png Graphic file (type png)
-<use Defense_Images/6range_guess_unkn_misclass.png>
-Package pdftex.def Info: Defense_Images/6range_guess_unkn_misclass.png  used on
- input line 1276.
-(pdftex.def)             Requested size: 446.26582pt x 211.52843pt.
-<Defense_Images/here_be_side_of_road_dirt2.jpg, id=1066, 4673.46pt x 3505.095pt
+ [82]
+File: Defense_Images/flowz_examine_road_and_score.png Graphic file (type png)
+<use Defense_Images/flowz_examine_road_and_score.png>
+Package pdftex.def Info: Defense_Images/flowz_examine_road_and_score.png  used 
+on input line 1433.
+(pdftex.def)             Requested size: 446.26582pt x 210.5528pt.
+ [83 <./Defense_Images/gravel_on_asphalt.png>]
+<Defense_Images/db1_conf_elim_auto_guess_agg.png, id=1122, 1363.24042pt x 637.4
+9747pt>
+File: Defense_Images/db1_conf_elim_auto_guess_agg.png Graphic file (type png)
+<use Defense_Images/db1_conf_elim_auto_guess_agg.png>
+Package pdftex.def Info: Defense_Images/db1_conf_elim_auto_guess_agg.png  used 
+on input line 1444.
+(pdftex.def)             Requested size: 446.26582pt x 208.68224pt.
+<Defense_Images/db1_conf_elim_auto_guess_mca.png, id=1123, 1703.2898pt x 563.70
+6pt>
+File: Defense_Images/db1_conf_elim_auto_guess_mca.png Graphic file (type png)
+<use Defense_Images/db1_conf_elim_auto_guess_mca.png>
+Package pdftex.def Info: Defense_Images/db1_conf_elim_auto_guess_mca.png  used 
+on input line 1451.
+(pdftex.def)             Requested size: 446.26582pt x 147.68689pt.
+ [84 <./Defense_Images/db1_conf_elim_auto_guess_agg.png>]
+<Defense_Images/db6_conf_filt_auto_guess_mca.png, id=1128, 1367.80484pt x 690.7
+4905pt>
+File: Defense_Images/db6_conf_filt_auto_guess_mca.png Graphic file (type png)
+<use Defense_Images/db6_conf_filt_auto_guess_mca.png>
+Package pdftex.def Info: Defense_Images/db6_conf_filt_auto_guess_mca.png  used 
+on input line 1458.
+(pdftex.def)             Requested size: 446.26582pt x 225.3656pt.
+ [85 <./Defense_Images/db1_conf_elim_auto_guess_mca.png> <./Defense_Images/db6_
+conf_filt_auto_guess_mca.png>] [86]
+<Defense_Images/here_be_side_of_road_dirt2.jpg, id=1146, 4673.46pt x 3505.095pt
 >
 File: Defense_Images/here_be_side_of_road_dirt2.jpg Graphic file (type jpg)
 <use Defense_Images/here_be_side_of_road_dirt2.jpg>
 Package pdftex.def Info: Defense_Images/here_be_side_of_road_dirt2.jpg  used on
- input line 1283.
+ input line 1501.
 (pdftex.def)             Requested size: 446.26582pt x 334.69896pt.
- [79 <./Defense_Images/guess_grav_intersect.png> <./Defense_Images/6range_guess
-_unkn_misclass.png>]
-<Defense_Images/per_arc_classification_time.png, id=1074, 1618.848pt x 466.3316
+ [87]
+<Defense_Images/per_arc_classification_time.png, id=1153, 1618.848pt x 466.3316
 8pt>
 File: Defense_Images/per_arc_classification_time.png Graphic file (type png)
 <use Defense_Images/per_arc_classification_time.png>
 Package pdftex.def Info: Defense_Images/per_arc_classification_time.png  used o
-n input line 1298.
+n input line 1516.
 (pdftex.def)             Requested size: 422.77664pt x 121.78416pt.
-
-[80 <./Defense_Images/here_be_side_of_road_dirt2.jpg>]
-<Defense_Images/per_scan_classification_rate.png, id=1079, 1618.848pt x 466.331
+ [88 <./Defense_Images/here_be_side_of_road_dirt2.jpg>]
+<Defense_Images/per_scan_classification_rate.png, id=1158, 1618.848pt x 466.331
 68pt>
 File: Defense_Images/per_scan_classification_rate.png Graphic file (type png)
 <use Defense_Images/per_scan_classification_rate.png>
 Package pdftex.def Info: Defense_Images/per_scan_classification_rate.png  used 
-on input line 1305.
+on input line 1523.
 (pdftex.def)             Requested size: 422.77664pt x 121.78416pt.
- [81 <./Defense_Images/per_arc_classification_time.png (PNG copy)> <./Defense_I
-mages/per_scan_classification_rate.png (PNG copy)>]
-Chapter 6.
-(Huston_Thesis_Defense.bbl [82
 
-]
+[89 <./Defense_Images/per_arc_classification_time.png (PNG copy)> <./Defense_Im
+ages/per_scan_classification_rate.png (PNG copy)>]
+Chapter 6.
+[90
+
+] (Huston_Thesis_Defense.bbl [91]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
 
@@ -1872,34 +1910,31 @@ Underfull \hbox (badness 2134) in paragraph at lines 26--31
 lisher: Tay-lor & Fran-cis []eprint:
  []
 
-[83
+[92
 
-] [84] [85] [86] [87] [88] [89] [90]
-Underfull \hbox (badness 1337) in paragraph at lines 407--412
+] [93] [94] [95] [96] [97] [98] [99]
+Underfull \hbox (badness 1337) in paragraph at lines 412--417
 \OT1/ptm/m/n/12 R. Dillmann, E. Menegatti, and S. Ghidoni, eds.), (Cham), pp. 6
 26--638, Springer
  []
 
-) 
+[100]) 
 AED: lastpage setting LastPage
-[91] (Huston_Thesis_Defense.aux)
+[101] (Huston_Thesis_Defense.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Huston_Thesis_Defense.out' has not changed.
 (rerunfilecheck)             Checksum: 5E15901133981358791D3ABFE850651A;8394.
  ) 
 Here is how much of TeX's memory you used:
- 20387 strings out of 478583
- 347845 string characters out of 2847216
- 628451 words of memory out of 3000000
- 37837 multiletter control sequences out of 15000+600000
+ 20467 strings out of 478583
+ 349984 string characters out of 2847216
+ 629615 words of memory out of 3000000
+ 37893 multiletter control sequences out of 15000+600000
  521343 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,14n,77p,2799b,1480s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 70i,14n,77p,2799b,1479s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -1918,9 +1953,9 @@ u/.miktex/texmfs/install/fonts/type1/public/txfonts/txsy.pfb></home/autobuntu/.
 miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/autobuntu/.miktex
 /texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/texmf
 s/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Thesis_Defense.pdf (91 pages, 77631546 bytes).
+Output written on Huston_Thesis_Defense.pdf (101 pages, 75950977 bytes).
 PDF statistics:
- 1263 PDF objects out of 1440 (max. 8388607)
- 306 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1355 PDF objects out of 1440 (max. 8388607)
+ 327 named destinations out of 1000 (max. 500000)
+ 748 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,13 +13,13 @@
 \contentsline {section}{\numberline {3.2}Road Detection Methods Overview}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Road Detection Using Terrain Classification}{13}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Method of Least Squares Planar Fit}{15}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Random Sample Consensus (RANSAC)}{15}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Random Sample Consensus (RANSAC)}{16}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Random Decision Forests (RDF)}{17}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Bayesian Optimization}{18}{subsection.3.6.1}%
 \contentsline {section}{\numberline {3.7}Closing Statements on Related Work}{18}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Methodology}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Overview}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Experimental Apparatus Setup}{21}{section.4.2}%
+\contentsline {chapter}{\numberline {4}Methodology}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Overview}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Experimental Apparatus Setup}{22}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Data Collection}{23}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Data Processing}{25}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Aggregating Point Cloud Data}{25}{section.4.5}%
@@ -27,21 +27,21 @@
 \contentsline {section}{\numberline {4.7}Feature Extraction}{29}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Random Decision Forest Creation}{31}{section.4.8}%
 \contentsline {section}{\numberline {4.9}Random Decision Forest Testing}{34}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Consecutive Point Cloud Classification}{36}{section.4.10}%
+\contentsline {section}{\numberline {4.10}Consecutive Point Cloud Classification}{35}{section.4.10}%
 \contentsline {section}{\numberline {4.11}Consecutive Point Cloud Classification Scoring}{37}{section.4.11}%
 \contentsline {section}{\numberline {4.12}Visual Road Detection}{38}{section.4.12}%
 \contentsline {section}{\numberline {4.13}Automated Road Detection}{39}{section.4.13}%
 \contentsline {section}{\numberline {4.14}Summary of Methods}{42}{section.4.14}%
 \contentsline {chapter}{\numberline {5}Results}{43}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Training Data Collection}{43}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Parse Raw Training Data}{48}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Creating Aggregated Point Cloud}{51}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Manually Defining Areas}{54}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Training Data Extraction and Examination}{57}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Random Decision Forest Training and Verification}{61}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Classifying Consecutive Scanning LiDAR}{64}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Consecutive Scanning LiDAR Classification Scoring}{67}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Visual Detection of Unmarked Road Surfaces}{73}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Automated Detection of Unmarked Road Surfaces}{77}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Rate of Classification}{80}{section.5.11}%
-\contentsline {chapter}{\numberline {6}Conclusion}{82}{chapter.6}%
+\contentsline {section}{\numberline {5.2}Parse Raw Training Data}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Creating Aggregated Point Cloud}{52}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Manually Defining Areas}{56}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Training Data Extraction and Examination}{59}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Random Decision Forest Training and Verification}{63}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Classifying Consecutive Scanning LiDAR}{66}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Consecutive Scanning LiDAR Classification Scoring}{72}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Visual Detection of Unmarked Road Surfaces}{79}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Automated Detection of Unmarked Road Surfaces}{83}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Rate of Classification}{88}{section.5.11}%
+\contentsline {chapter}{\numberline {6}Conclusion}{90}{chapter.6}%

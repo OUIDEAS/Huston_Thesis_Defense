@@ -6,75 +6,79 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 2D Simplified RANSAC Example}}{16}{figure.caption.3}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces RANSAC Plane Projection Example}}{17}{figure.caption.4}%
 \addvspace {\@lineskip }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Project Flow}}{19}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Project Flow}}{20}{figure.caption.5}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Sensor Van}}{22}{figure.caption.6}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces VLP 32 on Van}}{22}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Mako Camera}}{23}{figure.caption.8}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Gravel Training Lot}}{24}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Satellite View of Blackburn Road}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Blackburn Road Camera View}}{25}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Compiled Point Cloud Data}}{26}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Manual Area Selection Process}}{27}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Training vs Testing Areas}}{28}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Areas to Classify}}{28}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces XY vs Range vs Z Height}}{30}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Example Clustering}}{31}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Bayesian Optimization - RANGE}}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Out-of-Bag Error}}{33}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Validation Error}}{35}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Training vs Validation Error}}{35}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Classified Point Cloud}}{36}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Average Arc Coordinate Cloud Creation}}{37}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Classified Point Cloud}}{37}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Area Scores}}{38}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Projected Visual Guess vs Truth}}{39}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Projected Automated Guess vs Truth}}{40}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Projected Automated Guess vs Truth}}{41}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces VLP 32 on Van}}{23}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gravel Training Lot}}{24}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Satellite View of Blackburn Road}}{24}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Blackburn Road Camera View}}{25}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Compiled Point Cloud Data}}{26}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Manual Area Selection Process}}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Training vs Testing Areas}}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Areas to Classify}}{28}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces XY vs Range vs Z Height}}{30}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Example Clustering}}{31}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Bayesian Optimization - RANGE}}{32}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Out-of-Bag Error}}{33}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Validation Error}}{34}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Training vs Validation Error}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Classified Point Cloud}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Average Arc Coordinate Cloud Creation}}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Classified Point Cloud}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Area Scores}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Projected Visual Guess vs Truth}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Projected Automated Guess vs Truth}}{40}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Projected Automated Guess vs Truth}}{41}{figure.caption.28}%
 \addvspace {\@lineskip }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Training Data Collection Flowchart Context}}{43}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Sensor Van}}{44}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Blackburn Road Overlays}}{44}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Gravel Training Lot}}{45}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Training Gravel}}{45}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Driveway 2 Gravel}}{46}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Driveway 2 Gravel}}{46}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Blackburn Road Camera View}}{47}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Re-grassed Dirt}}{47}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Dirt on Side of Road}}{48}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Training Data Parsing Flowchart Context}}{48}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Example Point Cloud}}{49}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Aggregating Point Cloud Data Flowchart Context}}{51}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Example Aggregated Point Cloud}}{52}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Example Aggregated Point Cloud}}{53}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Manually Defined Areas Flowchart Context}}{54}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Manual Area Selection Process}}{55}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Training vs Testing Areas}}{56}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Training Data Extraction Flowchart Context}}{57}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Coincident Point Example}}{58}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Example RANSAC Clustering}}{59}{figure.caption.53}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Example MLS Clustering}}{60}{figure.caption.54}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Feature Histograms}}{60}{figure.caption.55}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Dirt vs Gravel}}{61}{figure.caption.56}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces RDF Training Flowchart Context}}{61}{figure.caption.57}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Classifier App}}{62}{figure.caption.58}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Bayesian Optimization - RANSAC/MLS}}{63}{figure.caption.59}%
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Training vs Validation Error - RANSAC/MLS}}{63}{figure.caption.60}%
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Validation Confusion Matrices - RANSAC/MLS}}{64}{figure.caption.61}%
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Classifying Consecutive LiDAR Scans Flowchart Context}}{64}{figure.caption.62}%
-\contentsline {figure}{\numberline {5.31}{\ignorespaces Raw Result Example - RANGE Spatial Reference Point}}{66}{figure.caption.63}%
-\contentsline {figure}{\numberline {5.33}{\ignorespaces Area Scores: RANGE}}{69}{figure.caption.66}%
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Area Scores: RANSAC}}{69}{figure.caption.67}%
-\contentsline {figure}{\numberline {5.35}{\ignorespaces Area Scores: MLS}}{70}{figure.caption.68}%
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Complementary RDF Area Scores}}{72}{figure.caption.70}%
-\contentsline {figure}{\numberline {5.37}{\ignorespaces Visual Scores: RANGE Source}}{74}{figure.caption.72}%
-\contentsline {figure}{\numberline {5.38}{\ignorespaces Visual Scores: RANGE}}{75}{figure.caption.73}%
-\contentsline {figure}{\numberline {5.39}{\ignorespaces Visual Scores: RANSAC}}{76}{figure.caption.74}%
-\contentsline {figure}{\numberline {5.40}{\ignorespaces Visual Scores: MLS}}{76}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.41}{\ignorespaces Gravel on Asphalt}}{77}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.42}{\ignorespaces Aggregated Automated Road Surface Detection}}{78}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.43}{\ignorespaces Aggregated Automated Road Surface Detection}}{79}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.44}{\ignorespaces Automated Road Surface False Positive}}{79}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.45}{\ignorespaces Blackburn Road Side of Road}}{80}{figure.caption.81}%
-\contentsline {figure}{\numberline {5.46}{\ignorespaces Per-Arc Time}}{81}{figure.caption.82}%
-\contentsline {figure}{\numberline {5.47}{\ignorespaces Per-Scan Time}}{81}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Training Data Collection Flowchart Context}}{43}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sensor Van}}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Blackburn Road Overlays}}{44}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Gravel Training Lot}}{45}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Training Gravel}}{46}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Driveway 2 Gravel}}{46}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Driveway 2 Gravel}}{47}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Blackburn Road Camera View}}{47}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Re-grassed Dirt}}{48}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Dirt on Side of Road}}{48}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Training Data Parsing Flowchart Context}}{49}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Example Point Cloud}}{50}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Aggregating Point Cloud Data Flowchart Context}}{52}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Example Aggregated Point Cloud}}{54}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Example Aggregated Point Cloud}}{55}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Manually Defined Areas Flowchart Context}}{56}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Manual Area Selection Process}}{57}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Training vs Testing Areas}}{58}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Training Data Extraction Flowchart Context}}{59}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Coincident Point Example}}{60}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Example Clustering}}{61}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces MLS \& RANSAC Data Clustering}}{62}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Feature Histograms}}{62}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Dirt vs Gravel}}{63}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces RDF Training Flowchart Context}}{63}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Classifier App}}{64}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Bayesian Optimization - RANSAC/MLS}}{65}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Training vs Validation Error - RANSAC/MLS}}{65}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Validation Confusion Matrices - RANSAC/MLS}}{66}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Classifying Consecutive LiDAR Scans Flowchart Context}}{66}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Raw Result Example - RANGE Spatial Reference Point}}{68}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Raw Result Example - RANSAC Spatial Reference Point}}{69}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Raw Result Example - MLS Spatial Reference Point}}{70}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Dual Layer Classification}}{71}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.36}{\ignorespaces Scoring Classified Point Clouds Flowchart Context}}{72}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.37}{\ignorespaces Classified Point Cloud with Truth Areas}}{73}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.38}{\ignorespaces Classified Point Cloud with Truth Areas Closeup}}{74}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.39}{\ignorespaces Area Scores: RANGE}}{75}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.40}{\ignorespaces Area Scores: RANSAC}}{76}{figure.caption.73}%
+\contentsline {figure}{\numberline {5.41}{\ignorespaces Area Scores: MLS}}{76}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.42}{\ignorespaces Complementary RDF Area Scores}}{78}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.43}{\ignorespaces Manual Road Prediction Flowchart Context}}{79}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.44}{\ignorespaces Visual Scores: RANGE}}{81}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.45}{\ignorespaces Gravel on Asphalt}}{83}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.46}{\ignorespaces Automatic Road Prediction Flowchart Context}}{83}{figure.caption.83}%
+\contentsline {figure}{\numberline {5.47}{\ignorespaces Aggregated Automated Road Surface Detection}}{84}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.48}{\ignorespaces Aggregated Automated Road Surface Detection}}{85}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.49}{\ignorespaces Automated Road Surface False Positive}}{85}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.50}{\ignorespaces Blackburn Road Side of Road}}{88}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.51}{\ignorespaces Per-Arc Time}}{89}{figure.caption.90}%
+\contentsline {figure}{\numberline {5.52}{\ignorespaces Per-Scan Time}}{89}{figure.caption.91}%
 \addvspace {\@lineskip }

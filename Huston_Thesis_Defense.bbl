@@ -186,6 +186,11 @@ S.~Ibrahim and D.~Lichti, ``Curb-based street floor extraction from mobile
   Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS
   Archives}, vol.~39, pp.~193--198, July 2012.
 
+\bibitem{ninan_road_2022}
+S.~Ninan and S.~Rathinam, {\em Road {Segmentation} based {Localization} using
+  {Open} {Street} {Maps} for {Rural} {Roads}}.
+\newblock Feb. 2022.
+
 \bibitem{manz_detection_2011}
 M.~Manz, M.~Himmelsbach, T.~Luettel, and H.-J. Wuensche, ``Detection and
   tracking of road networks in rural terrain by fusing vision and {LIDAR},'' in
@@ -420,5 +425,14 @@ J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
 
 \bibitem{vlp_32c}
 Velodyne, ``{Ultra Puck Surround View LiDAR Sensor},'' Jan. 2022.
+
+\bibitem{wang_survey_2017}
+F.~Wang and Z.~Zhao, ``A survey of iterative closest point algorithm,'' in {\em
+  2017 {Chinese} {Automation} {Congress} ({CAC})}, pp.~4395--4399, Oct. 2017.
+
+\bibitem{chetverikov_robust_2005}
+D.~Chetverikov, D.~Stepanov, and P.~Krsek, ``Robust {Euclidean} alignment of
+  {3D} point sets: the trimmed iterative closest point algorithm,'' {\em Image
+  and Vision Computing}, vol.~23, pp.~299--309, Mar. 2005.
 
 \end{thebibliography}
